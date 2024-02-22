@@ -133,3 +133,76 @@ body, html {
     color: #c0caff; /* Cor mais clara ao passar o mouse */
   }
   
+  .arg0 { color: #FF6347; } /* Vermelho - para Arg 0 */
+  .arg1 { color: #4682B4; } /* Azul - para Arg 1 */
+  .arg2 { color: #32CD32; } /* Verde - para Arg 2 */
+  .rel { color: #FFD700; } /* Dourado - para rel */
+  .u { text-decoration: underline; }
+  .sub { vertical-align: sub; font-size: smaller; }
+
+/* Estilos para as colunas Arg */
+th.arg0, td.arg0,
+th.arg1, td.arg1{
+  width: 10%; /* Reduz a largura para dar mais espaço à coluna Texto */
+  min-width: 60px; /* Ajuste a largura mínima conforme necessário */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+/* Ajuste específico para largura mínima do cabeçalho Arg 2 para controlar sua largura */
+th.arg2 {
+  min-width: 20px; /* Ajuste conforme necessário */
+  text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+
+/* Estilo para a coluna Texto */
+th, td {
+  white-space: normal; /* Permite a quebra de linha */
+}
+
+/* Estilo específico para as colunas Arg para evitar quebra de linha */
+th.arg0, th.arg1, th.arg2, td.arg0, td.arg1, td.arg2 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Estilos para garantir sublinhado nas palavras com subscrito */
+.u { 
+  text-decoration: underline; 
+}
+
+/* Estilos para a tabela */
+table {
+  table-layout: auto; /* Permite que a tabela ajuste dinamicamente a largura das colunas */
+  width: 100%; /* Faz a tabela ocupar a largura total disponível */
+}
+
+.statistics-table-container {
+  margin-top: 30px; /* Distância da tabela anterior */
+  text-align: center; /* Centraliza o título da tabela */
+}
+
+#statistics-table {
+  margin: 20px auto; /* Centraliza a tabela na div e adiciona espaço acima/abaixo */
+  border-collapse: collapse; /* Remove o espaço entre as bordas das células */
+  width: 80%; /* Ajuste a largura conforme necessário */
+}
+
+#statistics-table, #statistics-table th, #statistics-table td {
+  border: 1px solid #ddd; /* Adiciona bordas à tabela e às células */
+}
+
+#statistics-table th, #statistics-table td {
+  padding: 8px; /* Espaçamento interno nas células */
+  text-align: center; /* Centraliza o texto nas células */
+}
+
+#statistics-table th {
+  background-color: #f2f2f2; /* Cor de fundo para cabeçalhos da tabela */
+  color: black; /* Cor do texto para cabeçalhos da tabela */
+}
+
+/* Aplicando cores específicas para Arg 0, Arg 1 e Arg 2 como na tabela anterior */
+#statistics-table .arg0 { color: #FF6347; }
+#statistics-table .arg1 { color: #4682B4; }
+#statistics-table .arg2 { color: #32CD32; }
