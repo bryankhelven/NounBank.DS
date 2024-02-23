@@ -1,2 +1,2 @@
-# NomBank.DS
-NomBank.DS
+# NounBank.DS
+NounBank.DS
