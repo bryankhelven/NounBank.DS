@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { word: "compartilhamento", subscript: "rel" },
           { word: "voos", subscript: "nmod" }
         ],
-        underlines: ["Gol", "compartilhamento", "voos"], // Palavras a serem sublinhadas
+
         args: { // Texto dos argumentos para tabela
           "arg0": "Gol",
           "arg1": "de voos",
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
           { word: "compartilhamento", subscript: "rel" },
           { word: "voos", subscript: "nmod" }
         ],
-        underlines: ["GOL", "compartilhamento", "voos"], // Palavras a serem sublinhadas
+
         args: { // Texto dos argumentos para tabela
           "arg0": "GOL e TAP",
           "arg1": "de voos",
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
   
     const tableBody = document.getElementById('relations-table').getElementsByTagName('tbody')[0];
-  
+
     data.forEach((item, index) => {
       let textWithMarks = item.Texto;
   
@@ -62,13 +62,22 @@ document.addEventListener('DOMContentLoaded', function() {
       const row = document.createElement('tr');
       row.innerHTML = `
   <td>${index + 1}</td>
-  <td class="arg0">${item.args.arg0}</td>
-  <td class="arg1">${item.args.arg1}</td>
-  <td class="arg2">${item.args.arg2}</td>
+  <td class="${item.args.arg0 ? 'arg0' : ''}">${item.args.arg0 || '-'}</td>
+  <td class="${item.args.arg1 ? 'arg1' : ''}">${item.args.arg1 || '-'}</td>
+  <td class="${item.args.arg2 ? 'arg2' : ''}">${item.args.arg2 || '-'}</td>
   <td>${textWithMarks}</td>
-`;
+  `;
   
       tableBody.appendChild(row);
+  
+      // Adiciona uma linha de divisão após cada item, exceto o último
+      if (index < data.length - 1) {
+        const dividerRow = document.createElement('tr');
+        const dividerCell = document.createElement('td');
+        dividerCell.colSpan = 5; // Cobrir todas as colunas da tabela
+        dividerCell.style.borderBottom = '1px solid #ccc';
+        dividerRow.appendChild(dividerCell);
+        tableBody.appendChild(dividerRow);
+      }
     });
   });
-  
