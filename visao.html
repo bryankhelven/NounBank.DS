@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visão - NomBank.DS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="content">
+    <h1>Nome predicador: <i style="color: red;">visão</i></h1>
+    <p><strong>Roleset id:</strong> vision.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/vision.xml">vision.01</a></p>
+    <h2>Roles:</h2>
+    <ul>
+        <li class="arg0">Arg 0: viewer</li>
+        <li class="arg1">Arg 1: thing viewed</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <h3>1: Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a nossa visão sobre os dados divulgados por a empresa . http://t.co/wifhNsopqt</h3>
+    <ul>
+        <li class="arg0">Arg 0: nossa</li>
+        <li class="arg1">Arg 1: sobre os dados divulgados por a empresa</li>
+        <li class="rel">rel: visão</li>
+    </ul>
+    <br><br>
+    <h2>Realização sintática da estrutura de argumentos</h2>
+    <table id="relations-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th class="arg0">Arg 0</th>
+                <th class="arg1">Arg 1</th>
+                <th>Texto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As linhas serão preenchidas pelo JavaScript -->
+        </tbody>
+    </table>
+    <div class="statistics-table-container">
+        <h2>Frequência das realizações sintáticas</h2>
+        <table id="statistics-table">
+            <thead>
+                <tr>
+                    <th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a></i></th>
+                    <th class="arg0">Arg 0</th>
+                    <th class="arg1">Arg 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nsubj</td>
+                    <td>1</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>nmod</td>
+                    <td>-</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="visao.js"></script>
+</body>
+</html>

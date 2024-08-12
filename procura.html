@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>procura - NomBank.DS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="content">
+    <h1>Nome predicador: <i style="color: red;">procura</i></h1>
+    <p><strong>Roleset id:</strong> search.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/search.xml">search.01</a></p>
+    <h2>Roles:</h2>
+    <ul>
+        <li class="arg0">Arg 0: searcher</li>
+        <li class="arg1">Arg 1: searched for</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <h3>1: @ferrisss @dfittarelli @HudsonPF Correção : Posição aberta #PETR3 E as duas PETR estão em destaque em a procura de D-1</h3>
+    <ul>
+        <li class="arg1">Arg 1: de D-1</li>
+        <li class="rel">rel: procura</li>
+    </ul>
+    <br><br>
+    <h2>Realização sintática da estrutura de argumentos</h2>
+    <table id="relations-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th class="arg1">Arg 1</th>
+                <th>Texto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- As linhas serão preenchidas pelo JavaScript -->
+        </tbody>
+    </table>
+    <div class="statistics-table-container">
+        <h2>Frequência das realizações sintáticas</h2>
+        <table id="statistics-table">
+            <thead>
+                <tr>
+                    <th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/">Universal Dependencies</a></i></th>
+                    <th class="arg1">Arg 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>nmod</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="procura.js"></script>
+</body>
+</html>

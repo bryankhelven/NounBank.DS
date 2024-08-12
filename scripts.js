@@ -2,25 +2,29 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const buttons = document.querySelectorAll('.letter-button');
     const contentBox = document.getElementById('content-box');
 
-    // Dicionário de palavras organizadas por letra
-    const wordsDict = {
-        'a': ["abastecimento", "acesso", "administração", "ajuste", "aliança", "aquisição", "ataque", "acordo"],
-        'b': ["briga"],
-        'c': ["caminho", "cenário", "compartilhamento", "confirmação", "construção", "controle", "conversa"],
-        'd': ["deliberação", "demanda", "diretor", "divergência"],
-        'e': ["eleição", "extensão"],
-        'i': ["importação", "indicador"],
-        'l': ["licença"],
-        'm': ["medo", "membro", "mix", "mudança"],
-        'n': ["necessidade", "negociação"],
-        'o': ["obrigação", "oferta"],
-        'p': ["post", "postagem", "procura", "projeto", "projeção", "proposta"],
-        'r': ["relação", "resolução", "responsabilidade"],
-        's': ["solicitação", "sugestão"],
-        't': ["transferência", "transporte"],
-        'v': ["vendedor", "visão"],
-        'z': ["zona"]
-    };
+// Dicionário de palavras organizadas por letra
+const wordsDict = {
+    'a': ["abastecimento", "acesso", "administração", "ajuste", "aliança", "aquisição", "ataque", "acordo", "alienação", "apreensão", "antro", "amor", "atestado", "avaliação", "aditivo", "assinatura", "alteração"],
+    'b': ["briga"],
+    'c': ["caminho", "cenário", "compartilhamento", "confirmação", "construção", "controle", "conversa", "coordenador", "conversão", "custódia", "convocação", "curiosidade", "comparação", "coragem", "comissão", "causa", "cara", "contrato", "cotação", "carteira", "compra"],
+    'd': ["deliberação", "demanda", "diretor", "divergência", "descolamento", "discussão", "desova", "daytrade", "declaração", "divisão", "denúncia", "decisão", "descoberta", "divulgação", "distribuição"],
+    'e': ["eleição", "extensão", "exploração", "estimativa", "encerramento", "entendimento", "exemplo", "expectativa", "entrada", "esclarecimento"],
+    'f': ["fruto", "fusão", "falta"],
+    'g': ["gestor"],
+    'h': ["homem", "hora"],
+    'i': ["importação", "indicador", "instauração", "inscrição", "incorporação", "indicação", "investimento"],
+    'l': ["licença", "locação", "leilão"],
+    'm': ["medo", "membro", "mix", "mudança", "meio", "monte"],
+    'n': ["necessidade", "negociação", "notícia", "número"],
+    'o': ["obrigação", "oferta", "outorga", "olhada", "olho"],
+    'p': ["post", "postagem", "procura", "projeto", "projeção", "proposta", "pagador", "pedido", "perspectiva", "posição", "pagamento"],
+    'r': ["relação", "resolução", "responsabilidade", "rateio", "retorno", "reeleição", "redução", "renúncia", "racionamento", "risco", "reapresentação", "reunião", "recomendação", "relatório", "recompra", "resistência"],
+    's': ["solicitação", "sugestão", "spread (diferença)"],
+    't': ["transferência", "transporte", "troca", "teste", "taxação", "tendência", "trade"],
+    'v': ["vendedor", "visão", "volta", "venda"],
+    'z': ["zona"]
+};
+
 
     buttons.forEach(button => {
         button.addEventListener('click', function() {
@@ -33,7 +37,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             if (words) {
                 contentHTML = words.sort().map(word => {
                     // Verifica se o link está pronto ou deve mostrar o aviso
-                    if (["acordo.html", "compartilhamento.html"].includes(`${word}.html`)) {
+                    if (["acordo.html", "compartilhamento.html","acesso.html","deliberacao.html","meio.html","medo.html","necessidade.html","procura.html","divergencia.html" ].includes(`${word}.html`)) {
                         return `<a href="${word}.html" class="content-link">${word}</a>`;
                     } else {
                         // Link não está pronto, então adiciona um evento de clique que mostra o aviso
