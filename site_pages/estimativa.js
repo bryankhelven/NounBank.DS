@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Texto": "#vale5 lucra 5,91 bi em o trimestre , a estimativa de mercado por a agência Bloomberg era de um lucro líquido de R$ 6,23 bilhões em o período .",
     "marks": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "type": "rel"
       },
       {
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "subscripts": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "subscript": "rel"
       },
       {
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Texto": "A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritário ! ! ! #PETR4",
     "marks": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "type": "rel"
       },
       {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "subscripts": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "subscript": "rel"
       },
       {
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "Texto": "RT @chrinvestor : A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritá …",
     "marks": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "type": "rel"
       },
       {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
     ],
     "subscripts": [
       {
-        "word": "estimativo",
+        "word": "estimativa",
         "subscript": "rel"
       },
       {
