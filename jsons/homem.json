@@ -1,9 +1,9 @@
 {
-  "lemma": "homens",
-  "lemma_base": "homens",
+  "lemma": "homem",
+  "lemma_base": "homem",
   "senses": [
     {
-      "pt_roleset": "homens.01",
+      "pt_roleset": "homem.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
       "english_roleset": "associate.01",

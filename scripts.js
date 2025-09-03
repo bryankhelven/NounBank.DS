@@ -367,46 +367,28 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // ====== DOWNLOAD DE TODOS OS JSONs (via _manifest.json + JSZip + FileSaver) ======
+  // ====== DOWNLOAD DE TODOS OS JSONs ======
+(() => {
   const btnDownloadAll = document.getElementById('download-all-json');
-  if (btnDownloadAll) {
-    btnDownloadAll.addEventListener('click', async (ev) => {
-      ev.preventDefault();
-      try {
-        if (typeof JSZip === 'undefined' || typeof saveAs === 'undefined') {
-          alert('Bibliotecas de download não carregadas. Verifique se JSZip e FileSaver estão incluídos na página.');
-          return;
-        }
+  if (!btnDownloadAll) return;
 
-        const base = new URL('.', location.href);
-        const manifestUrl = new URL(`${JSON_BASE}_manifest.json?cb=${Date.now()}`, base).toString();
+  const ZIP_URL = 'jsons/nounbank.ds_all_jsons.zip';
 
-        const res = await fetch(manifestUrl, { cache: 'no-store' });
-        if (!res.ok) throw new Error('Manifesto de JSONs não encontrado.');
-        const files = await res.json();
-        if (!Array.isArray(files) || files.length === 0) throw new Error('Manifesto vazio.');
+  // Aponta o botão diretamente para o ZIP estático
+  btnDownloadAll.href = ZIP_URL;
+  btnDownloadAll.setAttribute('download', 'nounbank.ds_all_jsons.zip');
 
-        const zip = new JSZip();
-
-        for (const name of files) {
-          try {
-            const url = new URL(`${JSON_BASE}${encodeURIComponent(name)}?cb=${Date.now()}`, base).toString();
-            const r = await fetch(url, { cache: 'no-store' });
-            if (!r.ok) { console.warn('Falha ao baixar', name); continue; }
-            const text = await r.text();
-            zip.file(name, text);
-          } catch (e) {
-            console.warn('Erro ao processar', name, e);
-          }
-        }
-
-        const blob = await zip.generateAsync({ type: 'blob' });
-        const fname = `NounBankDS_JSONs_${new Date().toISOString().slice(0,10)}.zip`;
-        saveAs(blob, fname);
-      } catch (e) {
-        console.error(e);
-        alert('Não foi possível gerar o ZIP. Verifique se a pasta /jsons e o arquivo _manifest.json estão publicados.');
+  // (Opcional) fallback: se o ZIP não existir (404), avisa.
+  btnDownloadAll.addEventListener('click', async (ev) => {
+    try {
+      const r = await fetch(ZIP_URL, { method: 'HEAD', cache: 'no-store' });
+      if (!r.ok) {
+        ev.preventDefault();
+        alert('Arquivo ZIP ainda não está publicado. Gere os JSONs novamente para criar o bundle.');
       }
-    });
-  }
+    } catch {
+      // Em ambientes sem HEAD, deixamos seguir (o navegador tentará baixar).
+    }
+  }, { once: true });
+})();
 });
