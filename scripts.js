@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const TARGET = '_self';
   const LETTER_PARAM = 'letter';
 
-  // ---- Estilos da busca (mais clara e centralizada) ----
+  // ---- Estilos da busca ----
   (function injectSearchStyles() {
     const css = `
       :root{
-        --nbds-bg:#3A404C;         /* cinza mais claro */
+        --nbds-bg:#3A404C;
         --nbds-border:#525B6B;
         --nbds-text:#F3F5F8;
         --nbds-placeholder:#CDD4E1;
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         width:100%;
         display:flex;
         flex-direction:column;
-        align-items:center;     /* centraliza tudo */
+        align-items:center;
         gap:8px;
         margin:16px 0;
       }
@@ -56,14 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
         padding:8px 10px;
         cursor:pointer;
       }
-      #nbds-suggestions .nbds-sugg strong {
-      color: #C8D6FF;      /* mesma cor dos links do dropdown */
-      }
-      #nbds-suggestions .nbds-sugg {
-      color: #C8D6FF; /* mesma cor dos links */
-      }  
-
-
+      #nbds-suggestions .nbds-sugg strong { color: #C8D6FF; }
+      #nbds-suggestions .nbds-sugg { color: #C8D6FF; }
       #nbds-suggestions .nbds-sugg:first-child{
         border-top:1px solid var(--nbds-border);
       }
@@ -145,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function resolveExistingPageUrl(word){ return resolveExistingUrl(PAGES_BASE, candidatePageNames(word)); }
   async function resolveExistingJsonUrl(word){ return resolveExistingUrl(JSON_BASE,  candidateJsonNames(word)); }
 
-  // ====== BUSCA (centralizada + mais clara) ======
+  // ====== BUSCA ======
   const alphabetBar = document.querySelector('.alphabet-buttons');
   const searchWrap = document.createElement('div');
   searchWrap.id = 'nbds-search-wrap';
@@ -171,7 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let activeIndex=-1, currentResults=[];
   function renderSuggestions(list){
-    const max=10, top=list.slice(0,max); currentResults=top; activeIndex=top.length?0:-1;
+    const max=10, top=list.slice(0,max);
+    currentResults=top; activeIndex=top.length?0:-1;
     suggestions.innerHTML = top.map((item,i)=>`
       <div class="nbds-sugg ${i===activeIndex?'active':''}" role="option" data-idx="${i}">
         <div style="display:flex; align-items:center; gap:8px; justify-content:space-between;">
@@ -185,18 +180,25 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
       </div>`).join('');
 
+    // Hover (seleção visual)
     suggestions.querySelectorAll('.nbds-sugg').forEach(div=>{
       div.addEventListener('mouseenter', ()=>{
         suggestions.querySelectorAll('.nbds-sugg').forEach(x=>x.classList.remove('active'));
         div.classList.add('active'); activeIndex=parseInt(div.dataset.idx,10);
       });
-      div.addEventListener('click', async ()=>{
-        const idx=parseInt(div.dataset.idx,10); await openResult(top[idx]);
+      // Clique no card (mas NÃO quando o alvo é um <a> interno)
+      div.addEventListener('click', async (ev)=>{
+        if (ev.target.closest('a')) return; // evita navegação dupla
+        const idx=parseInt(div.dataset.idx,10);
+        await openResult(top[idx]);
       });
     });
+
+    // Ações dos links internos (sem propagar p/ o card)
     suggestions.querySelectorAll('.nbds-open').forEach(a=>{
       a.addEventListener('click', async ev=>{
         ev.preventDefault();
+        ev.stopPropagation();
         const word=decodeURIComponent(a.dataset.word);
         await openResult({word,letter:getLetterOf(word)});
       });
@@ -204,10 +206,17 @@ document.addEventListener('DOMContentLoaded', () => {
     suggestions.querySelectorAll('.nbds-json').forEach(a=>{
       a.addEventListener('click', async ev=>{
         ev.preventDefault();
+        ev.stopPropagation();
         const word=decodeURIComponent(a.dataset.word);
         const jsonUrl=await resolveExistingJsonUrl(word);
-        if(jsonUrl){ const link=document.createElement('a'); link.href=jsonUrl; link.download=''; link.click(); }
-        else alert('JSON não encontrado.');
+        if(jsonUrl){
+          const link=document.createElement('a');
+          link.href=jsonUrl;
+          link.download='';
+          link.click();
+        } else {
+          alert('JSON não encontrado.');
+        }
       });
     });
   }
@@ -215,15 +224,19 @@ document.addEventListener('DOMContentLoaded', () => {
   function getLetterOf(word){
     const ch=asciiFold(word).charAt(0).toLowerCase();
     return wordsDict[ch] ? ch : 'a';
-    }
+  }
+
   async function openResult(item){
     if(!item) return;
     const found=await resolveExistingPageUrl(item.word);
     if(found){
-      const url=new URL(found, location.origin);
+      // usa location.href (mantém /<repo>/ no GitHub Pages)
+      const url=new URL(found, location.href);
       url.searchParams.set(LETTER_PARAM, item.letter);
       location.assign(url.toString());
-    } else { alert('Página em construção.'); }
+    } else {
+      alert('Página em construção.');
+    }
   }
 
   function updateSuggestions(){
@@ -284,7 +297,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const found=await resolveExistingPageUrl(word);
         a.removeAttribute('data-pending');
         if(found){
-          const url=new URL(found, location.origin);
+          // usa location.href (mantém /<repo>/ no GitHub Pages)
+          const url=new URL(found, location.href);
           url.searchParams.set(LETTER_PARAM, letter);
           a.href=url.toString();
           a.classList.add('ready');
