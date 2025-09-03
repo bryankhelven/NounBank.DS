@@ -34,6 +34,13 @@ body, html {
     background-color: #3f4f7f;
   }
   
+  /* Botão "Download JSONs" no header */
+  .header a.download-all-btn.busy {
+    pointer-events: none;
+    opacity: 0.6;
+    cursor: progress;
+  }
+
   .gradient-box {
     width: 75%;
     min-height: 50vh;
