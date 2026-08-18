@@ -51,17 +51,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "nossa gestora",
+        "type": "arg0"
+      },
+      {
+        "word": "JBSS3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "gestora",
+        "subscript": "nsubj"
+      },
+      {
+        "word": "JBSS3",
+        "subscript": "obj"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "nossa gestora",
+      "arg1": "JBSS3",
       "arg2": "-"
     }
   },
@@ -155,17 +171,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#vale5",
       "arg2": "-"
     }
   },
@@ -175,17 +199,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#petr4",
       "arg2": "-"
     }
   },
@@ -195,17 +227,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#winj14",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "winj14",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#winj14",
       "arg2": "-"
     }
   },
@@ -243,17 +283,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "csna3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "csna3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "csna3",
       "arg2": "-"
     }
   },
@@ -263,17 +311,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#PETR4",
       "arg2": "-"
     }
   },
@@ -283,17 +339,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "petr4",
       "arg2": "-"
     }
   },
@@ -303,6 +367,10 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "$CPFE3 - CPFL ENERGIA ( CPFE3 )",
+        "type": "arg0"
       },
       {
         "word": "de energia de a Usina Serra de a Mesa",
@@ -315,12 +383,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "CPFE3",
+        "subscript": "nsubj"
+      },
+      {
         "word": "energia",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "$CPFE3 - CPFL ENERGIA ( CPFE3 )",
       "arg1": "de energia de a Usina Serra de a Mesa",
       "arg2": "-"
     }
@@ -333,6 +405,10 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
+        "word": "$PETR3 - Petrobras ( petr )",
+        "type": "arg0"
+      },
+      {
         "word": "De Participacao Em a Ute Norte Fluminense",
         "type": "arg1"
       }
@@ -343,12 +419,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "petr",
+        "subscript": "nmod"
+      },
+      {
         "word": "Participacao",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "$PETR3 - Petrobras ( petr )",
       "arg1": "De Participacao Em a Ute Norte Fluminense",
       "arg2": "-"
     }
@@ -359,17 +439,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -379,17 +467,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ELET3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ELET3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ELET3",
       "arg2": "-"
     }
   },
@@ -399,17 +495,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ELET6",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ELET6",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ELET6",
       "arg2": "-"
     }
   },
@@ -419,17 +523,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ELPL4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ELPL4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ELPL4",
       "arg2": "-"
     }
   },
@@ -439,17 +551,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -459,17 +579,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "USIM5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "USIM5",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "USIM5",
       "arg2": "-"
     }
   },
@@ -479,17 +607,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "KROT3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "KROT3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "KROT3",
       "arg2": "-"
     }
   },
@@ -499,17 +635,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "GOLL4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "GOLL4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "GOLL4",
       "arg2": "-"
     }
   },
@@ -519,17 +663,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ITUB4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ITUB4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ITUB4",
       "arg2": "-"
     }
   },
@@ -539,17 +691,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "OIBR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "OIBR4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "OIBR4",
       "arg2": "-"
     }
   },
@@ -559,17 +719,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -579,17 +747,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRFG3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRFG3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRFG3",
       "arg2": "-"
     }
   },
@@ -599,17 +775,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "JBSS3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "JBSS3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "JBSS3",
       "arg2": "-"
     }
   },
@@ -619,17 +803,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ELPL4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ELPL4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ELPL4",
       "arg2": "-"
     }
   },
@@ -639,17 +831,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -659,17 +859,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "BBAS3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "BBAS3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "BBAS3",
       "arg2": "-"
     }
   },
@@ -679,17 +887,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "BRKM5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "BRKM5",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "BRKM5",
       "arg2": "-"
     }
   },
@@ -699,17 +915,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -719,17 +943,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR3",
       "arg2": "-"
     }
   },
@@ -739,17 +971,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "VALE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "VALE3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "VALE3",
       "arg2": "-"
     }
   },
@@ -759,17 +999,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "LLXL3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "LLXL3",
+        "subscript": "obj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "LLXL3",
       "arg2": "-"
     }
   },
@@ -779,17 +1027,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "AEDU3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "AEDU3",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "AEDU3",
       "arg2": "-"
     }
   },
@@ -819,17 +1075,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#vale5",
       "arg2": "-"
     }
   },
@@ -839,17 +1103,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#petr4",
       "arg2": "-"
     }
   },
@@ -859,17 +1131,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#winj14",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "winj14",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#winj14",
       "arg2": "-"
     }
   },
@@ -879,17 +1159,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "cyre3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "cyre3",
+        "subscript": "root"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "cyre3",
       "arg2": "-"
     }
   },
@@ -919,17 +1207,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "FIBR3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "FIBR3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "FIBR3",
       "arg2": "-"
     }
   },
@@ -939,26 +1235,38 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "CSNA3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "CSNA3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "CSNA3",
       "arg2": "-"
     }
   },
   {
-    "Texto": " #PETR4 Se não fossem as vendas de ativos e alguns acertos contábeis o resultado seria R$ 2,2 bilhões http://t.co/1ekfbHY1rq",
+    "Texto": "@FernandoGoes1 #PETR4 Se não fossem as vendas de ativos e alguns acertos contábeis o resultado seria R$ 2,2 bilhões http://t.co/1ekfbHY1rq",
     "marks": [
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg0"
       },
       {
         "word": "de ativos",
@@ -971,12 +1279,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "PETR4",
+        "subscript": "parataxis:hashtag"
+      },
+      {
         "word": "ativos",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "#PETR4",
       "arg1": "de ativos",
       "arg2": "-"
     }
@@ -987,17 +1299,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "bvmf3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bvmf3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "bvmf3",
       "arg2": "-"
     }
   },
@@ -1007,17 +1327,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "bbdc4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bbdc4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "bbdc4",
       "arg2": "-"
     }
   },
@@ -1027,17 +1355,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "mrve3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "mrve3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "mrve3",
       "arg2": "-"
     }
   },
@@ -1047,17 +1383,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "bvmf3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bvmf3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "bvmf3",
       "arg2": "-"
     }
   },
@@ -1067,17 +1411,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "petr4",
       "arg2": "-"
     }
   },
@@ -1087,17 +1439,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "vale5",
       "arg2": "-"
     }
   },
@@ -1107,17 +1467,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "csna3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "csna3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "csna3",
       "arg2": "-"
     }
   },
@@ -1127,17 +1495,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "ggbr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ggbr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ggbr4",
       "arg2": "-"
     }
   },
@@ -1147,17 +1523,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "mrve3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "mrve3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "mrve3",
       "arg2": "-"
     }
   },
@@ -1167,17 +1551,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "mrve3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "mrve3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "mrve3",
       "arg2": "-"
     }
   },
@@ -1187,17 +1579,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "vale5",
       "arg2": "-"
     }
   },
@@ -1210,7 +1610,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         "word": "de o Pão de Açúcar",
-        "type": "arg1"
+        "type": "arg0"
       }
     ],
     "subscripts": [
@@ -1224,8 +1624,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "de o Pão de Açúcar",
+      "arg0": "de o Pão de Açúcar",
+      "arg1": "-",
       "arg2": "-"
     }
   },
@@ -1255,17 +1655,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "OIBR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "OIBR4",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "OIBR4",
       "arg2": "-"
     }
   },
@@ -1303,17 +1711,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#PETR4",
       "arg2": "-"
     }
   },
@@ -1323,17 +1739,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -1379,17 +1803,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ESTC3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ESTC3",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ESTC3",
       "arg2": "-"
     }
   },
@@ -1399,17 +1831,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#BBAS3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "BBAS3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#BBAS3",
       "arg2": "-"
     }
   },
@@ -1419,17 +1859,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "AEDU3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "AEDU3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "AEDU3",
       "arg2": "-"
     }
   },
@@ -1439,17 +1887,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "estc3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "estc3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "estc3",
       "arg2": "-"
     }
   },
@@ -1459,17 +1915,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "SUZB5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "SUZB5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "SUZB5",
       "arg2": "-"
     }
   },
@@ -1479,17 +1943,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#bisa3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bisa3",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#bisa3",
       "arg2": "-"
     }
   },
@@ -1499,17 +1971,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "investidor",
+        "type": "arg0"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "investidor",
+        "subscript": "nsubj"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "parataxis"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "investidor",
+      "arg1": "#PETR4",
       "arg2": "-"
     }
   },
@@ -1519,6 +2007,10 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "#BRFS3",
+        "type": "arg0"
       },
       {
         "word": "de o setor de lácteos",
@@ -1531,12 +2023,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "BRFS3",
+        "subscript": "parataxis:hashtag"
+      },
+      {
         "word": "o",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "#BRFS3",
       "arg1": "de o setor de lácteos",
       "arg2": "-"
     }
@@ -1547,17 +2043,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "#NATU3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "NATU3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#NATU3",
       "arg2": "-"
     }
   },
@@ -1567,17 +2071,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "vale5",
       "arg2": "-"
     }
   },
@@ -1587,17 +2099,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "os gringos",
+        "type": "arg0"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "gringos",
+        "subscript": "nsubj"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "os gringos",
+      "arg1": "#PETR4",
       "arg2": "-"
     }
   },
@@ -1607,17 +2135,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "gringos",
+        "type": "arg0"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "gringos",
+        "subscript": "nsubj"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "gringos",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -1627,17 +2171,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#GOLL4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "GOLL4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#GOLL4",
       "arg2": "-"
     }
   },
@@ -1675,17 +2227,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#PETR4",
       "arg2": "-"
     }
   },
@@ -1695,17 +2255,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "SUZB5 e FIBR3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "FIBR3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "SUZB5 e FIBR3",
       "arg2": "-"
     }
   },
@@ -1715,17 +2283,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "Petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "Petr4",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "Petr4",
       "arg2": "-"
     }
   },
@@ -1735,17 +2311,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "Petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "Petr4",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "Petr4",
       "arg2": "-"
     }
   },
@@ -1755,17 +2339,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -1775,17 +2367,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#ggbr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ggbr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#ggbr4",
       "arg2": "-"
     }
   },
@@ -1823,17 +2423,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#ITUB4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ITUB4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#ITUB4",
       "arg2": "-"
     }
   },
@@ -1843,6 +2451,10 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#CESP6",
+        "type": "arg0"
       },
       {
         "word": "de energia",
@@ -1855,12 +2467,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "CESP6",
+        "subscript": "parataxis:hashtag"
+      },
+      {
         "word": "energia",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "#CESP6",
       "arg1": "de energia",
       "arg2": "-"
     }
@@ -1871,17 +2487,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#GGBR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "GGBR4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#GGBR4",
       "arg2": "-"
     }
   },
@@ -1891,17 +2515,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4 e JBSS3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "JBSS3",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4 e JBSS3",
       "arg2": "-"
     }
   },
@@ -1911,17 +2543,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -1931,17 +2571,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "minhas",
+        "type": "arg0"
+      },
+      {
+        "word": "#BBAS3.SA",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "minhas",
+        "subscript": "det"
+      },
+      {
+        "word": "SA",
+        "subscript": "nsubj"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "minhas",
+      "arg1": "#BBAS3.SA",
       "arg2": "-"
     }
   },
@@ -1951,17 +2607,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#LLXL3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "LLXL3",
+        "subscript": "parataxis:hashtag"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#LLXL3",
       "arg2": "-"
     }
   },
@@ -1971,17 +2635,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "vale5",
       "arg2": "-"
     }
   },
@@ -2019,17 +2691,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#petr4",
       "arg2": "-"
     }
   },
@@ -2095,17 +2775,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -2153,7 +2841,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
-        "word": "de o IFR múltiplo com FAD anormal",
+        "word": "BTOW3 E CTIP3",
         "type": "arg1"
       }
     ],
@@ -2163,13 +2851,13 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
-        "word": "o",
-        "subscript": "nmod"
+        "word": "CTIP3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "de o IFR múltiplo com FAD anormal",
+      "arg1": "BTOW3 E CTIP3",
       "arg2": "-"
     }
   },
@@ -2179,17 +2867,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -2199,17 +2895,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#petr4",
       "arg2": "-"
     }
   },
@@ -2221,8 +2925,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
-        "word": "SWING",
-        "type": "arg2"
+        "word": "#KLBN4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
@@ -2231,14 +2935,14 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
-        "word": "SWING",
-        "subscript": "nmod"
+        "word": "KLBN4",
+        "subscript": "root"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
-      "arg2": "SWING"
+      "arg1": "#KLBN4",
+      "arg2": "-"
     }
   },
   {
@@ -2247,17 +2951,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "LREN3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "LREN3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "LREN3",
       "arg2": "-"
     }
   },
@@ -2267,17 +2979,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRFG3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRFG3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRFG3",
       "arg2": "-"
     }
   },
@@ -2287,17 +3007,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "bbas3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bbas3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "bbas3",
       "arg2": "-"
     }
   },
@@ -2307,17 +3035,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#petr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "petr4",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#petr4",
       "arg2": "-"
     }
   },
@@ -2327,17 +3063,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "GFSA3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "GFSA3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "GFSA3",
       "arg2": "-"
     }
   },
@@ -2375,17 +3119,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "cmig4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "cmig4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "cmig4",
       "arg2": "-"
     }
   },
@@ -2395,17 +3147,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "jbss3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "jbss3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "jbss3",
       "arg2": "-"
     }
   },
@@ -2415,17 +3175,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "vale5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "vale5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "vale5",
       "arg2": "-"
     }
   },
@@ -2438,7 +3206,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         "word": "de o Pão de Açúcar",
-        "type": "arg1"
+        "type": "arg0"
       }
     ],
     "subscripts": [
@@ -2452,8 +3220,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "de o Pão de Açúcar",
+      "arg0": "de o Pão de Açúcar",
+      "arg1": "-",
       "arg2": "-"
     }
   },
@@ -2494,7 +3262,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         "word": "timp3",
-        "type": "arg0"
+        "type": "arg1"
       }
     ],
     "subscripts": [
@@ -2508,8 +3276,8 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     ],
     "args": {
-      "arg0": "timp3",
-      "arg1": "-",
+      "arg0": "-",
+      "arg1": "timp3",
       "arg2": "-"
     }
   },
@@ -2519,17 +3287,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "timp3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "timp3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "timp3",
       "arg2": "-"
     }
   },
@@ -2539,17 +3315,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "GFSA3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "GFSA3",
+        "subscript": "parataxis"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "GFSA3",
       "arg2": "-"
     }
   },
@@ -2559,17 +3343,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -2607,17 +3399,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "estc3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "estc3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "estc3",
       "arg2": "-"
     }
   },
@@ -2629,7 +3429,7 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
-        "word": "de diário",
+        "word": "#Vale5",
         "type": "arg1"
       }
     ],
@@ -2639,13 +3439,13 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
-        "word": "diário",
-        "subscript": "nmod"
+        "word": "Vale5",
+        "subscript": "appos"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "de diário",
+      "arg1": "#Vale5",
       "arg2": "-"
     }
   },
@@ -2655,17 +3455,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "bbas3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "bbas3",
+        "subscript": "root"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "bbas3",
       "arg2": "-"
     }
   },
@@ -2675,17 +3483,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "PDGR3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "PDGR3",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "PDGR3",
       "arg2": "-"
     }
   },
@@ -2695,17 +3511,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#cyre3 #tble3 #Brkm5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "Brkm5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#cyre3 #tble3 #Brkm5",
       "arg2": "-"
     }
   },
@@ -2857,8 +3681,8 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
-        "word": "entrei",
-        "type": "arg0"
+        "word": "SANB11",
+        "type": "arg1"
       }
     ],
     "subscripts": [
@@ -2867,13 +3691,13 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
-        "word": "entrei",
-        "subscript": "root"
+        "word": "SANB11",
+        "subscript": "obl"
       }
     ],
     "args": {
-      "arg0": "entrei",
-      "arg1": "-",
+      "arg0": "-",
+      "arg1": "SANB11",
       "arg2": "-"
     }
   },
@@ -2883,17 +3707,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "MRVE3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "MRVE3",
       "arg2": "-"
     }
   },
@@ -2903,17 +3735,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#LIGT3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "LIGT3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#LIGT3",
       "arg2": "-"
     }
   },
@@ -2951,16 +3791,24 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#HGTX3",
+        "type": "arg0"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "HGTX3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "#HGTX3",
       "arg1": "-",
       "arg2": "-"
     }
@@ -2971,17 +3819,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#alll3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "alll3",
+        "subscript": "parataxis:hashtag"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#alll3",
       "arg2": "-"
     }
   },
@@ -3021,6 +3877,10 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
+        "word": "Quem",
+        "type": "arg0"
+      },
+      {
         "word": "de opções",
         "type": "arg1"
       }
@@ -3031,12 +3891,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "Quem",
+        "subscript": "nsubj"
+      },
+      {
         "word": "opções",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "Quem",
       "arg1": "de opções",
       "arg2": "-"
     }
@@ -3049,6 +3913,10 @@ document.addEventListener('DOMContentLoaded', function() {
         "type": "rel"
       },
       {
+        "word": "Quem",
+        "type": "arg0"
+      },
+      {
         "word": "de opções",
         "type": "arg1"
       }
@@ -3059,12 +3927,16 @@ document.addEventListener('DOMContentLoaded', function() {
         "subscript": "rel"
       },
       {
+        "word": "Quem",
+        "subscript": "nsubj"
+      },
+      {
         "word": "opções",
         "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
+      "arg0": "Quem",
       "arg1": "de opções",
       "arg2": "-"
     }
@@ -3095,17 +3967,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "Usiminas ( USIM5 )",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "USIM5",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "Usiminas ( USIM5 )",
       "arg2": "-"
     }
   },
@@ -3115,17 +3995,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "ESTC3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ESTC3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ESTC3",
       "arg2": "-"
     }
   },
@@ -3135,17 +4023,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#wege3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "wege3",
+        "subscript": "conj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#wege3",
       "arg2": "-"
     }
   },
@@ -3155,17 +4051,33 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "Credit Suisse",
+        "type": "arg0"
+      },
+      {
+        "word": "PETR4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "Suisse",
+        "subscript": "nsubj"
+      },
+      {
+        "word": "PETR4",
+        "subscript": "nmod"
       }
     ],
     "args": {
-      "arg0": "-",
-      "arg1": "-",
+      "arg0": "Credit Suisse",
+      "arg1": "PETR4",
       "arg2": "-"
     }
   },
@@ -3175,17 +4087,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "de opções",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "opções",
+        "subscript": "obl"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "de opções",
       "arg2": "-"
     }
   },
@@ -3195,17 +4115,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "eztc3 elet6 e krot3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "krot3",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "eztc3 elet6 e krot3",
       "arg2": "-"
     }
   },
@@ -3235,17 +4163,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "de opções",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "opções",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "de opções",
       "arg2": "-"
     }
   },
@@ -3255,17 +4191,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "Venda",
         "type": "rel"
+      },
+      {
+        "word": "ggbr4",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "Venda",
         "subscript": "rel"
+      },
+      {
+        "word": "ggbr4",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "ggbr4",
       "arg2": "-"
     }
   },
@@ -3275,17 +4219,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "venda",
         "type": "rel"
+      },
+      {
+        "word": "#CRUZ3",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "venda",
         "subscript": "rel"
+      },
+      {
+        "word": "CRUZ3",
+        "subscript": "nmod"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#CRUZ3",
       "arg2": "-"
     }
   },
@@ -3295,17 +4247,25 @@ document.addEventListener('DOMContentLoaded', function() {
       {
         "word": "VENDA",
         "type": "rel"
+      },
+      {
+        "word": "#VALE5",
+        "type": "arg1"
       }
     ],
     "subscripts": [
       {
         "word": "VENDA",
         "subscript": "rel"
+      },
+      {
+        "word": "VALE5",
+        "subscript": "nsubj"
       }
     ],
     "args": {
       "arg0": "-",
-      "arg1": "-",
+      "arg1": "#VALE5",
       "arg2": "-"
     }
   }

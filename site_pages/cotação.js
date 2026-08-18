@@ -1264,7 +1264,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       {
         "word": "variação",
-        "subscript": "nmod - obl"
+        "subscript": "obl"
       }
     ],
     "args": {
