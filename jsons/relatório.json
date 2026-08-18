@@ -1,0 +1,487 @@
+{
+  "lemma": "relatório",
+  "lemma_base": "relatório",
+  "senses": [
+    {
+      "pt_roleset": "relatório.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "report.01",
+      "english_roleset_source": "verb-report.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/report.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "reporter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing reported"
+        },
+        {
+          "id": "Arg2",
+          "desc": "entity reported to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454244536920072193l",
+          "text": "Notas gerais A marca de a companhia NATURA ( NATU3 ) é a mais valiosa de a América Latina , segundo relatório de a ... http://t.co/UklRaoUG0X",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "A marca de a companhia NATURA ( NATU3 ) é a mais valiosa de a América Latina",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445687170125549568l",
+          "text": "@ppaulovagner @Fontes_ Hj a tarde recebi relatório em PDF de a corretora @Citi recomendando compra de #USIM5 , fica de olho Paulo .",
+          "realization": {
+            "Arg0": "de a corretora @Citi",
+            "Arg1": "recomendando compra de #USIM5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453600686664876033l",
+          "text": "@CaciqueInvest Imagina só , só com essa de a Brin vc já paga sei lá qto tempo de relatório sobra de lambuja petr4 , mmxm3 pomo fesa goll4 etc ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467278962154942464l",
+          "text": "Governo de a Nova Caledônia recebe relatório de a Vale sobre vazamento : Movimento ocorreu mais t ... http://t.co/rtndP6NyW5 #infomoney #vale5",
+          "realization": {
+            "Arg0": "de a Vale",
+            "Arg1": "sobre vazamento",
+            "Arg2": "Governo de a Nova Caledônia",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461548302069424128l",
+          "text": "$BRML3 - Br Malls Par ( brml-nm ) / Concepa ( cncp ) - Relatorios De o Agente Fiduciario http://t.co/a3cZlkKck2",
+          "realization": {
+            "Arg0": "De o Agente Fiduciario",
+            "Arg1": "$BRML3 - Br Malls Par ( brml-nm ) / Concepa ( cncp )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448818884754538496l",
+          "text": "Se o Relatório sumiu ou se encontra adulterado , estaremos claramente diante de uma ação criminosa e mafiosa , corroendo por dentro a #PETR4 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448825268309065728l",
+          "text": "RT @cafecomtorradas : Se o Relatório sumiu ou se encontra adulterado , estaremos claramente diante de uma ação criminosa e mafiosa , corroendo …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452159443690864640l",
+          "text": "$CPFE3 - CPFL Energia divulga o Relatório Anual ( Form 20-F ) 2013 em a SEC http://t.co/Lizy0GjUUH",
+          "realization": {
+            "Arg0": "CPFL Energia",
+            "Arg1": null,
+            "Arg2": "em a SEC",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445935426608840705l",
+          "text": "$BBDC3 - Banco Bradesco publica Relatório Anual 2013 em novo formato http://t.co/t4O0DpIJQV",
+          "realization": {
+            "Arg0": "Banco Bradesco",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445935520766783488l",
+          "text": "$BBDC4 - Banco Bradesco publica Relatório Anual 2013 em novo formato http://t.co/zRgidXiTND",
+          "realization": {
+            "Arg0": "Banco Bradesco",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459304788837289984l",
+          "text": "$BBDC3 - Bradesco ( bbdc-n1 ) - Relatorios De Analise Gerencial http://t.co/NpevWwoQTO",
+          "realization": {
+            "Arg0": "$BBDC3 - Bradesco ( bbdc-n1 )",
+            "Arg1": "De Analise Gerencial",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444458618797436928l",
+          "text": "Ideia de Long&Short por Credit Suisse - PETR4 x PETR3 ... quem quiser o relatório é só pedir !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448818300957769728l",
+          "text": "Muito fácil esclarecer a cagada de Pasadena : basta analisár o Relatório levado a o Conselho , que autorizou o rombo em a #PETR4 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "a o Conselho",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448823904044613632l",
+          "text": "RT @cafecomtorradas : Muito fácil esclarecer a cagada de Pasadena : basta analisár o Relatório levado a o Conselho , que autorizou o rombo em a # …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "a o Conselho",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461469597271867392l",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Relatorio De o Agente Fiduciario http://t.co/ZJfgkx7xEZ",
+          "realization": {
+            "Arg0": "De o Agente Fiduciario",
+            "Arg1": "$AEDU3 - Anhanguera ( aedu-nm )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464029868133711872l",
+          "text": "$BBAS3 - Banco De o Brasil ( bbas-nm ) - Relat. de Analise Gerencial E Material De Apresentacao http://t.co/86ssDmrnfJ",
+          "realization": {
+            "Arg0": "$BBAS3 - Banco De o Brasil ( bbas-nm )",
+            "Arg1": "de Analise Gerencial",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464415910338772993l",
+          "text": "$BBAS3 - Banco De o Brasil ( bbas-nm ) - Relatorio De Analise Gerencial Reapresentacao http://t.co/06H7Ncc4jQ",
+          "realization": {
+            "Arg0": "$BBAS3 - Banco De o Brasil ( bbas-nm )",
+            "Arg1": "De Analise Gerencial",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445615969688616961l",
+          "text": "Entrando em Long&Short PETR4 x PETR3 com spread de R$ 0,57 ! Fica a dica e quem quiser o relatorio é só pedir !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447482644084035584l",
+          "text": "@jprcampos @carlos_munhoz meu caro … outro dia vc disse que petr4 entregava relatórios em a Nyse . ultrapar também . veja os múltiplos .",
+          "realization": {
+            "Arg0": "petr4",
+            "Arg1": null,
+            "Arg2": "em a Nyse",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453562030759616512l",
+          "text": "Esse relatório quase não entrega nada , só foi quem disse que suporte de a petr4 foi 12,50 , Brin3 6,25 fesa4 , pomo4 artr3 etc q vcs conhecem",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "que suporte de a petr4 foi 12,50 , Brin3 6,25 fesa4 , pomo4 artr3 etc q vcs conhecem",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "ccomp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448498069731307520l",
+          "text": "$VALE3 - Vale ( vale-n1 ) - Relatorio De as Debentures Participativas 2o.sem/2013 http://t.co/JKEWokJZsQ",
+          "realization": {
+            "Arg0": "$VALE3 - Vale ( vale-n1 )",
+            "Arg1": "De as Debentures Participativas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461507335035555840l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Relatorios De o Agente Fiduciario http://t.co/qRrDpxFNLS",
+          "realization": {
+            "Arg0": "De o Agente Fiduciario",
+            "Arg1": "$RENT3 - Localiza ( rent-nm )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462327183563042816l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Relatorio De o Agente Fiduciario Reapresentacao http://t.co/Gk0aK3dHbG",
+          "realization": {
+            "Arg0": "De o Agente Fiduciario",
+            "Arg1": "$RENT3 - Localiza ( rent-nm )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_466193199934210048l",
+          "text": "$DTEX3 - Duratex ( dtex-nm ) - Relatorio Anual E De Sustentabilidade http://t.co/diLO3SeaEV",
+          "realization": {
+            "Arg0": "$DTEX3 - Duratex ( dtex-nm )",
+            "Arg1": "De Sustentabilidade",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "conj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 1,
+          "acl": 1,
+          "nmod": 9,
+          "ccomp": 1,
+          "conj": 1
+        },
+        "Arg0": {
+          "nmod": 11,
+          "nsubj": 4
+        },
+        "Arg2": {
+          "nsubj": 1,
+          "obl": 4
+        }
+      }
+    }
+  ]
+}

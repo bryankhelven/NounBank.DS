@@ -1,0 +1,553 @@
+{
+  "lemma": "distribuição",
+  "lemma_base": "distribuição",
+  "senses": [
+    {
+      "pt_roleset": "distribuição.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "distribution.01",
+      "english_roleset_source": "verb-distribute.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/distribution.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "distributor"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing distributed"
+        },
+        {
+          "id": "Arg2",
+          "desc": "distributed to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_461124301060849664l",
+          "text": "$CYRE3 - Cyrela Realt ( cyre ) - Deliberacoes De a Ago/e / Distribuicao De Dividendo http://t.co/m7Rt4wHstX",
+          "realization": {
+            "Arg0": "$CYRE3 - Cyrela Realt ( cyre )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459664701614731264l",
+          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/a8VHtsh8Xw",
+          "realization": {
+            "Arg0": "$LIGT3 - Light S/a ( ligt-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": "A os Acionistas",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448882754701508608l",
+          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - Ago/e - 10/04/2014 - 16h00 - Distribuicao De Dividendo http://t.co/uwgDsLkOnk",
+          "realization": {
+            "Arg0": "$ALLL3 - All Amer Lat ( alll-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451368222600986624l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) Ago 28/04/2014 11h00 Distribuicao De Dividendo http://t.co/t0sVt3htz6",
+          "realization": {
+            "Arg0": "$DASA3 - Dasa ( dasa-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460825538517794816l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) - Deliberacoes De a Ago / Distribuicao De Dividendo http://t.co/9eQGNWhrwd",
+          "realization": {
+            "Arg0": "$DASA3 - Dasa ( dasa-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448151500116606976l",
+          "text": "Navio gigante de a Vale aporta por a 1ª vez em centro de distribuição em a Malásia : Em sua viagem ... http://t.co/BH5YJv5MUg #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453583096823443456l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Encerramento De a Licenca De o Diretor De Distribuicao http://t.co/t0zHiXiVwN",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462197122784563200l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Distribuicao De Juros Sobre O Capital Proprio http://t.co/tLHgq4UcIa",
+          "realization": {
+            "Arg0": "$ELET3 - Eletrobras ( elet-n1 )",
+            "Arg1": "De Juros Sobre O Capital Proprio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443109051715817472l",
+          "text": "$PETR3 - Petrobras ( petr ) - Ago/e - 02/04/2014 - 15h - Distr. De Jcp / Aumento De o Capital http://t.co/vfiIT5AhIW",
+          "realization": {
+            "Arg0": "$PETR3 - Petrobras ( petr )",
+            "Arg1": "De Jcp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451699904235466753l",
+          "text": "$PETR3 - Petrobras ( petr ) - Distribuicao De Juros Sobre Capital Proprio / Valor Atualizado http://t.co/LUcMhv9FuB",
+          "realization": {
+            "Arg0": "$PETR3 - Petrobras ( petr )",
+            "Arg1": "De Juros Sobre Capital Proprio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446612137251975168l",
+          "text": "$CRUZ3 - Souza Cruz ( cruz ) - Distribuicao De Dividendo http://t.co/sVHeWwwDEQ",
+          "realization": {
+            "Arg0": "$CRUZ3 - Souza Cruz ( cruz )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444458706374524929l",
+          "text": "$EMBR3 - Embraer ( embr-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/iag5yUYxkc",
+          "realization": {
+            "Arg0": "$EMBR3 - Embraer ( embr-nm )",
+            "Arg1": "De Juros Sobre Capital Proprio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448784949853032448l",
+          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) - Distribuicao De Juros Sobre Capital Proprio http://t.co/g7c3cn2A1B",
+          "realization": {
+            "Arg0": "$ECOR3 - Ecorodovias ( ecor-nm )",
+            "Arg1": "De Juros Sobre Capital Proprio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446638058633699328l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Proposta De Dividendos Para Ago / Distribuicao De Juros Cp http://t.co/bLjTH8bSid",
+          "realization": {
+            "Arg0": "$RENT3 - Localiza ( rent-nm )",
+            "Arg1": "De Juros Cp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459657331467649026l",
+          "text": "$LIGT3 - Light S/a ( ligt-nm ) - Deliberacoes De Assembleias / Distribuicao De Dividendo http://t.co/IoOoCOiGT1",
+          "realization": {
+            "Arg0": "$LIGT3 - Light S/a ( ligt-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451685086862508032l",
+          "text": "$ECOR3 - Ecorodovias ( ecor-nm ) Ago/e 28/04/14 10h30 Dist. De Dividendo ( complemento ) http://t.co/roZDihEpaA",
+          "realization": {
+            "Arg0": "$ECOR3 - Ecorodovias ( ecor-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448902501086273536l",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 22/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/1lJw1uN5m7",
+          "realization": {
+            "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449542990672199680l",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Ago - 28/04/2014 - 11h00 / Distribuicao De Dividendo http://t.co/cqdsO4mZIq",
+          "realization": {
+            "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449649666217746432l",
+          "text": "$HGTX3 - Cia Hering ( hgtx-nm ) - Ago/e - 23/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/WcPwQGDChr",
+          "realization": {
+            "Arg0": "$HGTX3 - Cia Hering ( hgtx-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451347694989369344l",
+          "text": "$ESTC3 - Estacio Part ( estc-nm ) Ago/e 30/04/2014 11h00 Distribuicao De Dividendo http://t.co/cuE0jepyyo",
+          "realization": {
+            "Arg0": "$ESTC3 - Estacio Part ( estc-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453227212003901442l",
+          "text": "$CTIP3 - Cetip ( ctip-nm ) Ago/e 28/04/2014 10h00 Distribuicao De Dividendo http://t.co/8E9tQwMP72",
+          "realization": {
+            "Arg0": "$CTIP3 - Cetip ( ctip-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453540037515558912l",
+          "text": "$BRML3 - Br Malls Par ( brml-nm ) - Ago/e - 30/04/2014 - 15h00 / Distribuicao De Dividendo http://t.co/GDk4GzbOYE",
+          "realization": {
+            "Arg0": "$BRML3 - Br Malls Par ( brml-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456788707576532992l",
+          "text": "$EMBR3 - Embraer ( embr-nm ) - Aviso A os Acionistas / Distribuicao De Dividendo http://t.co/oayCW0wAQx",
+          "realization": {
+            "Arg0": "$EMBR3 - Embraer ( embr-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": "A os Acionistas",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_457101556056588288l",
+          "text": "$JBSS3 - Jbs ( jbss-nm ) - Ago/e - 30/04/2014 - 10h00 - Distribuicao De Dividendos http://t.co/YcUIpaVlPw",
+          "realization": {
+            "Arg0": "$JBSS3 - Jbs ( jbss-nm )",
+            "Arg1": "De Dividendos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459398634690600960l",
+          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Divindendo http://t.co/3VhamlAjCu",
+          "realization": {
+            "Arg0": "$EVEN3 - Even ( even-nm )",
+            "Arg1": "De Divindendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459399897276751872l",
+          "text": "$EVEN3 - Even ( even-nm ) - ago/e - 30/04/2014 - 10h E 11h ( respectivamente ) Distr. De Dividendo http://t.co/36gmqfcQG4",
+          "realization": {
+            "Arg0": "$EVEN3 - Even ( even-nm )",
+            "Arg1": "De Dividendo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450970150016397312l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Distribuicao De Juros Sobre O Capital Proprio ( valor Final ) http://t.co/55QS0ImihK",
+          "realization": {
+            "Arg0": "$RENT3 - Localiza ( rent-nm )",
+            "Arg1": "De Juros Sobre O Capital Proprio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470981899696209920l",
+          "text": "#CMIG4 - Cemig vai investir R$ 3 bilhões em distribuição de energia até 2017 - http://t.co/H3Ilcyc3vd",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de energia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 25
+        },
+        "Arg1": {
+          "nmod": 26
+        },
+        "Arg2": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

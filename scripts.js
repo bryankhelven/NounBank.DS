@@ -78,10 +78,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // === Dicionário ===
   const wordsDict = {
-    'a': ["abastecimento", "acesso", "administração", "ajuste", "aliança", "aquisição", "ataque", "acordo", "alienação", "apreensão", "antro", "amor", "atestado", "avaliação", "aditivo", "assinatura", "alteração"],
+    'a': ["abastecimento", "acesso", "administração", "ajuste", "aliança", "aquisição", "ataque", "acordo", "alienação", "apreensão", "antro", "amor", "atestado", "avaliação", "aditivo", "assinatura", "alteração", "alavancagem"],
     'b': ["briga"],
-    'c': ["caminho", "cenário", "compartilhamento", "confirmação", "construção", "controle", "conversa", "coordenador", "conversão", "custódia", "convocação", "curiosidade", "comparação", "coragem", "comissão", "causa", "cara", "contrato", "cotação", "carteira", "compra"],
-    'd': ["deliberação", "demanda", "diretor", "divergência", "descolamento", "discussão", "desova", "daytrade", "declaração", "divisão", "denúncia", "decisão", "descoberta", "divulgação", "distribuição"],
+    'c': ["caminho", "cenário", "compartilhamento", "confirmação", "construção", "controle", "conversa", "coordenador", "conversão", "custódia", "convocação", "curiosidade", "comparação", "coragem", "comissão", "causa", "cara", "contrato", "cotação", "carteira", "compra", "candidato", "chance", "comprador", "corte"],
+    'd': ["deliberação", "demanda", "diretor", "divergência", "descolamento", "discussão", "desova", "daytrade", "declaração", "divisão", "denúncia", "decisão", "descoberta", "divulgação", "distribuição", "desistência", "diretoria"],
     'e': ["eleição", "extensão", "exploração", "estimativa", "encerramento", "entendimento", "exemplo", "expectativa", "entrada", "esclarecimento"],
     'f': ["fruto", "fusão", "falta"],
     'g': ["gestor"],
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'o': ["obrigação", "oferta", "outorga", "olhada", "olho"],
     'p': ["post", "postagem", "procura", "projeto", "projeção", "proposta", "pagador", "pedido", "perspectiva", "posição", "pagamento"],
     'r': ["relação", "resolução", "responsabilidade", "rateio", "retorno", "reeleição", "redução", "renúncia", "racionamento", "risco", "reapresentação", "reunião", "recomendação", "relatório", "recompra", "resistência"],
-    's': ["solicitação", "sugestão", "spread"],
+    's': ["solicitação", "sugestão", "spread", "seller"],
     't': ["transferência", "transporte", "troca", "teste", "taxação", "tendência", "trade"],
     'v': ["vendedor", "visão", "volta", "venda"],
     'z': ["zona"]

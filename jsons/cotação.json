@@ -1,0 +1,896 @@
+{
+  "lemma": "cotação",
+  "lemma_base": "cotação",
+  "senses": [
+    {
+      "pt_roleset": "cotação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "quotation.01",
+      "english_roleset_source": "verb-quote.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/quotation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "quoter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "source"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441252640320933889l",
+          "text": "Ação ex-dividendos hoje : CSNA3 , ITSA3 , ITSA4 , ITUB3 e ITUB4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443369295138287616l",
+          "text": "Ações ex-dividendos hoje : VIVT3 e VIVT4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445544931286089728l",
+          "text": "Ações ex-dividendos hoje : CIEL3 e TOTS3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446270093685948416l",
+          "text": "Ação ex-dividendos hoje : KROT3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446628649891287040l",
+          "text": "Ação ex-dividendos hoje : CRUZ3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446986109680373760l",
+          "text": "Ações ex-dividendos hoje : KLBN3 , KLBN4 e KLBN11 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448076336100544512l",
+          "text": "Ações ex-dividendos hoje : ALPA3 , ALPA4 , LAME3 e LAME4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450979848862060544l",
+          "text": "Ações ex-dividendos hoje : ITUB3 , ITUB4 e SULA11 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451698214216159232l",
+          "text": "Ações ex-dividendos hoje : ABEV3 e ODPV3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454233943685210112l",
+          "text": "Ações ex-dividendos hoje : BRKM3 e BRKM5 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454596117842657280l",
+          "text": "Ações ex-dividendos hoje : ALLL3 , BEMA3 e GRND3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458587150532247552l",
+          "text": "Ações ex-dividendos hoje : AMAR3 e LREN3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459668711092523008l",
+          "text": "Ações ex-dividendos hoje : CPLE3 , CPLE6 , IGTA3 , LIGT3 e VLID3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460755872399237120l",
+          "text": "Ações ex-dividendos hoje : ARZZ3 , ELPL , EQTL3 , GETI , GFSA3 , IMCH3 , JSLG3 , KEPL3 , MAGG3 e MILS3 . Cotações ajustadas ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461121066325512192l",
+          "text": "Ações ex-dividendos hoje : ABRE11 , AEDU3 , ALSC3 , BBRK3 , BRAP , CYRE3 , DASA3 , EMBR3 , FLRY3 e SEER3 . Cotações ajustadas ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461489900689559553l",
+          "text": "Ações ex-dividendos hoje : CESP , CPFE3 , ECOR3 , ENBR3 , GRND3 , ODPV3 , SSBR3 , POSI3 e TGMA3 . As cotações foram ajustadas ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463661481389998080l",
+          "text": "RT @daltonvieira : Ação ex-dividendos hoje : PCAR4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467283300554637312l",
+          "text": "Ações ex-dividendos hoje : MRVE3 e SULA11 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441550780672540672l",
+          "text": "Ações ex-juros hoje : BBDC3 , BBDC4 e MPLU3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445544684958789632l",
+          "text": "Ação ex-juros hoje : CIEL3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446269948810510336l",
+          "text": "Ação ex-juros hoje : LREN3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449161247217704960l",
+          "text": "Ação ex-juros hoje : CTIP3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450979666925731840l",
+          "text": "Ação ex-juros hoje : RENT3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451698018430226432l",
+          "text": "Ações ex-juros hoje : ODPV3 , PETR3 e PETR4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461121982013390848l",
+          "text": "Ações ex-juros hoje : BRAP3 e BRAP4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463296237513740288l",
+          "text": "Ação ex-juros hoje : BBDC3 e BBDC4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463296486709948416l",
+          "text": "Ações ex-bonificação hoje : ITSA3 e ITSA4 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/RR6Wuao1Kv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446694551160233985l",
+          "text": "Virada : BBAS3 em ponto perigoso de mudança de a cotação para baixo . IMA-crash alto . http://t.co/rowQqe82CN",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de mudança",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444475914035163136l",
+          "text": "volume diminuindo um pouco em a #PETR4 ... mas cotações continuam melhorando . Já disse ... agradeçam a Fator . ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": " continuam melhorando",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469914585508876288l",
+          "text": "ah , lembra que o volume de a #PETR4 tava caindo e caindo ? Pois então ... foi só a cotação começar a corrigir um pouco pra ele aumentar . ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "começar a corrigir um pouco",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441550937262665728l",
+          "text": "Ações ex-dividendos hoje : GGBR3 , GGBR4 , GOAU3 , GOAU4 e MPLU3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449161393988968448l",
+          "text": "Ação ex-dividendos hoje : SANB11 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459306891961970688l",
+          "text": "RT @daltonvieira : Ações ex-dividendos hoje : ARTR3 , AUTM3 , LEVE3 , HGTX3 , RDNI3 , VIVT3 e VIVT4 . Cotações históricas ajustadas . Saiba mais htt …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460758238779432960l",
+          "text": "RT @daltonvieira : Ações ex-dividendos hoje : ARZZ3 , ELPL , EQTL3 , GETI , GFSA3 , IMCH3 , JSLG3 , KEPL3 , MAGG3 e MILS3 . Cotações ajustadas ! http:/ …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468732911655845888l",
+          "text": "Ações ex-dividendos hoje : BBAS3 , BVMF3 e ETER3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/C7k4DuDID2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443729962336796672l",
+          "text": "Ação ex-juros hoje : BBAS3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448076052364296192l",
+          "text": "Ações ex-juros hoje : ALPA3 , ALPA4 , CRUZ3 , POMO3 , POMO4 e RADL3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453511483784454144l",
+          "text": "Ação ex-juros hoje : SBSP3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/utSF6DP4ug",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458947931052457985l",
+          "text": "Ação ex-bonificação hoje : DTEX3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/RR6Wuao1Kv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450688462857834496l",
+          "text": "Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : Cotações de a commodi ... http://t.co/gCQ5AkNoWz #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450721159739609088l",
+          "text": "RT @clickinv_VALE5 : Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : Cotações de a commodi ... http://t.co/gCQ5AkNoWz …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456414030609932289l",
+          "text": "Ação ex-dividendos hoje : CCRO3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/xlwIhPylwX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456777574425710593l",
+          "text": "Ações ex-dividendos hoje : ALUP11 , COCE5 , PCAR4 , QGEP3 e SLCE3 . As cotações históricas foram ajustadas . Saiba mais ! http://t.co/xlwIhPylwX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foram ajustadas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj:pass",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449938384048635904l",
+          "text": "Gráfico interativo - Petrobras PN - PETR4 - Cotações Bovespa - http://t.co/ASPBmyoBSk http://t.co/VoE1ko70sQ via @sharethis",
+          "realization": {
+            "Arg0": "Bovespa",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455717055686541313l",
+          "text": "vale petr4 hrt Explode cotação ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Explode",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448595371955343360l",
+          "text": "Sinal de os tempos , hoje a PETR3 recebeu alta , saiu de a UTI e entrou em o canal de variação estatístico de suas cotações , muito bom !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "entrou em o canal de variação estatístico",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464480004689379328l",
+          "text": "Petr3.SA tipo PETROBRAS ON em dezembro 28 de 2007 a cotação BOVESPA estava em minima R$ 51,08 e maxima R$ 52,23 , fonte Thomson Reuters .",
+          "realization": {
+            "Arg0": "BOVESPA",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 2
+        },
+        "Arg1": {
+          "nsubj:pass": 34,
+          "acl": 4,
+          "nmod": 1,
+          "nsubj": 3,
+          "obl": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "lemma": "investimento",
+  "lemma_base": "investimento",
+  "senses": [
+    {
+      "pt_roleset": "investimento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "investment.01",
+      "english_roleset_source": "verb-invest.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/investment.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "investor"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "purpose"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_460034860225429504l",
+          "text": "Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o amor como investimento mais seguro",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "o amor",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "obj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451152647618166786l",
+          "text": "Discussão sobre Investimentos : Carteira Simulada , CSNA3 , USIM5 e GRND3 . http://t.co/9XXKzByFls",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454023247101562882l",
+          "text": "Discussão sobre Investimentos : Carteira Simulada , USIM5 , CSNA3 e GRND3 http://t.co/q5pYdmRKIA",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443188111057887232l",
+          "text": "#OIL #PETR4 Petrobras aumenta investimento em a Argentina , diz site , empresa nega . http://t.co/vasP1DxOM8",
+          "realization": {
+            "Arg0": "Petrobras",
+            "Arg1": null,
+            "Arg2": "em a Argentina",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454344759843098624l",
+          "text": "Gráfico #petrd16 reversão ? ! ? Petrobras #petr4 #ibov investimentos http://t.co/dOXR7k0Uls",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456154554036264963l",
+          "text": "Cada vez que ouço a G. Foster defendendo o plano de investimento de a @petrobras , mais me certifico que devemos comprar PETR3 e 4 em a BOVESPA",
+          "realization": {
+            "Arg0": "de a @petrobras",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471998284022964224l",
+          "text": "#BOVESPA #GOLL4 Gol faz aumento de capital de R$ 185,7 mi e prevê investimento de a AirFrance . http://t.co/0Kro8OpwaD",
+          "realization": {
+            "Arg0": "de a AirFrance",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454593417712902144l",
+          "text": "Opinião - 10 ideias de investimento , segundo o BTG Pactual : Em o lugar de os papéis de a CPFL ( CPFE3 ) e de a Minerva ( ... http://t.co/9IlIpuO96l",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454596496378171393l",
+          "text": "10 ideias de investimento , segundo o BTG Pactual : Em o lugar de os papéis de a CPFL ( CPFE3 ) e de a Minerva ( BEEF3 ) , o BTG ... http://t.co/UAdRxUEEU2",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454601973732368384l",
+          "text": "10 ideias de investimento , segundo o BTG Pactual : Em o lugar de os papéis de a CPFL ( CPFE3 ) e de a Minerva ... http://t.co/0UpUhDawsm #infomoney",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444958920105529345l",
+          "text": "Se fosse investimentos ( ñ é ) 3.5 x receita é d+ ' @exame_noticias : #PETR4 faz alerta sobre dívida e rating de crédito http://t.co/Nz50xccbTH '",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447144750601494528l",
+          "text": "@StephenKanitz @ricam #Petrobrás #PETR4 : Se ref. Pasadeña é superfaturada , então invest. pré-sal estão mais ! http://t.co/8wIGJxKbao",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": null,
+            "Arg2": "pré-sal",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis:hashtag",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447144585316544512l",
+          "text": "@GutoAbranches @denisebarbosa #Petrobrás #PETR4 : Se ref. Pasadeña é superfaturada , então invest. pré-sal estão mais ! http://t.co/8wIGJxKbao",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": null,
+            "Arg2": "pré-sal",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis:hashtag",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450603977550598144l",
+          "text": "Vale pode perder US$ 500 milhões com o investimento feito em a Guinea , Africa ocidental . O país pretende revogar o direito minerário . #VALE5",
+          "realization": {
+            "Arg0": "Vale",
+            "Arg1": null,
+            "Arg2": "em a Guinea , Africa ocidental",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450606516790652928l",
+          "text": "RT @chrinvestor : Vale pode perder US$ 500 milhões com o investimento feito em a Guinea , Africa ocidental . O país pretende revogar o direito m …",
+          "realization": {
+            "Arg0": "Vale",
+            "Arg1": null,
+            "Arg2": "em a Guinea , Africa ocidental",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444077454463102977l",
+          "text": "$DTEX3 - Duratex ( dtex-nm ) - Investimentos Em Unidade De Paineis Industrializados http://t.co/VBbLPpvHIN",
+          "realization": {
+            "Arg0": "$DTEX3 - Duratex ( dtex-nm )",
+            "Arg1": null,
+            "Arg2": "Em Unidade De Paineis Industrializados",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444092114222481408l",
+          "text": "Esqueçam PETR3 e PETR4 , melhor investimento : Itaú Unibanco e Brasesco",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "Itaú Unibanco e Brasesco",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "parataxis",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444519209742381056l",
+          "text": "#SUZB5 - Suzano : Investimento de 2014 ficará em R$ 1,75 bilhão , queda de 33 % - http://t.co/id9R8MCGE4",
+          "realization": {
+            "Arg0": "Suzano",
+            "Arg1": "R$ 1,75 bilhão",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "appos",
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447161570007982082l",
+          "text": "To vendo os numeros de a compra de a refinaria por a petr4 em o JN . Nao parece muito fora . Os belgas tiveram invest. + capex. 01/02",
+          "realization": {
+            "Arg0": "Os belgas",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448600303500533760l",
+          "text": "Standard & Poor’s revê classificação de risco e mantém o Grau de Investimento . http://t.co/1ZnxOUvXV7 #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459035481196724225l",
+          "text": "CSN #CSNA3 A cia e o consórcio asiático sócio de a Namisa estão próximos de um consenso em relação a o investimento ... http://t.co/NggvIdgl3I",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441409696948584448l",
+          "text": "RT @chrinvestor : Preocupações com a #PETR4 não param de crescer : produção , sumiço de investimentos , caixa e o endividamento . Quem arrisca u …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448601665160355840l",
+          "text": "Tenho papéis de a PETR4 e , por o jeito , vai demorar 1 decada para recuperar meu investimento . Estou ganhando um ' jabaculê ' lançando ' opção ' .",
+          "realization": {
+            "Arg0": "meu",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443116596328800256l",
+          "text": "Foco de empresas de o Brasil em eficiência passa por menos investimento em 2014 : Até agora o a ... http://t.co/GziH575KhU #infomoney #vale5",
+          "realization": {
+            "Arg0": "empresas de o Brasil",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444585471096938497l",
+          "text": "@joseserra_ Petr4 é investimento pra LP , depois de 9 anos , voltou a o preço de 2005 , milhares de trabalhadores enganados com o FGTS .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "Petr4",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458630609720836097l",
+          "text": "#PETR4 #PETR3 #NYSE RT @bastidoresmt : Unica contesta Graça Foster e Petrobras sobre falta de investimentos http://t.co/KJbvuf24Iw",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447144710101286912l",
+          "text": "@petrobras @valor_economico #Petrobrás #PETR4 : Se ref. Pasadeña é superfaturada , então invest. pré-sal estão mais ! http://t.co/8wIGJxKbao",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": null,
+            "Arg2": "pré-sal",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis:hashtag",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456417455875690497l",
+          "text": "A Ambev fará o maior investimento de sua história em 2014 . Serão R$ 6 Bilhões . Intenção é voltar a crescer 2,5 % a o ano . #ABEV3",
+          "realization": {
+            "Arg0": "A Ambev",
+            "Arg1": "R$ 6 Bilhões",
+            "Arg2": "voltar a crescer 2,5 % a o ano",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "parataxis",
+            "Arg2": "csubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456492096237477888l",
+          "text": "RT @chrinvestor : A Ambev fará o maior investimento de sua história em 2014 . Serão R$ 6 Bilhões . Intenção é voltar a crescer 2.5 % a o ano . #A …",
+          "realization": {
+            "Arg0": "A Ambev",
+            "Arg1": "R$ 6 Bilhões",
+            "Arg2": "voltar a crescer 2.5 % a o ano",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "parataxis",
+            "Arg2": "csubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456391863964954624l",
+          "text": "@silviusmille despencam valor d mercado por endividamento para investimento . Então , independente d quem for a faixa , em 2018 petr4 vai bombar",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455901715850874880l",
+          "text": "#MEAT #BOVESPA #JBSS3 #FRIBOI IPO de a JBS Foods ajudaria JBS a financiar investimentos : http://t.co/v9DrUDFco8",
+          "realization": {
+            "Arg0": "JBS",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451691747266297856l",
+          "text": "China anunciou um plano de incentivo a a economia . O governo chinês pretende aumentar os investimentos em ferrovias e moradias . Bom p/ #VALE5 .",
+          "realization": {
+            "Arg0": "O governo chinês",
+            "Arg1": null,
+            "Arg2": "em ferrovias e moradias",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451693774117552128l",
+          "text": "RT @chrinvestor : China anunciou um plano de incentivo a a economia . O governo chinês pretende aumentar os investimentos em ferrovias e moradi …",
+          "realization": {
+            "Arg0": "O governo chinês",
+            "Arg1": null,
+            "Arg2": "em ferrovias e moradi",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 8,
+          "nmod": 4,
+          "parataxis:hashtag": 3,
+          "appos": 1,
+          "det": 1,
+          "obj": 1
+        },
+        "Arg1": {
+          "obl": 1,
+          "parataxis": 2
+        },
+        "Arg2": {
+          "obj": 1,
+          "nmod": 7,
+          "obl": 2,
+          "parataxis": 1,
+          "nsubj": 1,
+          "csubj": 2
+        }
+      }
+    }
+  ]
+}

@@ -75,14 +75,14 @@
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
+            "Arg3": "Itaú",
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": null,
             "Arg2": null,
-            "Arg3": null,
+            "Arg3": "nsubj",
             "Arg4": null
           }
         },
@@ -93,14 +93,14 @@
             "Arg0": null,
             "Arg1": null,
             "Arg2": "de R$ 0,57",
-            "Arg3": null,
+            "Arg3": "PETR4 x PETR3",
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": null,
             "Arg2": "nmod",
-            "Arg3": null,
+            "Arg3": "nmod",
             "Arg4": null
           }
         }
@@ -110,7 +110,8 @@
           "nmod": 2
         },
         "Arg3": {
-          "nmod": 2
+          "nmod": 3,
+          "nsubj": 1
         }
       }
     }

@@ -1,0 +1,617 @@
+{
+  "lemma": "notícia",
+  "lemma_base": "notícia",
+  "senses": [
+    {
+      "pt_roleset": "notícia.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "news.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/news.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441918867078537217l",
+          "text": "#VALE5 suportes e resistências , veja ainda notícia em o comentário . http://t.co/sJrLzoBlUT",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446250336194682880l",
+          "text": "$BVMF3 - Bmfbovespa ( bvmf-nm ) - Esclarecimento Sobre Noticia Veiculada Em a Midia http://t.co/dZxOwGCIDa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "$BVMF3 - Bmfbovespa ( bvmf-nm )",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444489297979527168l",
+          "text": "Moçada , alguém tem notícia de o julgamento de o STJ sobre os bancos ? Tô precisando comprar umas BBAS3 em esse patamar de $ 19 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o julgamento de o STJ sobre os bancos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448153406952468480l",
+          "text": "Quanto mais notícia ruim vaza em a mídia sobre a PETR4 , mais ela sobe em a bolsa de valores ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "sobre a PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_457104319431864321l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Esclarecimento Sobre Noticia http://t.co/0WcHasfUxB",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "$ELET3 - Eletrobras ( elet-n1 )",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449180474708344832l",
+          "text": "Me mostra o gráfico que eu te digo a notícia ! ! ! petr4 mmxm3 quer mais ?",
+          "realization": {
+            "Arg0": "eu",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450817947645530112l",
+          "text": "@AlexCanoas13 @gilmardarosa Basta ver o comportamento de a sua ação ( PETR4 ) em a bolsa de valores com as notícias de queda de popularidade de a D.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de queda de popularidade de a D.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443351728386498560l",
+          "text": "#PETR4 mais uma ' ótima ' notícia para a Petrobomba ! ! ! Rumo a o 0,01 http://t.co/ZFlkPnZLqE",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "para a Petrobomba",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443353179582111744l",
+          "text": "RT @valoramais : #PETR4 mais uma ' ótima ' notícia para a Petrobomba ! ! ! Rumo a o 0,01 http://t.co/haW8wgNzKP",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "para a Petrobomba",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456459699874185216l",
+          "text": "INTERESSANTE : A boa notícia de o dia vem de a China e a Vale3 , sobe só 0,8 % e a Vale5 , + 0,89 %",
+          "realization": {
+            "Arg0": "de a China",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obl",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445912636501532672l",
+          "text": "Antecipamos aqui que ITUB4 passaria PETR4 em peso em o IBOV . Hoje está saindo noticias confirmando . @ferrisss @dfittarelli",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "que ITUB4 passaria PETR4 em peso em o IBOV",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "ccomp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448885656325197824l",
+          "text": "a o menos uma boa notícia ... a Fitch não mexeu em a nota de a #PETR4 ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "a Fitch não mexeu em a nota de a #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "parataxis",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454228294846935040l",
+          "text": "$USIM5 - CSN e Usiminas : Má notícia [ Newsletter ADVFN ] http://t.co/bYvAc3uGY2",
+          "realization": {
+            "Arg0": "Newsletter ADVFN",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "CSN e Usiminas",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442001677147996160l",
+          "text": "#VALE5 : O mau humor em torno de a China e notícias de que algumas siderúrgicas de o País sofreram corte de ... http://t.co/0rnoXMSuoZ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de que algumas siderúrgicas de o País sofreram corte de ...",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441563014731665408l",
+          "text": "Essa notícia de o recorde de produção de a #PETR4 em o pré sal ta com uma cara de ter vindo pra tentar defender fundo ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o recorde de produção de a #PETR4 em o pré sal",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460887445442027520l",
+          "text": "As 3 notícias que fizeram a Vale cair mais de 2,5 % em a Bolsa : Com notícias que vão desde Guin ... http://t.co/armt9KOQ2f #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "a Vale",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nsubj",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460887445442027520l",
+          "text": "As 3 notícias que fizeram a Vale cair mais de 2,5 % em a Bolsa : Com notícias que vão desde Guin ... http://t.co/armt9KOQ2f #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461536397468639232l",
+          "text": "Diz bom de comprar $ABEV3 . Caindo 5 % com notícia de taxação . Eu vou em essa .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de taxação",
+            "Arg2": null,
+            "Arg3": "$ABEV3",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "obj",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461538650585829376l",
+          "text": "“ @buiux : Diz bom de comprar $ABEV3 . Caindo 5 % com notícia de taxação . Eu vou em essa . ” Deu sinal gráfico ou só tais em o fundamento .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de taxação",
+            "Arg2": null,
+            "Arg3": "$ABEV3",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "obj",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441958852410372096l",
+          "text": "#PETR4 Vigilante morre durante ataque a caixas eletrônicos em a Petrobras - notícias em Santos e Região http://t.co/nd5KXSoEa8 via @g1",
+          "realization": {
+            "Arg0": "via @g1",
+            "Arg1": "Vigilante morre durante ataque a caixas eletrônicos em a Petrobras",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "parataxis",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471288493856268288l",
+          "text": "E essa arrancada de BBAS3 hein ? Variou mais de $ 1 entre a mínima e a máxima ! Tá bem volátil hoje , vem notícia por aí !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "BBAS3",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456106757962862592l",
+          "text": "#TIMP3 Saiu notícia de que a TIM vai vender torres igual a OI fez ano passado . Lógico que isso vai gerar um belo caixa mas e os clientes ? rs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de que a TIM vai vender torres igual a OI fez ano passado",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443024517963972609l",
+          "text": "#PETR4 rompeu a barreira de os R$ 13 ! ! Agora eu me pergunto : e se vier a notícia de o rebaixamento de a dívida soberana em o final de este mês ! ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o rebaixamento de a dívida soberana em o final de este mês",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443573367518822401l",
+          "text": "RT @bovespabrokers : #PETR4 rompeu a barreira de os R$ 13 ! ! Agora eu me pergunto : e se vier a notícia de o rebaixamento de a dívida soberana em o …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o rebaixamento de a dívida soberana em o …",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454228309287895040l",
+          "text": "$CSNA3 - CSN e Usiminas : Má notícia [ Newsletter ADVFN ] http://t.co/il4dCT8EMC",
+          "realization": {
+            "Arg0": "Newsletter ADVFN",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "CSN e Usiminas",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "parataxis",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459665910274748416l",
+          "text": "$VALE5 - Vale : Excelente notícia [ Newsletter ADVFN ] http://t.co/MtvZrUaNZW",
+          "realization": {
+            "Arg0": "Newsletter ADVFN",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "Vale",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "parataxis",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446696198293184512l",
+          "text": "Petr4 - Quando ha noticias ´ ´ boas ´ ´ acao cai .. quando aparece escandalos e outras not. nao agradeveis , sobe .. #toforaaaaa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "Petr4",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "parataxis",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446696198293184512l",
+          "text": "Petr4 - Quando ha noticias ´ ´ boas ´ ´ acao cai .. quando aparece escandalos e outras not. nao agradeveis , sobe .. #toforaaaaa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "Petr4",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "parataxis",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448447631103381504l",
+          "text": "#petr4 por que será que a notícia ruim sempre vem em um objetivo ? kkkk",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "#petr4",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "parataxis:hashtag",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459298442406539264l",
+          "text": "Bom dia , Mercados com boas notícias hj . FAcebook e Apple em os EUA , IFO de a Alemanha , captação em a Espanha e Resultados de USIM5 e BBDC4 aqui .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "FAcebook e Apple em os EUA , IFO de a Alemanha , captação em a Espanha e Resultados de USIM5 e BBDC4 aqui",
+            "Arg2": null,
+            "Arg3": "Mercados",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "parataxis",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471702597414690816l",
+          "text": "Organização Mundial de Saúde faz incentivo a o aumento de os impostos em o tabaco para salvar mais vidas , efeito de a notícia foi venda em a #CRUZ3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Organização Mundial de Saúde faz incentivo a o aumento de os impostos em o tabaco para salvar mais vidas",
+            "Arg2": null,
+            "Arg3": "#CRUZ3",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "parataxis",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1,
+          "obl": 1,
+          "parataxis": 3,
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 8,
+          "ccomp": 1,
+          "parataxis": 4,
+          "acl": 2
+        },
+        "Arg3": {
+          "nmod": 8,
+          "nsubj": 1,
+          "obj": 2,
+          "parataxis": 4,
+          "parataxis:hashtag": 1
+        }
+      }
+    }
+  ]
+}
