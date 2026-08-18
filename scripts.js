@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'o': ["obrigação", "oferta", "outorga", "olhada", "olho"],
     'p': ["post", "postagem", "procura", "projeto", "projeção", "proposta", "pagador", "pedido", "perspectiva", "posição", "pagamento"],
     'r': ["relação", "resolução", "responsabilidade", "rateio", "retorno", "reeleição", "redução", "renúncia", "racionamento", "risco", "reapresentação", "reunião", "recomendação", "relatório", "recompra", "resistência"],
-    's': ["solicitação", "sugestão", "spread (diferença)"],
+    's': ["solicitação", "sugestão", "spread"],
     't': ["transferência", "transporte", "troca", "teste", "taxação", "tendência", "trade"],
     'v': ["vendedor", "visão", "volta", "venda"],
     'z': ["zona"]
