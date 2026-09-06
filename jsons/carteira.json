@@ -6,7 +6,7 @@
       "pt_roleset": "carteira.01",
       "pt_sense_index": 1,
       "pt_sense_hint": 1,
-      "english_roleset": "portfolio.04",
+      "english_roleset": "portfolio.01",
       "english_roleset_source": null,
       "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/portfolio.xml",
       "roles": [
