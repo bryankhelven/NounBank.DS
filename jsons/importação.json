@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446161011943669760l::importação::1",
+          "predicate": {
+            "form": "importação",
+            "char_start": 43,
+            "char_end": 53
           }
         }
       ],

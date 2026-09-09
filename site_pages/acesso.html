@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,7 +105,7 @@ body{margin:0;}
 <li class="arg1">Arg 1: thing accessed</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Vale diz que <span class="rel">acesso</span> de <span class="arg0">Valemax</span> a a <span class="arg1">China</span> é desejável , mas não necessário : Os navios , com capac ... http://t.co/DUDYluUL6A #infomoney#vale5</h3>
+  <h3 data-instance-id="dante_01_464089554719215617l::acesso::1">1: Vale diz que <span class="rel">acesso</span> de <span class="arg0">Valemax</span> a a <span class="arg1">China</span> é desejável , mas não necessário : Os navios , com capac ... http://t.co/DUDYluUL6A #infomoney#vale5</h3>
 <ul>
 <li class="rel">rel: acesso</li>
 <li class="arg0">Arg 0: Valemax</li>
@@ -113,7 +118,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">Valemax</td><td class="arg1">China</td><td class='texto'>Vale diz que <span class="rel">acesso</span> de <span class="arg0">Valemax</span><sub class="deprel">nmod</sub> a a <span class="arg1">China</span><sub class="deprel">nmod</sub> é desejável , mas não necessário : Os navios , com capac ... http://t.co/DUDYluUL6A #infomoney#vale5</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_464089554719215617l::acesso::1"><td>1</td><td class="arg0">Valemax</td><td class="arg1">China</td><td class='texto'>Vale diz que <span class="rel">acesso</span> de <span class="arg0">Valemax</span><sub class="deprel">nmod</sub> a a <span class="arg1">China</span><sub class="deprel">nmod</sub> é desejável , mas não necessário : Os navios , com capac ... http://t.co/DUDYluUL6A #infomoney#vale5</td></tr></tbody>
     </table>
     
   

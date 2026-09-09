@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: ext, amount fallen</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $SBSP3 - SABESP amplia programa de incentivo a a <span class="rel">redução</span> <span class="arg1">de consumo de água</span> para outros municípios http://t.co/PQ4UFRy9fE</h3>
+  <h3 data-instance-id="dante_01_471785265049382912l::redução::1">1: $SBSP3 - SABESP amplia programa de incentivo a a <span class="rel">redução</span> <span class="arg1">de consumo de água</span> para outros municípios http://t.co/PQ4UFRy9fE</h3>
 <ul>
 <li class="rel">rel: redução</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: de consumo de água</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: Mudanças em a carteira de ações de a Lato Sensu . Saída de AEDU3 e BBSE3 ( por apresentarem <span class="rel">redução</span> <span class="arg1">em o seus valores</span> ... http://t.co/1LVOZVEF5e</h3>
+<h3 data-instance-id="dante_01_461038611555958784l::redução::1">2: Mudanças em a carteira de ações de a Lato Sensu . Saída de AEDU3 e BBSE3 ( por apresentarem <span class="rel">redução</span> <span class="arg1">em o seus valores</span> ... http://t.co/1LVOZVEF5e</h3>
 <ul>
 <li class="rel">rel: redução</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">de consumo de água</td><td class="arg2">-</td><td class='texto'>$SBSP3 - SABESP amplia programa de incentivo a a <span class="rel">redução</span> <span class="arg1">de consumo de água</span><sub class="deprel">nmod</sub> para outros municípios http://t.co/PQ4UFRy9fE</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">em o seus valores</td><td class="arg2">-</td><td class='texto'>Mudanças em a carteira de ações de a Lato Sensu . Saída de AEDU3 e BBSE3 ( por apresentarem <span class="rel">redução</span> <span class="arg1">em o seus valores</span><sub class="deprel">nmod</sub> ... http://t.co/1LVOZVEF5e</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_471785265049382912l::redução::1"><td>1</td><td class="arg0">-</td><td class="arg1">de consumo de água</td><td class="arg2">-</td><td class='texto'>$SBSP3 - SABESP amplia programa de incentivo a a <span class="rel">redução</span> <span class="arg1">de consumo de água</span><sub class="deprel">nmod</sub> para outros municípios http://t.co/PQ4UFRy9fE</td></tr><tr data-instance-id="dante_01_461038611555958784l::redução::1"><td>2</td><td class="arg0">-</td><td class="arg1">em o seus valores</td><td class="arg2">-</td><td class='texto'>Mudanças em a carteira de ações de a Lato Sensu . Saída de AEDU3 e BBSE3 ( por apresentarem <span class="rel">redução</span> <span class="arg1">em o seus valores</span><sub class="deprel">nmod</sub> ... http://t.co/1LVOZVEF5e</td></tr></tbody>
     </table>
     
   

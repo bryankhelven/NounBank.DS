@@ -48,6 +48,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448936578715774977l::comissão::1",
+          "predicate": {
+            "form": "comissão",
+            "char_start": 69,
+            "char_end": 77
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458779058290315264l::comissão::1",
+          "predicate": {
+            "form": "Comissão",
+            "char_start": 27,
+            "char_end": 35
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446064765740515328l::comissão::1",
+          "predicate": {
+            "form": "comissão",
+            "char_start": 46,
+            "char_end": 54
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448936393461731328l::comissão::1",
+          "predicate": {
+            "form": "comissão",
+            "char_start": 48,
+            "char_end": 56
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": "obj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443546384562917376l::comissão::1",
+          "predicate": {
+            "form": "comissão",
+            "char_start": 61,
+            "char_end": 69
           }
         }
       ],

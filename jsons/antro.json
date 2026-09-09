@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447207141154504706l::antro::1",
+          "predicate": {
+            "form": "antro",
+            "char_start": 22,
+            "char_end": 27
           }
         }
       ],

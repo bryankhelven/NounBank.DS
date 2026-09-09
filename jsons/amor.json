@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460034860225429504l::amor::1",
+          "predicate": {
+            "form": "amor",
+            "char_start": 106,
+            "char_end": 110
           }
         }
       ],

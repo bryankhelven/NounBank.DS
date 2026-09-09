@@ -48,6 +48,12 @@
             "Arg2": "flat:name",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455723336879075328l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 77,
+            "char_end": 85
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453581504170717184l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 65,
+            "char_end": 73
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461484549030297600l::contrato::1",
+          "predicate": {
+            "form": "contratos",
+            "char_start": 104,
+            "char_end": 113
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456479295968272384l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 20,
+            "char_end": 28
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453237939460669440l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 34,
+            "char_end": 42
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453504179232079872l::contrato::1",
+          "predicate": {
+            "form": "Contrato",
+            "char_start": 46,
+            "char_end": 54
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472334907549954048l::contrato::1",
+          "predicate": {
+            "form": "contratos",
+            "char_start": 104,
+            "char_end": 113
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443031972336525312l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 26,
+            "char_end": 34
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449526805775790080l::contrato::1",
+          "predicate": {
+            "form": "contrato",
+            "char_start": 47,
+            "char_end": 55
           }
         }
       ],

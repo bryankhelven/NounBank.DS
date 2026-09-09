@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464089901571788800l::desova::1",
+          "predicate": {
+            "form": "desova",
+            "char_start": 17,
+            "char_end": 23
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_463775892947611648l::desova::1",
+          "predicate": {
+            "form": "desova",
+            "char_start": 69,
+            "char_end": 75
           }
         }
       ],

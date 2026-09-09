@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460927671674089472l::comprador::1",
+          "predicate": {
+            "form": "comprador",
+            "char_start": 44,
+            "char_end": 53
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472452386892808192l::comprador::1",
+          "predicate": {
+            "form": "compradores",
+            "char_start": 100,
+            "char_end": 111
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449535275161907200l::comprador::1",
+          "predicate": {
+            "form": "compradores",
+            "char_start": 5,
+            "char_end": 16
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445961619060035584l::comprador::1",
+          "predicate": {
+            "form": "comprador",
+            "char_start": 78,
+            "char_end": 87
           }
         }
       ],

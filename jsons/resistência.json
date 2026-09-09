@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441232296549814272l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441232632815558656l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441232913498386433l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441918867078537217l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443349556143878144l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -138,7 +168,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_450626214013960192l::resistência::1"
         },
         {
           "sent_ID": "dante_01_449179780374491137l",
@@ -156,6 +187,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449179780374491137l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -174,6 +211,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449179780374491137l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -192,6 +235,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449545153137491968l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 41,
+            "char_end": 53
           }
         },
         {
@@ -210,6 +259,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449545153137491968l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 109,
+            "char_end": 121
           }
         },
         {
@@ -228,6 +283,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450627129328148480l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -246,6 +307,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450627129328148480l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -264,6 +331,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450997756396457984l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -282,6 +355,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450997756396457984l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -300,6 +379,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451350272934043649l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -318,6 +403,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451350272934043649l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -336,6 +427,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452100882658635776l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -354,6 +451,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452100882658635776l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -372,6 +475,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453167412829896704l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -390,6 +499,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453167412829896704l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -408,6 +523,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453538156524998656l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -426,6 +547,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453538156524998656l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -444,6 +571,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453995260587175936l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -462,6 +595,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453995260587175936l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -480,6 +619,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454263228046905344l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -498,6 +643,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454263228046905344l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -516,6 +667,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454684052935565312l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -534,6 +691,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454684052935565312l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -552,6 +715,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455747320068308992l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -570,6 +739,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455747320068308992l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -588,6 +763,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456072860755189761l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -606,6 +787,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456072860755189761l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -624,6 +811,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456427787113349120l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -642,6 +835,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456427787113349120l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 109,
+            "char_end": 121
           }
         },
         {
@@ -660,6 +859,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456807140955394048l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -678,6 +883,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456807140955394048l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -696,6 +907,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458613005102505984l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -714,6 +931,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458613005102505984l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -732,6 +955,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459337336161972224l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -750,6 +979,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459337336161972224l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -768,6 +1003,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459698699480748032l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -786,6 +1027,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459698699480748032l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -804,6 +1051,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460782961156030464l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -822,6 +1075,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460782961156030464l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -840,6 +1099,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461251700347518977l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -858,6 +1123,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461251700347518977l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -876,6 +1147,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466939517224906752l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -894,6 +1171,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466939517224906752l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -912,6 +1195,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441629764978085888l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 39,
+            "char_end": 51
           }
         },
         {
@@ -930,6 +1219,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441629764978085888l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 108,
+            "char_end": 120
           }
         },
         {
@@ -948,6 +1243,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441969694560366592l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -966,6 +1267,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441969694560366592l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -984,6 +1291,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443019802525708288l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1002,6 +1315,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443019802525708288l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1020,6 +1339,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443434937526398976l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1038,6 +1363,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443434937526398976l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1056,6 +1387,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443836032895549440l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 39,
+            "char_end": 51
           }
         },
         {
@@ -1074,6 +1411,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443836032895549440l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 107,
+            "char_end": 119
           }
         },
         {
@@ -1092,6 +1435,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444116175312527360l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1110,6 +1459,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444116175312527360l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1128,6 +1483,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444512600072544257l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 41,
+            "char_end": 53
           }
         },
         {
@@ -1146,6 +1507,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444512600072544257l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -1164,6 +1531,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445577499796180993l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1182,6 +1555,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445577499796180993l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1200,6 +1579,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445931894706679808l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1218,6 +1603,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446273334154502144l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1236,6 +1627,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446273334154502144l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1254,6 +1651,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446639141099294720l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1272,6 +1675,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446639141099294720l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1290,6 +1699,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447010730395447296l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1308,6 +1723,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447010730395447296l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1326,6 +1747,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448097257447903232l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1344,6 +1771,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448097257447903232l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1362,6 +1795,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448460771865804800l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1380,6 +1819,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448460771865804800l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -1398,6 +1843,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448819641628884992l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1416,6 +1867,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448819641628884992l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1434,6 +1891,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461550573804744706l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1452,6 +1915,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461550573804744706l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1470,6 +1939,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468754615249666048l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1488,6 +1963,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468754615249666048l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 111,
+            "char_end": 123
           }
         },
         {
@@ -1506,6 +1987,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469865109679259649l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 41,
+            "char_end": 53
           }
         },
         {
@@ -1524,6 +2011,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469865109679259649l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -1542,6 +2035,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472009809546715136l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 42,
+            "char_end": 54
           }
         },
         {
@@ -1560,6 +2059,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472009809546715136l::resistência::2",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 110,
+            "char_end": 122
           }
         },
         {
@@ -1578,6 +2083,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441233917132025856l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 24,
+            "char_end": 35
           }
         },
         {
@@ -1596,6 +2107,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459816181646766081l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 15,
+            "char_end": 26
           }
         },
         {
@@ -1614,7 +2131,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448083263895371776l::resistência::1"
         },
         {
           "sent_ID": "dante_01_461129245134426113l",
@@ -1632,6 +2150,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461129245134426113l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 111,
+            "char_end": 122
           }
         },
         {
@@ -1650,6 +2174,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464071516313772032l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 45,
+            "char_end": 56
           }
         },
         {
@@ -1668,6 +2198,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461130593787719680l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 117,
+            "char_end": 128
           }
         },
         {
@@ -1686,6 +2222,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456481097593798656l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 16,
+            "char_end": 27
           }
         },
         {
@@ -1704,6 +2246,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445973479092146176l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 20,
+            "char_end": 31
           }
         },
         {
@@ -1722,6 +2270,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449171971776188416l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 6,
+            "char_end": 17
           }
         },
         {
@@ -1740,6 +2294,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466311542431318016l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 14,
+            "char_end": 25
           }
         },
         {
@@ -1758,6 +2318,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452580832293949440l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 28,
+            "char_end": 39
           }
         },
         {
@@ -1776,6 +2342,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446697240779051008l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 7,
+            "char_end": 18
           }
         },
         {
@@ -1794,6 +2366,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456515173910446080l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 58,
+            "char_end": 69
           }
         },
         {
@@ -1812,6 +2390,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448459457060937728l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 37,
+            "char_end": 48
           }
         },
         {
@@ -1830,6 +2414,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441560681247412225l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 101,
+            "char_end": 112
           }
         },
         {
@@ -1848,6 +2438,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443349920305922048l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1866,6 +2462,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443350283712987136l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1884,6 +2486,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448798586508046336l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1902,6 +2510,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450636277323694080l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1920,6 +2534,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450656273537974272l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1938,6 +2558,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952407371882496l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1956,6 +2582,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952525928071169l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1974,6 +2606,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952587366641664l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -1992,6 +2630,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952640839434241l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2010,6 +2654,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952720048861185l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2028,6 +2678,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952785819742209l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2046,6 +2702,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450952918947340288l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2064,6 +2726,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456039737456070656l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2082,6 +2750,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456041228111728640l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2100,6 +2774,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456041419699142656l::resistência::1",
+          "predicate": {
+            "form": "resistências",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -2118,6 +2798,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445967525386665984l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 5,
+            "char_end": 16
           }
         },
         {
@@ -2136,6 +2822,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453527449301954560l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 35,
+            "char_end": 46
           }
         },
         {
@@ -2154,6 +2846,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450638876106055680l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 83,
+            "char_end": 94
           }
         },
         {
@@ -2172,7 +2870,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_445985201743986688l::resistência::1"
         },
         {
           "sent_ID": "dante_01_443150664760578048l",
@@ -2190,7 +2889,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_443150664760578048l::resistência::1"
         },
         {
           "sent_ID": "dante_01_469523160363466753l",
@@ -2208,6 +2908,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469523160363466753l::resistência::1",
+          "predicate": {
+            "form": "resistência",
+            "char_start": 25,
+            "char_end": 36
           }
         },
         {
@@ -2226,7 +2932,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453304185224953856l::resistência::1"
         }
       ],
       "syntactic_profile": {

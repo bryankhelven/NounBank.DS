@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469457551306665984l::aditivo::1",
+          "predicate": {
+            "form": "aditivos",
+            "char_start": 77,
+            "char_end": 85
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446266855536492544l::aditivo::1",
+          "predicate": {
+            "form": "Aditivo",
+            "char_start": 57,
+            "char_end": 64
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446975526323109888l::aditivo::1",
+          "predicate": {
+            "form": "Aditivo",
+            "char_start": 63,
+            "char_end": 70
           }
         }
       ],

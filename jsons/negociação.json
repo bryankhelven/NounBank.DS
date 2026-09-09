@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469538033432137728l::negociação::1",
+          "predicate": {
+            "form": "negociação",
+            "char_start": 52,
+            "char_end": 62
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459389829080690689l::negociação::1"
         },
         {
           "sent_ID": "dante_01_454587433800458240l",
@@ -84,7 +91,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_454587433800458240l::negociação::1"
         },
         {
           "sent_ID": "dante_01_462331459194601472l",
@@ -102,7 +110,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_462331459194601472l::negociação::1"
         }
       ],
       "syntactic_profile": {

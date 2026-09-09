@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441918867078537217l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 44,
+            "char_end": 51
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446250336194682880l::notícia::1"
         },
         {
           "sent_ID": "dante_01_444489297979527168l",
@@ -84,6 +91,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444489297979527168l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 20,
+            "char_end": 27
           }
         },
         {
@@ -102,6 +115,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448153406952468480l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 12,
+            "char_end": 19
           }
         },
         {
@@ -120,7 +139,8 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_457104319431864321l::notícia::1"
         },
         {
           "sent_ID": "dante_01_449180474708344832l",
@@ -138,6 +158,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449180474708344832l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 37,
+            "char_end": 44
           }
         },
         {
@@ -156,6 +182,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450817947645530112l::notícia::1",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 107,
+            "char_end": 115
           }
         },
         {
@@ -174,6 +206,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443351728386498560l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 26,
+            "char_end": 33
           }
         },
         {
@@ -192,6 +230,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443353179582111744l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 43,
+            "char_end": 50
           }
         },
         {
@@ -210,6 +254,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456459699874185216l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 21,
+            "char_end": 28
           }
         },
         {
@@ -228,7 +278,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_445912636501532672l::notícia::1"
         },
         {
           "sent_ID": "dante_01_448885656325197824l",
@@ -246,6 +297,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448885656325197824l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 18,
+            "char_end": 25
           }
         },
         {
@@ -264,6 +321,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_454228294846935040l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 29,
+            "char_end": 36
           }
         },
         {
@@ -282,6 +345,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442001677147996160l::notícia::1",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 43,
+            "char_end": 51
           }
         },
         {
@@ -300,6 +369,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441563014731665408l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 5,
+            "char_end": 12
           }
         },
         {
@@ -318,6 +393,12 @@
             "Arg2": null,
             "Arg3": "nsubj",
             "Arg4": null
+          },
+          "instance_id": "dante_01_460887445442027520l::notícia::1",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 5,
+            "char_end": 13
           }
         },
         {
@@ -336,6 +417,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460887445442027520l::notícia::2",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 69,
+            "char_end": 77
           }
         },
         {
@@ -354,6 +441,12 @@
             "Arg2": null,
             "Arg3": "obj",
             "Arg4": null
+          },
+          "instance_id": "dante_01_461536397468639232l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 43,
+            "char_end": 50
           }
         },
         {
@@ -372,6 +465,12 @@
             "Arg2": null,
             "Arg3": "obj",
             "Arg4": null
+          },
+          "instance_id": "dante_01_461538650585829376l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 54,
+            "char_end": 61
           }
         },
         {
@@ -390,6 +489,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441958852410372096l::notícia::1",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 76,
+            "char_end": 84
           }
         },
         {
@@ -408,6 +513,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_471288493856268288l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 106,
+            "char_end": 113
           }
         },
         {
@@ -426,6 +537,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456106757962862592l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 12,
+            "char_end": 19
           }
         },
         {
@@ -444,6 +561,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443024517963972609l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 76,
+            "char_end": 83
           }
         },
         {
@@ -462,6 +585,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443573367518822401l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 97,
+            "char_end": 104
           }
         },
         {
@@ -480,6 +609,12 @@
             "Arg2": null,
             "Arg3": "parataxis",
             "Arg4": null
+          },
+          "instance_id": "dante_01_454228309287895040l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 29,
+            "char_end": 36
           }
         },
         {
@@ -498,6 +633,12 @@
             "Arg2": null,
             "Arg3": "parataxis",
             "Arg4": null
+          },
+          "instance_id": "dante_01_459665910274748416l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 26,
+            "char_end": 33
           }
         },
         {
@@ -516,7 +657,8 @@
             "Arg2": null,
             "Arg3": "parataxis",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446696198293184512l::notícia::1"
         },
         {
           "sent_ID": "dante_01_446696198293184512l",
@@ -534,7 +676,8 @@
             "Arg2": null,
             "Arg3": "parataxis",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446696198293184512l::notícia::2"
         },
         {
           "sent_ID": "dante_01_448447631103381504l",
@@ -552,6 +695,12 @@
             "Arg2": null,
             "Arg3": "parataxis:hashtag",
             "Arg4": null
+          },
+          "instance_id": "dante_01_448447631103381504l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 26,
+            "char_end": 33
           }
         },
         {
@@ -570,6 +719,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_459298442406539264l::notícia::1",
+          "predicate": {
+            "form": "notícias",
+            "char_start": 28,
+            "char_end": 36
           }
         },
         {
@@ -588,6 +743,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_471702597414690816l::notícia::1",
+          "predicate": {
+            "form": "notícia",
+            "char_start": 119,
+            "char_end": 126
           }
         }
       ],

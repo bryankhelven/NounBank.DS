@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451152647618166786l::discussão::1",
+          "predicate": {
+            "form": "Discussão",
+            "char_start": 0,
+            "char_end": 9
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454023247101562882l::discussão::1",
+          "predicate": {
+            "form": "Discussão",
+            "char_start": 0,
+            "char_end": 9
           }
         }
       ],

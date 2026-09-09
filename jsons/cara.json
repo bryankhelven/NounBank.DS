@@ -12,15 +12,15 @@
       "roles": [
         {
           "id": "Arg0",
-          "desc": "theme"
+          "desc": null
         },
         {
           "id": "Arg1",
-          "desc": "value"
+          "desc": "theme"
         },
         {
           "id": "Arg2",
-          "desc": null
+          "desc": "value"
         },
         {
           "id": "Arg3",
@@ -36,118 +36,154 @@
           "sent_ID": "dante_01_454691501646557184l",
           "text": "@live_trade tá mesmo com uma cara boa essa venda . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .",
           "realization": {
-            "Arg0": "essa venda",
-            "Arg1": "boa",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "essa venda",
+            "Arg2": "boa",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "amod",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454691501646557184l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 29,
+            "char_end": 33
           }
         },
         {
           "sent_ID": "dante_01_443436776175443968l",
           "text": "Vc tem dúvida q o #IBOLESMA está a cara de o PT ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !",
           "realization": {
-            "Arg0": "o #IBOLESMA está",
-            "Arg1": "de o PT",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "o #IBOLESMA está",
+            "Arg2": "de o PT",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "cop",
-            "Arg1": "nmod",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "cop",
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443436776175443968l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 35,
+            "char_end": 39
           }
         },
         {
           "sent_ID": "dante_01_443438174216671233l",
           "text": "RT @picapautrader : Vc tem dúvida q o #IBOLESMA está a cara de o PT ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 …",
           "realization": {
-            "Arg0": "o #IBOLESMA está",
-            "Arg1": "de o PT",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "o #IBOLESMA está",
+            "Arg2": "de o PT",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "cop",
-            "Arg1": "nmod",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "cop",
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443438174216671233l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 55,
+            "char_end": 59
           }
         },
         {
           "sent_ID": "dante_01_451345855191478273l",
           "text": "@Live_Trade Em a #VALE5 tem gap em 27,90 e com cara de ir lá , cachorro é cachorro , viado é viado e gap é gap !",
           "realization": {
-            "Arg0": "gap em 27,90",
-            "Arg1": "de ir lá",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "gap em 27,90",
+            "Arg2": "de ir lá",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "advmod",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": "advmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451345855191478273l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 47,
+            "char_end": 51
           }
         },
         {
           "sent_ID": "dante_01_441563014731665408l",
           "text": "Essa notícia de o recorde de produção de a #PETR4 em o pré sal ta com uma cara de ter vindo pra tentar defender fundo ...",
           "realization": {
-            "Arg0": "Essa notícia",
-            "Arg1": "de ter vindo pra tentar defender fundo",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "Essa notícia",
+            "Arg2": "de ter vindo pra tentar defender fundo",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "nsubj",
-            "Arg1": "obj",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": "obj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441563014731665408l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 74,
+            "char_end": 78
           }
         },
         {
           "sent_ID": "dante_01_459024422691954688l",
           "text": "#IBOV com cara de queda ! Topo em #CESP6 ? Fundo em #PDGR3 ?",
           "realization": {
-            "Arg0": "#IBOV",
-            "Arg1": "de queda",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "#IBOV",
+            "Arg2": "de queda",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "root",
-            "Arg1": "nmod",
-            "Arg2": null,
+            "Arg0": null,
+            "Arg1": "root",
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459024422691954688l::cara::1",
+          "predicate": {
+            "form": "cara",
+            "char_start": 10,
+            "char_end": 14
           }
         }
       ],
       "syntactic_profile": {
-        "Arg0": {
+        "Arg1": {
           "nsubj": 3,
           "cop": 2,
           "root": 1
         },
-        "Arg1": {
+        "Arg2": {
           "amod": 1,
           "nmod": 3,
           "advmod": 1,

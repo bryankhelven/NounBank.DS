@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449260171496550400l::reeleição::1",
+          "predicate": {
+            "form": "reeleição",
+            "char_start": 26,
+            "char_end": 35
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449211685929508864l::reeleição::1",
+          "predicate": {
+            "form": "reeleição",
+            "char_start": 4,
+            "char_end": 13
           }
         }
       ],

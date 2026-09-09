@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451396974261338112l::meio::1",
+          "predicate": {
+            "form": "meio",
+            "char_start": 105,
+            "char_end": 109
           }
         }
       ],

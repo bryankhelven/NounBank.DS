@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,13 +105,13 @@ body{margin:0;}
 <li class="arg1">Arg 1: action</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: <span class="arg0">Oibr4</span> a <span class="rel">caminho</span> <span class="arg1">de nova máxima</span></h3>
+  <h3 data-instance-id="dante_01_463375453735374849l::caminho::1">1: <span class="arg0">Oibr4</span> a <span class="rel">caminho</span> <span class="arg1">de nova máxima</span></h3>
 <ul>
 <li class="rel">rel: caminho</li>
 <li class="arg0">Arg 0: Oibr4</li>
 <li class="arg1">Arg 1: de nova máxima</li>
 </ul>
-<h3>2: @Paty_Meirelles na PETR4 <span class="arg0">o rompimento dos R$17,75</span> abria <span class="rel">caminho</span> <span class="arg1">para uma queda até a região dos R$17,xx</span> ... Só não pensei ver isso hoje, rs</h3>
+<h3 data-instance-id="dante_01_468835433070460928l::caminho::1">2: @Paty_Meirelles na PETR4 <span class="arg0">o rompimento dos R$17,75</span> abria <span class="rel">caminho</span> <span class="arg1">para uma queda até a região dos R$17,xx</span> ... Só não pensei ver isso hoje, rs</h3>
 <ul>
 <li class="rel">rel: caminho</li>
 <li class="arg0">Arg 0: o rompimento dos R$17,75</li>
@@ -119,7 +124,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">Oibr4</td><td class="arg1">de nova máxima</td><td class='texto'><span class="arg0">Oibr4</span><sub class="deprel">root</sub> a <span class="rel">caminho</span> <span class="arg1">de nova máxima</span><sub class="deprel">nmod</sub></td></tr><tr><td>2</td><td class="arg0">o rompimento dos R$17,75</td><td class="arg1">para uma queda até a região dos R$17,xx</td><td class='texto'>@Paty_Meirelles na PETR4 <span class="arg0">o rompimento dos R$17,75</span><sub class="deprel">nsubj</sub> abria <span class="rel">caminho</span> <span class="arg1">para uma queda até a região dos R$17,xx</span><sub class="deprel">obl</sub> ... Só não pensei ver isso hoje, rs</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">&#x27; Salvação &#x27; de a OGX e OSX</td><td class='texto'><span class="arg1">&#x27; Salvação &#x27; de a OGX e OSX</span><sub class="deprel">nmod</sub> pode estar a a <span class="rel">caminho</span> , mais 5 empresas estão em o radar : Nível de o reser ... http://t.co/WYotABlDa5 #infomoney#vale5</td></tr><tr><td>4</td><td class="arg0">#PETR4</td><td class="arg1">seguindo o mesmo</td><td class='texto'><span class="arg0">#PETR4</span><sub class="deprel">nsubj</sub> <span class="arg1">seguindo o mesmo</span><sub class="deprel">det</sub> <span class="rel">caminho</span> de a #OGXP3</td></tr><tr><td>5</td><td class="arg0">#PETR4</td><td class="arg1">indo em o mesmo</td><td class='texto'><span class="arg0">#PETR4</span><sub class="deprel">nsubj</sub> <span class="arg1">indo em o mesmo</span><sub class="deprel">det</sub> <span class="rel">caminho</span> de a #OGXP3 http://t.co/jTNm4sfjJY</td></tr><tr><td>6</td><td class="arg0">#TOTS3</td><td class="arg1">de o TH</td><td class='texto'><span class="arg0">#TOTS3</span><sub class="deprel">nsubj</sub> é outra a <span class="rel">caminho</span> <span class="arg1">de o TH</span><sub class="deprel">nmod</sub> , pouco mais tímida que #RENT3</td></tr><tr><td>7</td><td class="arg0">#ecor3</td><td class="arg1">segue</td><td class='texto'>#ecor3segue seu <span class="rel">caminho</span> rsrsr</td></tr><tr><td>8</td><td class="arg0">me</td><td class="arg1">perdi em o</td><td class='texto'>@Live_Trade se nao <span class="arg0">me</span><sub class="deprel">obj</sub> <span class="arg1">perdi em o</span><sub class="deprel">det</sub> <span class="rel">caminho</span> , hoje foi , petr4 , klbn4 , vale5 , estc3 , mmxm3 e indice ! Amanha possivel a goll4 , certo ?</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_463375453735374849l::caminho::1"><td>1</td><td class="arg0">Oibr4</td><td class="arg1">de nova máxima</td><td class='texto'><span class="arg0">Oibr4</span><sub class="deprel">root</sub> a <span class="rel">caminho</span> <span class="arg1">de nova máxima</span><sub class="deprel">nmod</sub></td></tr><tr data-instance-id="dante_01_468835433070460928l::caminho::1"><td>2</td><td class="arg0">o rompimento dos R$17,75</td><td class="arg1">para uma queda até a região dos R$17,xx</td><td class='texto'>@Paty_Meirelles na PETR4 <span class="arg0">o rompimento dos R$17,75</span><sub class="deprel">nsubj</sub> abria <span class="rel">caminho</span> <span class="arg1">para uma queda até a região dos R$17,xx</span><sub class="deprel">obl</sub> ... Só não pensei ver isso hoje, rs</td></tr><tr data-instance-id="dante_01_441233076748681216l::caminho::1"><td>3</td><td class="arg0">-</td><td class="arg1">&#x27; Salvação &#x27; de a OGX e OSX</td><td class='texto'><span class="arg1">&#x27; Salvação &#x27; de a OGX e OSX</span><sub class="deprel">nmod</sub> pode estar a a <span class="rel">caminho</span> , mais 5 empresas estão em o radar : Nível de o reser ... http://t.co/WYotABlDa5 #infomoney#vale5</td></tr><tr data-instance-id="dante_01_443217384078598144l::caminho::1"><td>4</td><td class="arg0">#PETR4</td><td class="arg1">seguindo o mesmo</td><td class='texto'><span class="arg0">#PETR4</span><sub class="deprel">nsubj</sub> <span class="arg1">seguindo o mesmo</span><sub class="deprel">det</sub> <span class="rel">caminho</span> de a #OGXP3</td></tr><tr data-instance-id="dante_01_447705608960344064l::caminho::1"><td>5</td><td class="arg0">#PETR4</td><td class="arg1">indo em o mesmo</td><td class='texto'><span class="arg0">#PETR4</span><sub class="deprel">nsubj</sub> <span class="arg1">indo em o mesmo</span><sub class="deprel">det</sub> <span class="rel">caminho</span> de a #OGXP3 http://t.co/jTNm4sfjJY</td></tr><tr data-instance-id="dante_01_466312523223166979l::caminho::1"><td>6</td><td class="arg0">#TOTS3</td><td class="arg1">de o TH</td><td class='texto'><span class="arg0">#TOTS3</span><sub class="deprel">nsubj</sub> é outra a <span class="rel">caminho</span> <span class="arg1">de o TH</span><sub class="deprel">nmod</sub> , pouco mais tímida que #RENT3</td></tr><tr data-instance-id="dante_01_441581046753419264l::caminho::1"><td>7</td><td class="arg0">#ecor3</td><td class="arg1">segue</td><td class='texto'>#ecor3segue seu <span class="rel">caminho</span> rsrsr</td></tr><tr data-instance-id="dante_01_446040335706492930l::caminho::1"><td>8</td><td class="arg0">me</td><td class="arg1">perdi em o</td><td class='texto'>@Live_Trade se nao <span class="arg0">me</span><sub class="deprel">obj</sub> <span class="arg1">perdi em o</span><sub class="deprel">det</sub> <span class="rel">caminho</span> , hoje foi , petr4 , klbn4 , vale5 , estc3 , mmxm3 e indice ! Amanha possivel a goll4 , certo ?</td></tr></tbody>
     </table>
     
   

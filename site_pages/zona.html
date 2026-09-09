@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: secondary-theme</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Day trade VALE5 Previsto e evitado <span class="rel">zona</span> de <span class="arg0">alto risco</span> e <span class="arg2">falta de liquidez absurda</span> 27-03-14 http://t.co/FZV3HPrEG3</h3>
+  <h3 data-instance-id="dante_01_449250160464625664l::zona::1">1: Day trade VALE5 Previsto e evitado <span class="rel">zona</span> de <span class="arg0">alto risco</span> e <span class="arg2">falta de liquidez absurda</span> 27-03-14 http://t.co/FZV3HPrEG3</h3>
 <ul>
 <li class="rel">rel: zona</li>
 <li class="arg0">Arg 0: alto risco</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: falta de liquidez absurda</li>
 </ul>
-<h3>2: vale5 ta numa <span class="rel">zona</span> de <span class="arg0">preço complicado</span>. nem compra nem venda</h3>
+<h3 data-instance-id="dante_01_450691713724846082l::zona::1">2: vale5 ta numa <span class="rel">zona</span> de <span class="arg0">preço complicado</span>. nem compra nem venda</h3>
 <ul>
 <li class="rel">rel: zona</li>
 <li class="arg0">Arg 0: preço complicado</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">alto risco</td><td class="arg1">-</td><td class="arg2">falta de liquidez absurda</td><td class='texto'>Day trade VALE5 Previsto e evitado <span class="rel">zona</span> de <span class="arg0">alto risco</span><sub class="deprel">nmod</sub> e <span class="arg2">falta de liquidez absurda</span><sub class="deprel">amod</sub> 27-03-14 http://t.co/FZV3HPrEG3</td></tr><tr><td>2</td><td class="arg0">preço complicado</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>vale5 ta numa <span class="rel">zona</span> de <span class="arg0">preço complicado</span><sub class="deprel">amod</sub>. nem compra nem venda</td></tr><tr><td>3</td><td class="arg0">sobre-venda</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Vale5 - Diário ::: Linha de Tendência de baixa, <span class="rel">zona</span> de <span class="arg0">sobre-venda</span><sub class="deprel">nmod</sub>! http://t.co/m5dEkcVXf3</td></tr><tr><td>4</td><td class="arg0">suporte</td><td class="arg1">-</td><td class="arg2">em fibo</td><td class='texto'>ELET6 corrigiu e chegou na <span class="rel">zona</span> de <span class="arg0">suporte</span><sub class="deprel">nmod</sub> em fibo http://t.co/E6M95yYksW</td></tr><tr><td>5</td><td class="arg0">suporte</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>#USIM5 está se segurando bem , <span class="rel">zona</span> muito boa de <span class="arg0">suporte</span><sub class="deprel">nmod</sub> . Se furar 9,07 o movimento pode começar a ganhar força .</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_449250160464625664l::zona::1"><td>1</td><td class="arg0">alto risco</td><td class="arg1">-</td><td class="arg2">falta de liquidez absurda</td><td class='texto'>Day trade VALE5 Previsto e evitado <span class="rel">zona</span> de <span class="arg0">alto risco</span><sub class="deprel">nmod</sub> e <span class="arg2">falta de liquidez absurda</span><sub class="deprel">amod</sub> 27-03-14 http://t.co/FZV3HPrEG3</td></tr><tr data-instance-id="dante_01_450691713724846082l::zona::1"><td>2</td><td class="arg0">preço complicado</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>vale5 ta numa <span class="rel">zona</span> de <span class="arg0">preço complicado</span><sub class="deprel">amod</sub>. nem compra nem venda</td></tr><tr data-instance-id="dante_01_460899883462180865l::zona::1"><td>3</td><td class="arg0">sobre-venda</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Vale5 - Diário ::: Linha de Tendência de baixa, <span class="rel">zona</span> de <span class="arg0">sobre-venda</span><sub class="deprel">nmod</sub>! http://t.co/m5dEkcVXf3</td></tr><tr data-instance-id="dante_01_468786582493745153l::zona::1"><td>4</td><td class="arg0">suporte</td><td class="arg1">-</td><td class="arg2">em fibo</td><td class='texto'>ELET6 corrigiu e chegou na <span class="rel">zona</span> de <span class="arg0">suporte</span><sub class="deprel">nmod</sub> em fibo http://t.co/E6M95yYksW</td></tr><tr data-instance-id="dante_01_460784899197505536l::zona::1"><td>5</td><td class="arg0">suporte</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>#USIM5 está se segurando bem , <span class="rel">zona</span> muito boa de <span class="arg0">suporte</span><sub class="deprel">nmod</sub> . Se furar 9,07 o movimento pode começar a ganhar força .</td></tr></tbody>
     </table>
     
   

@@ -48,7 +48,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461124301060849664l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_459664701614731264l",
@@ -66,7 +67,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459664701614731264l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_448882754701508608l",
@@ -84,7 +86,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448882754701508608l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_451368222600986624l",
@@ -102,7 +105,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451368222600986624l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_460825538517794816l",
@@ -120,7 +124,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_460825538517794816l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_448151500116606976l",
@@ -138,6 +143,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448151500116606976l::distribuição::1",
+          "predicate": {
+            "form": "distribuição",
+            "char_start": 57,
+            "char_end": 69
           }
         },
         {
@@ -156,7 +167,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453583096823443456l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_462197122784563200l",
@@ -174,7 +186,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_462197122784563200l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_443109051715817472l",
@@ -192,7 +205,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_443109051715817472l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_451699904235466753l",
@@ -210,7 +224,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451699904235466753l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_446612137251975168l",
@@ -228,7 +243,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446612137251975168l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_444458706374524929l",
@@ -246,7 +262,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444458706374524929l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_448784949853032448l",
@@ -264,7 +281,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448784949853032448l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_446638058633699328l",
@@ -282,7 +300,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446638058633699328l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_459657331467649026l",
@@ -300,7 +319,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459657331467649026l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_451685086862508032l",
@@ -318,7 +338,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451685086862508032l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_448902501086273536l",
@@ -336,7 +357,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448902501086273536l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_449542990672199680l",
@@ -354,7 +376,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449542990672199680l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_449649666217746432l",
@@ -372,7 +395,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449649666217746432l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_451347694989369344l",
@@ -390,7 +414,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451347694989369344l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_453227212003901442l",
@@ -408,7 +433,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453227212003901442l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_453540037515558912l",
@@ -426,7 +452,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453540037515558912l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_456788707576532992l",
@@ -444,7 +471,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_456788707576532992l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_457101556056588288l",
@@ -462,7 +490,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_457101556056588288l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_459398634690600960l",
@@ -480,7 +509,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459398634690600960l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_459399897276751872l",
@@ -498,7 +528,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459399897276751872l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_450970150016397312l",
@@ -516,7 +547,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_450970150016397312l::distribuição::1"
         },
         {
           "sent_ID": "dante_01_470981899696209920l",
@@ -534,6 +566,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470981899696209920l::distribuição::1",
+          "predicate": {
+            "form": "distribuição",
+            "char_start": 44,
+            "char_end": 56
           }
         }
       ],

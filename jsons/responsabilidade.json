@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461138223201533952l::responsabilidade::1",
+          "predicate": {
+            "form": "RESPONSABILIDADE",
+            "char_start": 31,
+            "char_end": 47
           }
         }
       ],

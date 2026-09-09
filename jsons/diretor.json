@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448083157758140418l::diretor::1",
+          "predicate": {
+            "form": "diretor",
+            "char_start": 45,
+            "char_end": 52
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447193082044633089l::diretor::1",
+          "predicate": {
+            "form": "diretor",
+            "char_start": 108,
+            "char_end": 115
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456148682857914368l::diretor::1",
+          "predicate": {
+            "form": "diretores",
+            "char_start": 14,
+            "char_end": 23
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453583096823443456l::diretor::1",
+          "predicate": {
+            "form": "Diretor",
+            "char_start": 65,
+            "char_end": 72
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452038585928392704l::diretor::1",
+          "predicate": {
+            "form": "diretores",
+            "char_start": 103,
+            "char_end": 112
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472002710271950848l::diretor::1",
+          "predicate": {
+            "form": "diretor",
+            "char_start": 68,
+            "char_end": 75
           }
         }
       ],

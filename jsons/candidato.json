@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_450605466079723520l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 63,
+            "char_end": 73
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_450979739944382464l::candidato::1",
+          "predicate": {
+            "form": "candidatos",
+            "char_start": 58,
+            "char_end": 68
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451724418772131840l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 71,
+            "char_end": 81
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441209778648653824l::candidato::1",
+          "predicate": {
+            "form": "candidatos",
+            "char_start": 30,
+            "char_end": 40
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
+          },
+          "instance_id": "dante_01_441215300357586944l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 30,
+            "char_end": 40
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
+          },
+          "instance_id": "dante_01_441216198681055232l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 30,
+            "char_end": 40
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446349257180606464l::candidato::1",
+          "predicate": {
+            "form": "candidatos",
+            "char_start": 33,
+            "char_end": 43
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_460756892646907904l::candidato::1",
+          "predicate": {
+            "form": "Candidato",
+            "char_start": 48,
+            "char_end": 57
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_449551026488893440l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 66,
+            "char_end": 76
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_456080818830864384l::candidato::1",
+          "predicate": {
+            "form": "Candidatos",
+            "char_start": 70,
+            "char_end": 80
           }
         }
       ],

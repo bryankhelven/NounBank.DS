@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -99,12 +104,12 @@ body{margin:0;}
 <li class="arg1">Arg 1: quantified</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #VALE5 Opção VALED30 estava a 0,08 ai apareceu um <span class="rel">monte</span> vendendo a 0,07 e pegadinha .</h3>
+  <h3 data-instance-id="dante_01_445973204335882241l::monte::1">1: #VALE5 Opção VALED30 estava a 0,08 ai apareceu um <span class="rel">monte</span> vendendo a 0,07 e pegadinha .</h3>
 <ul>
 <li class="rel">rel: monte</li>
 <li class="arg1">Arg 1: -</li>
 </ul>
-<h3>2: #PETR4 querendo agulhar em o curto , 30min ... com um <span class="rel">monte</span> <span class="arg1">de outras indicações</span> ... vamos ver ... ,)</h3>
+<h3 data-instance-id="dante_01_447068941912137728l::monte::1">2: #PETR4 querendo agulhar em o curto , 30min ... com um <span class="rel">monte</span> <span class="arg1">de outras indicações</span> ... vamos ver ... ,)</h3>
 <ul>
 <li class="rel">rel: monte</li>
 <li class="arg1">Arg 1: de outras indicações</li>
@@ -116,7 +121,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg1">-</td><td class='texto'>#VALE5 Opção VALED30 estava a 0,08 ai apareceu um <span class="rel">monte</span> vendendo a 0,07 e pegadinha .</td></tr><tr><td>2</td><td class="arg1">de outras indicações</td><td class='texto'>#PETR4 querendo agulhar em o curto , 30min ... com um <span class="rel">monte</span> <span class="arg1">de outras indicações</span><sub class="deprel">nmod</sub> ... vamos ver ... ,)</td></tr><tr><td>3</td><td class="arg1">de perguntas Graça Foster</td><td class='texto'>Vc ñ respondeu um <span class="rel">monte</span> <span class="arg1">de perguntas Graça Foster</span><sub class="deprel">flat:name</sub> .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bolsa ..</td></tr><tr><td>4</td><td class="arg1">de perguntas Graça Foster</td><td class='texto'>RT @SouCalmo : Vc ñ respondeu um <span class="rel">monte</span> <span class="arg1">de perguntas Graça Foster</span><sub class="deprel">flat:name</sub> .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bols …</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_445973204335882241l::monte::1"><td>1</td><td class="arg1">-</td><td class='texto'>#VALE5 Opção VALED30 estava a 0,08 ai apareceu um <span class="rel">monte</span> vendendo a 0,07 e pegadinha .</td></tr><tr data-instance-id="dante_01_447068941912137728l::monte::1"><td>2</td><td class="arg1">de outras indicações</td><td class='texto'>#PETR4 querendo agulhar em o curto , 30min ... com um <span class="rel">monte</span> <span class="arg1">de outras indicações</span><sub class="deprel">nmod</sub> ... vamos ver ... ,)</td></tr><tr data-instance-id="dante_01_456157178563280896l::monte::1"><td>3</td><td class="arg1">de perguntas Graça Foster</td><td class='texto'>Vc ñ respondeu um <span class="rel">monte</span> <span class="arg1">de perguntas Graça Foster</span><sub class="deprel">flat:name</sub> .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bolsa ..</td></tr><tr data-instance-id="dante_01_456157420415246336l::monte::1"><td>4</td><td class="arg1">de perguntas Graça Foster</td><td class='texto'>RT @SouCalmo : Vc ñ respondeu um <span class="rel">monte</span> <span class="arg1">de perguntas Graça Foster</span><sub class="deprel">flat:name</sub> .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bols …</td></tr></tbody>
     </table>
     
   

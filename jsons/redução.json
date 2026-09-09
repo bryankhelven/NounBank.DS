@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471785265049382912l::redução::1",
+          "predicate": {
+            "form": "redução",
+            "char_start": 49,
+            "char_end": 56
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461038611555958784l::redução::1",
+          "predicate": {
+            "form": "redução",
+            "char_start": 92,
+            "char_end": 99
           }
         }
       ],

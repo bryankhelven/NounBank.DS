@@ -48,6 +48,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459330478110412800l::conversa::1",
+          "predicate": {
+            "form": "conversas",
+            "char_start": 42,
+            "char_end": 51
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441968116361609217l::conversa::1",
+          "predicate": {
+            "form": "conversas",
+            "char_start": 39,
+            "char_end": 48
           }
         }
       ],

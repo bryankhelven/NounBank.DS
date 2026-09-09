@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444470974206214144l::seller::1",
+          "predicate": {
+            "form": "seller",
+            "char_start": 23,
+            "char_end": 29
           }
         }
       ],

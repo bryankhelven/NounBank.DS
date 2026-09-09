@@ -48,7 +48,8 @@
             "Arg2": "det",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_468921386799747072l::gestor::1"
         },
         {
           "sent_ID": "dante_01_469123255383916545l",
@@ -66,7 +67,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_469123255383916545l::gestor::1"
         },
         {
           "sent_ID": "dante_01_463667443161133056l",
@@ -84,6 +86,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463667443161133056l::gestor::1",
+          "predicate": {
+            "form": "gestores",
+            "char_start": 15,
+            "char_end": 23
           }
         },
         {
@@ -102,6 +110,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463670775506272257l::gestor::1",
+          "predicate": {
+            "form": "gestores",
+            "char_start": 36,
+            "char_end": 44
           }
         },
         {
@@ -120,7 +134,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_469214626081947648l::gestor::1"
         },
         {
           "sent_ID": "dante_01_471628526152454144l",
@@ -138,6 +153,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471628526152454144l::gestor::1",
+          "predicate": {
+            "form": "gestor",
+            "char_start": 59,
+            "char_end": 65
           }
         },
         {
@@ -156,6 +177,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471708570082639873l::gestor::1",
+          "predicate": {
+            "form": "gestor",
+            "char_start": 57,
+            "char_end": 63
           }
         },
         {
@@ -174,6 +201,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446682863627300864l::gestor::1",
+          "predicate": {
+            "form": "gestor",
+            "char_start": 60,
+            "char_end": 66
           }
         },
         {
@@ -192,7 +225,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_469210740575203329l::gestor::1"
         },
         {
           "sent_ID": "dante_01_472167110316023808l",
@@ -210,6 +244,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472167110316023808l::gestor::1",
+          "predicate": {
+            "form": "gestor",
+            "char_start": 92,
+            "char_end": 98
           }
         },
         {
@@ -228,7 +268,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_468930214962429954l::gestor::1"
         }
       ],
       "syntactic_profile": {

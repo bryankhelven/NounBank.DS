@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450964832922398720l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 34,
+            "char_end": 49
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448451571664564224l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 41,
+            "char_end": 56
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446250336194682880l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimento",
+            "char_start": 34,
+            "char_end": 48
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452088859585966080l::esclarecimento::1",
+          "predicate": {
+            "form": "esclarecimento",
+            "char_start": 3,
+            "char_end": 17
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468362963326619648l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 29,
+            "char_end": 44
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450968336655208449l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 34,
+            "char_end": 49
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_457104319431864321l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimento",
+            "char_start": 34,
+            "char_end": 48
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456405934789492736l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 36,
+            "char_end": 51
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452179921272852480l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimento",
+            "char_start": 30,
+            "char_end": 44
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469943872781824001l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 32,
+            "char_end": 47
           }
         },
         {
@@ -228,6 +288,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454637333522817024l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 31,
+            "char_end": 46
           }
         },
         {
@@ -246,6 +312,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456406443244023809l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 34,
+            "char_end": 49
           }
         },
         {
@@ -264,6 +336,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_467274051019632640l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 35,
+            "char_end": 50
           }
         },
         {
@@ -282,6 +360,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469456922283085824l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 31,
+            "char_end": 46
           }
         },
         {
@@ -300,6 +384,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458934897198260224l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimento",
+            "char_start": 33,
+            "char_end": 47
           }
         },
         {
@@ -318,6 +408,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466933301601923072l::esclarecimento::1",
+          "predicate": {
+            "form": "Esclarecimentos",
+            "char_start": 36,
+            "char_end": 51
           }
         }
       ],

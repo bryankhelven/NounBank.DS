@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441222037189562368l::risco::1",
+          "predicate": {
+            "form": "riscos",
+            "char_start": 51,
+            "char_end": 57
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450012621404925953l::risco::1",
+          "predicate": {
+            "form": "risco",
+            "char_start": 92,
+            "char_end": 97
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455700825927872512l::risco::1",
+          "predicate": {
+            "form": "risco",
+            "char_start": 108,
+            "char_end": 113
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455700682084204544l::risco::1",
+          "predicate": {
+            "form": "risco",
+            "char_start": 93,
+            "char_end": 98
           }
         }
       ],

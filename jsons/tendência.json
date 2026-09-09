@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454017714236166144l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 87,
+            "char_end": 96
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443559711980679168l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 60,
+            "char_end": 69
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456937609185341440l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 19,
+            "char_end": 28
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443477913480863744l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 24,
+            "char_end": 33
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444503548139552768l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 46,
+            "char_end": 55
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459365635928391681l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 95,
+            "char_end": 104
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472441262214098944l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 21,
+            "char_end": 30
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460899883462180865l::tendência::1",
+          "predicate": {
+            "form": "Tendência",
+            "char_start": 28,
+            "char_end": 37
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461495723847319552l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 104,
+            "char_end": 113
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441058259676303361l::tendência::1",
+          "predicate": {
+            "form": "Tendência",
+            "char_start": 76,
+            "char_end": 85
           }
         },
         {
@@ -228,6 +288,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470213923732733952l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 31,
+            "char_end": 40
           }
         },
         {
@@ -246,7 +312,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447000792143527936l::tendência::1"
         },
         {
           "sent_ID": "dante_01_463664480288006145l",
@@ -264,6 +331,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463664480288006145l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 87,
+            "char_end": 96
           }
         },
         {
@@ -282,6 +355,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452414292881838080l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 28,
+            "char_end": 37
           }
         },
         {
@@ -300,6 +379,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454225628166754305l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 56,
+            "char_end": 65
           }
         },
         {
@@ -318,6 +403,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445952104105275392l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 37,
+            "char_end": 46
           }
         },
         {
@@ -336,7 +427,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_456503335634231296l::tendência::1"
         },
         {
           "sent_ID": "dante_01_459134249883697154l",
@@ -354,6 +446,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459134249883697154l::tendência::1",
+          "predicate": {
+            "form": "tendência",
+            "char_start": 86,
+            "char_end": 95
           }
         }
       ],

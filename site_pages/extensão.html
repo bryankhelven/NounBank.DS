@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: ext or tmp, by how much or until when</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $CSAN3 - <span class="arg0">Cosan ( csan-nm )</span> - Fato Relevante - Extensao <span class="arg1">De Prazo Prop. Vinculante</span> - rumo E All http://t.co/7ymF2YkjpP</h3>
+  <h3 data-instance-id="dante_01_451323756733296640l::extensão::1">1: $CSAN3 - <span class="arg0">Cosan ( csan-nm )</span> - Fato Relevante - Extensao <span class="arg1">De Prazo Prop. Vinculante</span> - rumo E All http://t.co/7ymF2YkjpP<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: extensão</li>
 <li class="arg0">Arg 0: Cosan ( csan-nm )</li>
 <li class="arg1">Arg 1: De Prazo Prop. Vinculante</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: $ALLL3 - <span class="arg0">All Amer Lat ( alll-nm )</span> - fato Relevante / incorporacao De Acoes ( extensao <span class="arg1">De Prazo</span> ) http://t.co/26tB9lsaHt</h3>
+<h3 data-instance-id="dante_01_451325000222789632l::extensão::1">2: $ALLL3 - <span class="arg0">All Amer Lat ( alll-nm )</span> - fato Relevante / incorporacao De Acoes ( extensao <span class="arg1">De Prazo</span> ) http://t.co/26tB9lsaHt<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: extensão</li>
 <li class="arg0">Arg 0: All Amer Lat ( alll-nm )</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">Cosan ( csan-nm )</td><td class="arg1">De Prazo Prop. Vinculante</td><td class="arg2">-</td><td class='texto'>$CSAN3 - <span class="arg0">Cosan ( csan-nm )</span><sub class="deprel">nmod</sub> - Fato Relevante - Extensao <span class="arg1">De Prazo Prop. Vinculante</span><sub class="deprel">amod</sub> - rumo E All http://t.co/7ymF2YkjpP</td></tr><tr><td>2</td><td class="arg0">All Amer Lat ( alll-nm )</td><td class="arg1">De Prazo</td><td class="arg2">-</td><td class='texto'>$ALLL3 - <span class="arg0">All Amer Lat ( alll-nm )</span><sub class="deprel">nmod</sub> - fato Relevante / incorporacao De Acoes ( extensao <span class="arg1">De Prazo</span><sub class="deprel">nmod</sub> ) http://t.co/26tB9lsaHt</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_451323756733296640l::extensão::1" data-rel="missing"><td>1</td><td class="arg0">Cosan ( csan-nm )</td><td class="arg1">De Prazo Prop. Vinculante</td><td class="arg2">-</td><td class='texto'>$CSAN3 - <span class="arg0">Cosan ( csan-nm )</span><sub class="deprel">nmod</sub> - Fato Relevante - Extensao <span class="arg1">De Prazo Prop. Vinculante</span><sub class="deprel">amod</sub> - rumo E All http://t.co/7ymF2YkjpP<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_451325000222789632l::extensão::1" data-rel="missing"><td>2</td><td class="arg0">All Amer Lat ( alll-nm )</td><td class="arg1">De Prazo</td><td class="arg2">-</td><td class='texto'>$ALLL3 - <span class="arg0">All Amer Lat ( alll-nm )</span><sub class="deprel">nmod</sub> - fato Relevante / incorporacao De Acoes ( extensao <span class="arg1">De Prazo</span><sub class="deprel">nmod</sub> ) http://t.co/26tB9lsaHt<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
     </table>
     
   

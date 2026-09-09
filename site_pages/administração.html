@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: beneficiary</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $MRVE3 - <span class="arg2">Mrv ( mrve-nm</span> ) - Fato Relevante - Alteracao Em a Administracao <span class="arg1">De a Companhia</span> http://t.co/PdxXl414Wg</h3>
+  <h3 data-instance-id="dante_01_449188871776247808l::administração::1">1: $MRVE3 - <span class="arg2">Mrv ( mrve-nm</span> ) - Fato Relevante - Alteracao Em a Administracao <span class="arg1">De a Companhia</span> http://t.co/PdxXl414Wg<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: administração</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: De a Companhia</li>
 <li class="arg2">Arg 2: Mrv ( mrve-nm</li>
 </ul>
-<h3>2: #IBOV #BRML3 BR <span class="arg2">Malls</span> divulga ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 25 de fevereiro . http://t.co/7MpofZh7wj</h3>
+<h3 data-instance-id="dante_01_443463813623738368l::administração::1">2: #IBOV #BRML3 BR <span class="arg2">Malls</span> divulga ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 25 de fevereiro . http://t.co/7MpofZh7wj</h3>
 <ul>
 <li class="rel">rel: administração</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">De a Companhia</td><td class="arg2">Mrv ( mrve-nm</td><td class='texto'>$MRVE3 - <span class="arg2">Mrv ( mrve-nm</span><sub class="deprel">nmod</sub> ) - Fato Relevante - Alteracao Em a Administracao <span class="arg1">De a Companhia</span><sub class="deprel">nmod</sub> http://t.co/PdxXl414Wg</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">Malls</td><td class='texto'>#IBOV #BRML3 BR <span class="arg2">Malls</span><sub class="deprel">flat:name</sub> divulga ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 25 de fevereiro . http://t.co/7MpofZh7wj</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">A Light S.A.</td><td class='texto'><span class="arg2">A Light S.A.</span><sub class="deprel">nsubj</sub> arquivou a ata de a Reunião de o Conselho de <span class="rel">Administração</span> realizada hoje . Confira : http://t.co/F8LbSlsFfV $LIGT3</td></tr><tr><td>4</td><td class="arg0">Membro</td><td class="arg1">-</td><td class="arg2">Rossi Resid ( rsid-nm )</td><td class='texto'>$RSID3 - <span class="arg2">Rossi Resid ( rsid-nm )</span><sub class="deprel">nmod</sub> - Indicacao De Candidato A <span class="arg0">Membro</span><sub class="deprel">nmod</sub> De o Conselho De Admin . http://t.co/XAZrrT0xHk</td></tr><tr><td>5</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">CCR</td><td class='texto'>#IBOV #CCRO3 <span class="arg2">CCR</span><sub class="deprel">nsubj</sub> publica ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 19 de fevereiro . http://t.co/R0eQ7JedZl</td></tr><tr><td>6</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">cia</td><td class='texto'>RT @chrinvestor : O que acontece com as ações de uma <span class="arg2">cia</span><sub class="deprel">nmod</sub> quando se descobre que a sua <span class="rel">administração</span> ' roubou ' bilhões ? Em o Brasil , o papel sob …</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_449188871776247808l::administração::1" data-rel="missing"><td>1</td><td class="arg0">-</td><td class="arg1">De a Companhia</td><td class="arg2">Mrv ( mrve-nm</td><td class='texto'>$MRVE3 - <span class="arg2">Mrv ( mrve-nm</span><sub class="deprel">nmod</sub> ) - Fato Relevante - Alteracao Em a Administracao <span class="arg1">De a Companhia</span><sub class="deprel">nmod</sub> http://t.co/PdxXl414Wg<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_443463813623738368l::administração::1"><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">Malls</td><td class='texto'>#IBOV #BRML3 BR <span class="arg2">Malls</span><sub class="deprel">flat:name</sub> divulga ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 25 de fevereiro . http://t.co/7MpofZh7wj</td></tr><tr data-instance-id="dante_01_443207013405700096l::administração::1"><td>3</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">A Light S.A.</td><td class='texto'><span class="arg2">A Light S.A.</span><sub class="deprel">nsubj</sub> arquivou a ata de a Reunião de o Conselho de <span class="rel">Administração</span> realizada hoje . Confira : http://t.co/F8LbSlsFfV $LIGT3</td></tr><tr data-instance-id="dante_01_460756892646907904l::administração::1" data-rel="missing"><td>4</td><td class="arg0">Membro</td><td class="arg1">-</td><td class="arg2">Rossi Resid ( rsid-nm )</td><td class='texto'>$RSID3 - <span class="arg2">Rossi Resid ( rsid-nm )</span><sub class="deprel">nmod</sub> - Indicacao De Candidato A <span class="arg0">Membro</span><sub class="deprel">nmod</sub> De o Conselho De Admin . http://t.co/XAZrrT0xHk<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_451103473405538304l::administração::1"><td>5</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">CCR</td><td class='texto'>#IBOV #CCRO3 <span class="arg2">CCR</span><sub class="deprel">nsubj</sub> publica ata de a reunião de o conselho de <span class="rel">administração</span> realizada dia 19 de fevereiro . http://t.co/R0eQ7JedZl</td></tr><tr data-instance-id="dante_01_450677390780669952l::administração::1"><td>6</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">cia</td><td class='texto'>RT @chrinvestor : O que acontece com as ações de uma <span class="arg2">cia</span><sub class="deprel">nmod</sub> quando se descobre que a sua <span class="rel">administração</span> ' roubou ' bilhões ? Em o Brasil , o papel sob …</td></tr></tbody>
     </table>
     
   

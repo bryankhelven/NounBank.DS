@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -96,21 +101,21 @@ body{margin:0;}
   <p><strong>Roleset id:</strong> cara.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/appearance.xml">appearance.02</a></p>
   <h2>Roles:</h2>
   <ul>
-<li class="arg0">Arg 0: theme</li>
-<li class="arg1">Arg 1: value</li>
+<li class="arg1">Arg 1: theme</li>
+<li class="arg2">Arg 2: value</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: @live_trade tá mesmo com uma <span class="rel">cara</span> <span class="arg1">boa</span> <span class="arg0">essa venda</span> . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .</h3>
+  <h3 data-instance-id="dante_01_454691501646557184l::cara::1">1: @live_trade tá mesmo com uma <span class="rel">cara</span> <span class="arg2">boa</span> <span class="arg1">essa venda</span> . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .</h3>
 <ul>
 <li class="rel">rel: cara</li>
-<li class="arg0">Arg 0: essa venda</li>
-<li class="arg1">Arg 1: boa</li>
+<li class="arg1">Arg 1: essa venda</li>
+<li class="arg2">Arg 2: boa</li>
 </ul>
-<h3>2: Vc tem dúvida q <span class="arg0">o #IBOLESMA está</span> a <span class="rel">cara</span> <span class="arg1">de o PT</span> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !</h3>
+<h3 data-instance-id="dante_01_443436776175443968l::cara::1">2: Vc tem dúvida q <span class="arg1">o #IBOLESMA está</span> a <span class="rel">cara</span> <span class="arg2">de o PT</span> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !</h3>
 <ul>
 <li class="rel">rel: cara</li>
-<li class="arg0">Arg 0: o #IBOLESMA está</li>
-<li class="arg1">Arg 1: de o PT</li>
+<li class="arg1">Arg 1: o #IBOLESMA está</li>
+<li class="arg2">Arg 2: de o PT</li>
 </ul>
   <br><br>
 
@@ -118,15 +123,15 @@ body{margin:0;}
   
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
-      <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">essa venda</td><td class="arg1">boa</td><td class='texto'>@live_trade tá mesmo com uma <span class="rel">cara</span> <span class="arg1">boa</span><sub class="deprel">amod</sub> <span class="arg0">essa venda</span><sub class="deprel">nsubj</sub> . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .</td></tr><tr><td>2</td><td class="arg0">o #IBOLESMA está</td><td class="arg1">de o PT</td><td class='texto'>Vc tem dúvida q <span class="arg0">o #IBOLESMA está</span><sub class="deprel">cop</sub> a <span class="rel">cara</span> <span class="arg1">de o PT</span><sub class="deprel">nmod</sub> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !</td></tr><tr><td>3</td><td class="arg0">o #IBOLESMA está</td><td class="arg1">de o PT</td><td class='texto'>RT @picapautrader : Vc tem dúvida q <span class="arg0">o #IBOLESMA está</span><sub class="deprel">cop</sub> a <span class="rel">cara</span> <span class="arg1">de o PT</span><sub class="deprel">nmod</sub> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 …</td></tr><tr><td>4</td><td class="arg0">gap em 27,90</td><td class="arg1">de ir lá</td><td class='texto'>@Live_Trade Em a #VALE5 tem <span class="arg0">gap em 27,90</span><sub class="deprel">nsubj</sub> e com <span class="rel">cara</span> <span class="arg1">de ir lá</span><sub class="deprel">advmod</sub> , cachorro é cachorro , viado é viado e gap é gap !</td></tr><tr><td>5</td><td class="arg0">Essa notícia</td><td class="arg1">de ter vindo pra tentar defender fundo</td><td class='texto'><span class="arg0">Essa notícia</span><sub class="deprel">nsubj</sub> de o recorde de produção de a #PETR4 em o pré sal ta com uma <span class="rel">cara</span> <span class="arg1">de ter vindo pra tentar defender fundo</span><sub class="deprel">obj</sub> ...</td></tr><tr><td>6</td><td class="arg0">#IBOV</td><td class="arg1">de queda</td><td class='texto'><span class="arg0">#IBOV</span><sub class="deprel">root</sub> com <span class="rel">cara</span> <span class="arg1">de queda</span><sub class="deprel">nmod</sub> ! Topo em #CESP6 ? Fundo em #PDGR3 ?</td></tr></tbody>
+      <thead><tr><th>#</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_454691501646557184l::cara::1"><td>1</td><td class="arg1">essa venda</td><td class="arg2">boa</td><td class='texto'>@live_trade tá mesmo com uma <span class="rel">cara</span> <span class="arg2">boa</span><sub class="deprel">amod</sub> <span class="arg1">essa venda</span><sub class="deprel">nsubj</sub> . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .</td></tr><tr data-instance-id="dante_01_443436776175443968l::cara::1"><td>2</td><td class="arg1">o #IBOLESMA está</td><td class="arg2">de o PT</td><td class='texto'>Vc tem dúvida q <span class="arg1">o #IBOLESMA está</span><sub class="deprel">cop</sub> a <span class="rel">cara</span> <span class="arg2">de o PT</span><sub class="deprel">nmod</sub> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !</td></tr><tr data-instance-id="dante_01_443438174216671233l::cara::1"><td>3</td><td class="arg1">o #IBOLESMA está</td><td class="arg2">de o PT</td><td class='texto'>RT @picapautrader : Vc tem dúvida q <span class="arg1">o #IBOLESMA está</span><sub class="deprel">cop</sub> a <span class="rel">cara</span> <span class="arg2">de o PT</span><sub class="deprel">nmod</sub> ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 …</td></tr><tr data-instance-id="dante_01_451345855191478273l::cara::1"><td>4</td><td class="arg1">gap em 27,90</td><td class="arg2">de ir lá</td><td class='texto'>@Live_Trade Em a #VALE5 tem <span class="arg1">gap em 27,90</span><sub class="deprel">nsubj</sub> e com <span class="rel">cara</span> <span class="arg2">de ir lá</span><sub class="deprel">advmod</sub> , cachorro é cachorro , viado é viado e gap é gap !</td></tr><tr data-instance-id="dante_01_441563014731665408l::cara::1"><td>5</td><td class="arg1">Essa notícia</td><td class="arg2">de ter vindo pra tentar defender fundo</td><td class='texto'><span class="arg1">Essa notícia</span><sub class="deprel">nsubj</sub> de o recorde de produção de a #PETR4 em o pré sal ta com uma <span class="rel">cara</span> <span class="arg2">de ter vindo pra tentar defender fundo</span><sub class="deprel">obj</sub> ...</td></tr><tr data-instance-id="dante_01_459024422691954688l::cara::1"><td>6</td><td class="arg1">#IBOV</td><td class="arg2">de queda</td><td class='texto'><span class="arg1">#IBOV</span><sub class="deprel">root</sub> com <span class="rel">cara</span> <span class="arg2">de queda</span><sub class="deprel">nmod</sub> ! Topo em #CESP6 ? Fundo em #PDGR3 ?</td></tr></tbody>
     </table>
     
   
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
-        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th></tr></thead>
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th></tr></thead>
         <tbody><tr><td>advmod</td><td>0</td><td>1</td></tr><tr><td>amod</td><td>0</td><td>1</td></tr><tr><td>cop</td><td>2</td><td>0</td></tr><tr><td>nmod</td><td>0</td><td>3</td></tr><tr><td>nsubj</td><td>3</td><td>0</td></tr><tr><td>obj</td><td>0</td><td>1</td></tr><tr><td>root</td><td>1</td><td>0</td></tr></tbody>
       </table>
     </div>

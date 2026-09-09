@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444121049849139200l::divergência::1",
+          "predicate": {
+            "form": "divergência",
+            "char_start": 59,
+            "char_end": 70
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454560977007443968l::divergência::1",
+          "predicate": {
+            "form": "divergência",
+            "char_start": 2,
+            "char_end": 13
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460933625907650560l::divergência::1",
+          "predicate": {
+            "form": "divergência",
+            "char_start": 20,
+            "char_end": 31
           }
         }
       ],

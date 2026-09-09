@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461524178286706689l::estimativa::1",
+          "predicate": {
+            "form": "estimativa",
+            "char_start": 40,
+            "char_end": 50
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444448840863997952l::estimativa::1",
+          "predicate": {
+            "form": "estimativa",
+            "char_start": 2,
+            "char_end": 12
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444449194305409024l::estimativa::1",
+          "predicate": {
+            "form": "estimativa",
+            "char_start": 20,
+            "char_end": 30
           }
         }
       ],

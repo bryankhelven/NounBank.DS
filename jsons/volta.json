@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_458580699046367233l::volta::1",
+          "predicate": {
+            "form": "volta",
+            "char_start": 13,
+            "char_end": 18
           }
         }
       ],

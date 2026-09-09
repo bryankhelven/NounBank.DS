@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464751013887348736l::aquisição::1",
+          "predicate": {
+            "form": "aquisição",
+            "char_start": 12,
+            "char_end": 21
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_468398191453683712l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_444482105675104256l",
@@ -84,7 +91,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444482105675104256l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_453579148670156800l",
@@ -102,6 +110,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453579148670156800l::aquisição::1",
+          "predicate": {
+            "form": "aquisição",
+            "char_start": 59,
+            "char_end": 68
           }
         },
         {
@@ -120,6 +134,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444296047289176064l::aquisição::1",
+          "predicate": {
+            "form": "Aquisição",
+            "char_start": 46,
+            "char_end": 55
           }
         },
         {
@@ -138,7 +158,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_455682223635972096l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_453879051196039169l",
@@ -156,7 +177,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453879051196039169l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_453974274265862144l",
@@ -174,7 +196,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453974274265862144l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_461472300324626433l",
@@ -192,7 +215,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461472300324626433l::aquisição::1"
         },
         {
           "sent_ID": "dante_01_461125555522240512l",
@@ -210,7 +234,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461125555522240512l::aquisição::1"
         }
       ],
       "syntactic_profile": {

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458603788270850048l::conversão::1",
+          "predicate": {
+            "form": "conversão",
+            "char_start": 32,
+            "char_end": 41
           }
         }
       ],

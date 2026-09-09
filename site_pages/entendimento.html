@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: attribute of arg1</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span> <span class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</span> .</h3>
+  <h3 data-instance-id="dante_01_443765996206444544l::entendimento::1">1: Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span> <span class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</span> .</h3>
 <ul>
 <li class="rel">rel: entendimento</li>
 <li class="arg0">Arg 0: geral</li>
 <li class="arg1">Arg 1: é que haverá uma gestão mais ética , profissional e menos politica</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: RT @bovespabrokers : Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span> é que haverá uma gestão mais ética , profissiona …</h3>
+<h3 data-instance-id="dante_01_443800394989580289l::entendimento::1">2: RT @bovespabrokers : Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span> é que haverá uma gestão mais ética , profissiona …</h3>
 <ul>
 <li class="rel">rel: entendimento</li>
 <li class="arg0">Arg 0: geral</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">geral</td><td class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</td><td class="arg2">-</td><td class='texto'>Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span><sub class="deprel">amod</sub> <span class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</span><sub class="deprel">amod</sub> .</td></tr><tr><td>2</td><td class="arg0">geral</td><td class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</td><td class="arg2">-</td><td class='texto'>RT @bovespabrokers : Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span><sub class="deprel">amod</sub> é que haverá uma gestão mais ética , profissiona …</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">Para Participar De a Stelo</td><td class="arg2">-</td><td class='texto'>$CIEL3 - Cielo ( ciel-nm ) - Memorando De Entendimentos <span class="arg1">Para Participar De a Stelo</span><sub class="deprel">obl</sub> http://t.co/1XTdyCc6tK</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_443765996206444544l::entendimento::1"><td>1</td><td class="arg0">geral</td><td class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</td><td class="arg2">-</td><td class='texto'>Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span><sub class="deprel">amod</sub> <span class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</span><sub class="deprel">amod</sub> .</td></tr><tr data-instance-id="dante_01_443800394989580289l::entendimento::1"><td>2</td><td class="arg0">geral</td><td class="arg1">é que haverá uma gestão mais ética , profissional e menos politica</td><td class="arg2">-</td><td class='texto'>RT @bovespabrokers : Se instalada a #CPI em a #PETR4 as ações irão subir . O <span class="rel">entendimento</span> <span class="arg0">geral</span><sub class="deprel">amod</sub> é que haverá uma gestão mais ética , profissiona …</td></tr><tr data-instance-id="dante_01_456410278024839169l::entendimento::1"><td>3</td><td class="arg0">-</td><td class="arg1">Para Participar De a Stelo</td><td class="arg2">-</td><td class='texto'>$CIEL3 - Cielo ( ciel-nm ) - Memorando De <span class="rel">Entendimentos</span> <span class="arg1">Para Participar De a Stelo</span><sub class="deprel">obl</sub> http://t.co/1XTdyCc6tK</td></tr></tbody>
     </table>
     
   

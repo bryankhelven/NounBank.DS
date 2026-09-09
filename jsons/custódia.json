@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461531622194806785l::custódia::1",
+          "predicate": {
+            "form": "custódia",
+            "char_start": 101,
+            "char_end": 109
           }
         }
       ],

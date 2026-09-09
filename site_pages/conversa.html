@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: actor2</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: ( ALLL3 ) : A <span class="arg0">ALL</span> e a <span class="arg2">Rumo</span> deram início a conversas <span class="arg1">para que a concessionária aumente o volume de o transporte de</span> ... http://t.co/t2JXbpKAef</h3>
+  <h3 data-instance-id="dante_01_459330478110412800l::conversa::1">1: ( ALLL3 ) : A <span class="arg0">ALL</span> e a <span class="arg2">Rumo</span> deram início a <span class="rel">conversas</span> <span class="arg1">para que a concessionária aumente o volume de o transporte de</span> ... http://t.co/t2JXbpKAef</h3>
 <ul>
 <li class="rel">rel: conversa</li>
 <li class="arg0">Arg 0: ALL</li>
 <li class="arg1">Arg 1: para que a concessionária aumente o volume de o transporte de</li>
 <li class="arg2">Arg 2: Rumo</li>
 </ul>
-<h3>2: #TIMP3 - <span class="arg0">Telecom Italia</span> diz que não há conversas <span class="arg1">de fusão sobre <span class="arg2">TIM</span></span> - http://t.co/O502wucYkW</h3>
+<h3 data-instance-id="dante_01_441968116361609217l::conversa::1">2: #TIMP3 - <span class="arg0">Telecom Italia</span> diz que não há <span class="rel">conversas</span> <span class="arg1">de fusão sobre <span class="arg2">TIM</span></span> - http://t.co/O502wucYkW</h3>
 <ul>
 <li class="rel">rel: conversa</li>
 <li class="arg0">Arg 0: Telecom Italia</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">ALL</td><td class="arg1">para que a concessionária aumente o volume de o transporte de</td><td class="arg2">Rumo</td><td class='texto'>( ALLL3 ) : A <span class="arg0">ALL</span><sub class="deprel">nsubj</sub> e a <span class="arg2">Rumo</span><sub class="deprel">nsubj</sub> deram início a conversas <span class="arg1">para que a concessionária aumente o volume de o transporte de</span><sub class="deprel">case</sub> ... http://t.co/t2JXbpKAef</td></tr><tr><td>2</td><td class="arg0">Telecom Italia</td><td class="arg1">de fusão sobre TIM</td><td class="arg2">TIM</td><td class='texto'>#TIMP3 - <span class="arg0">Telecom Italia</span><sub class="deprel">flat:name</sub> diz que não há conversas <span class="arg1">de fusão sobre <span class="arg2">TIM</span><sub class="deprel">nmod</sub></span><sub class="deprel">nmod</sub> - http://t.co/O502wucYkW</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_459330478110412800l::conversa::1"><td>1</td><td class="arg0">ALL</td><td class="arg1">para que a concessionária aumente o volume de o transporte de</td><td class="arg2">Rumo</td><td class='texto'>( ALLL3 ) : A <span class="arg0">ALL</span><sub class="deprel">nsubj</sub> e a <span class="arg2">Rumo</span><sub class="deprel">nsubj</sub> deram início a <span class="rel">conversas</span> <span class="arg1">para que a concessionária aumente o volume de o transporte de</span><sub class="deprel">case</sub> ... http://t.co/t2JXbpKAef</td></tr><tr data-instance-id="dante_01_441968116361609217l::conversa::1"><td>2</td><td class="arg0">Telecom Italia</td><td class="arg1">de fusão sobre TIM</td><td class="arg2">TIM</td><td class='texto'>#TIMP3 - <span class="arg0">Telecom Italia</span><sub class="deprel">flat:name</sub> diz que não há <span class="rel">conversas</span> <span class="arg1">de fusão sobre <span class="arg2">TIM</span><sub class="deprel">nmod</sub></span><sub class="deprel">nmod</sub> - http://t.co/O502wucYkW</td></tr></tbody>
     </table>
     
   

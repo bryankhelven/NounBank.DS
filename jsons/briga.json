@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444463565375033344l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 10,
+            "char_end": 15
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449601961852403713l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 37,
+            "char_end": 42
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449627192734265344l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461505776595783680l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 48,
+            "char_end": 53
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461510589626728448l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 69,
+            "char_end": 74
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461510858632626176l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 66,
+            "char_end": 71
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446999581071790081l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 24,
+            "char_end": 29
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458619519691685888l::briga::1",
+          "predicate": {
+            "form": "Briga",
+            "char_start": 117,
+            "char_end": 122
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450996130533613569l::briga::1",
+          "predicate": {
+            "form": "briga",
+            "char_start": 51,
+            "char_end": 56
           }
         }
       ],

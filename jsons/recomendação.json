@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443881920188145664l::recomendação::1",
+          "predicate": {
+            "form": "recomendações",
+            "char_start": 29,
+            "char_end": 42
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456842896021278720l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 74,
+            "char_end": 86
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444083603308175360l::recomendação::1",
+          "predicate": {
+            "form": "recomendações",
+            "char_start": 55,
+            "char_end": 68
           }
         },
         {
@@ -102,7 +120,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444579970325557248l::recomendação::1"
         },
         {
           "sent_ID": "dante_01_451411205161508866l",
@@ -120,6 +139,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451411205161508866l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 37,
+            "char_end": 49
           }
         },
         {
@@ -138,6 +163,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466323359324991488l::recomendação::1",
+          "predicate": {
+            "form": "recomendações",
+            "char_start": 52,
+            "char_end": 65
           }
         },
         {
@@ -156,7 +187,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_445656208997744640l::recomendação::1"
         },
         {
           "sent_ID": "dante_01_461129245134426113l",
@@ -174,6 +206,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461129245134426113l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 14,
+            "char_end": 26
           }
         },
         {
@@ -192,6 +230,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461130593787719680l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 20,
+            "char_end": 32
           }
         },
         {
@@ -210,7 +254,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441294832774836224l::recomendação::1"
         },
         {
           "sent_ID": "dante_01_451843384052047872l",
@@ -228,6 +273,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451843384052047872l::recomendação::1",
+          "predicate": {
+            "form": "Recomendação",
+            "char_start": 29,
+            "char_end": 41
           }
         },
         {
@@ -246,6 +297,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453511628504702978l::recomendação::1",
+          "predicate": {
+            "form": "Recomendação",
+            "char_start": 29,
+            "char_end": 41
           }
         },
         {
@@ -264,6 +321,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454022702027001856l::recomendação::1",
+          "predicate": {
+            "form": "Recomendação",
+            "char_start": 9,
+            "char_end": 21
           }
         },
         {
@@ -282,6 +345,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454374627708784640l::recomendação::1",
+          "predicate": {
+            "form": "Recomendação",
+            "char_start": 29,
+            "char_end": 41
           }
         },
         {
@@ -300,6 +369,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464864439670702080l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 22,
+            "char_end": 34
           }
         },
         {
@@ -318,6 +393,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443815228737069056l::recomendação::1",
+          "predicate": {
+            "form": "recomendações",
+            "char_start": 12,
+            "char_end": 25
           }
         },
         {
@@ -336,6 +417,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444475433904783360l::recomendação::1",
+          "predicate": {
+            "form": "recomendação",
+            "char_start": 15,
+            "char_end": 27
           }
         },
         {
@@ -354,6 +441,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443098557596598273l::recomendação::1",
+          "predicate": {
+            "form": "recomendações",
+            "char_start": 22,
+            "char_end": 35
           }
         }
       ],

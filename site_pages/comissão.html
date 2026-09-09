@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: recipient</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: RT @bovespabrokers : <span class="arg0">A Petrobras</span> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span> ' de alto nível ' <span class="arg1">para apurar os detalhes de a compra de a r</span> …</h3>
+  <h3 data-instance-id="dante_01_448936578715774977l::comissão::1">1: RT @bovespabrokers : <span class="arg0">A Petrobras</span> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span> ' de alto nível ' <span class="arg1">para apurar os detalhes de a compra de a r</span> …</h3>
 <ul>
 <li class="rel">rel: comissão</li>
 <li class="arg0">Arg 0: A Petrobras</li>
 <li class="arg1">Arg 1: para apurar os detalhes de a compra de a r</li>
 <li class="arg2">Arg 2: comissão interna</li>
 </ul>
-<h3>2: $PETR4 RT @agenciabrasil : <span class="arg2"><span class="rel">Comissão</span> externa</span> <span class="arg0">de a Câmara</span> <span class="arg1">que investiga a Petrobras</span> aprova requerimentos http://t.co/q7VgfIdeUu</h3>
+<h3 data-instance-id="dante_01_458779058290315264l::comissão::1">2: $PETR4 RT @agenciabrasil : <span class="arg2"><span class="rel">Comissão</span> externa</span> <span class="arg0">de a Câmara</span> <span class="arg1">que investiga a Petrobras</span> aprova requerimentos http://t.co/q7VgfIdeUu</h3>
 <ul>
 <li class="rel">rel: comissão</li>
 <li class="arg0">Arg 0: de a Câmara</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">A Petrobras</td><td class="arg1">para apurar os detalhes de a compra de a r</td><td class="arg2">comissão interna</td><td class='texto'>RT @bovespabrokers : <span class="arg0">A Petrobras</span><sub class="deprel">nsubj</sub> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span><sub class="deprel">amod</sub> ' de alto nível ' <span class="arg1">para apurar os detalhes de a compra de a r</span><sub class="deprel">nmod:wtrunc</sub> …</td></tr><tr><td>2</td><td class="arg0">de a Câmara</td><td class="arg1">que investiga a Petrobras</td><td class="arg2">Comissão externa</td><td class='texto'>$PETR4 RT @agenciabrasil : <span class="arg2"><span class="rel">Comissão</span> externa</span><sub class="deprel">amod</sub> <span class="arg0">de a Câmara</span><sub class="deprel">nmod</sub> <span class="arg1">que investiga a Petrobras</span><sub class="deprel">obj</sub> aprova requerimentos http://t.co/q7VgfIdeUu</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">que vai investigar a Petrobrás</td><td class="arg2">comissão</td><td class='texto'>Olha lá a sujeira ... Governo terá maioria em <span class="arg2"><span class="rel">comissão</span></span><sub class="deprel">obl</sub> <span class="arg1">que vai investigar a Petrobrás</span><sub class="deprel">obj</sub> #PETR4</td></tr><tr><td>4</td><td class="arg0">A Petrobras</td><td class="arg1">para apurar os detalhes de a compra de a r</td><td class="arg2">comissão interna</td><td class='texto'><span class="arg0">A Petrobras</span><sub class="deprel">nsubj</sub> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span><sub class="deprel">amod</sub> ' de alto nível ' para apurar os detalhes de a compra de a refinaria de Pasadena .</td></tr><tr><td>5</td><td class="arg0">Câmara</td><td class="arg1">para investigar Petrobras</td><td class="arg2">comissão</td><td class='texto'>#PETR4 RT @valor_economico : <span class="arg0">Câmara</span><sub class="deprel">nsubj</sub> derrota governo e aprova <span class="arg2"><span class="rel">comissão</span></span><sub class="deprel">obj</sub> <span class="arg1">para investigar Petrobras</span><sub class="deprel">obj</sub> http://t.co/p37D1t2ARU</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_448936578715774977l::comissão::1"><td>1</td><td class="arg0">A Petrobras</td><td class="arg1">para apurar os detalhes de a compra de a r</td><td class="arg2">comissão interna</td><td class='texto'>RT @bovespabrokers : <span class="arg0">A Petrobras</span><sub class="deprel">nsubj</sub> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span><sub class="deprel">amod</sub> ' de alto nível ' <span class="arg1">para apurar os detalhes de a compra de a r</span><sub class="deprel">nmod:wtrunc</sub> …</td></tr><tr data-instance-id="dante_01_458779058290315264l::comissão::1"><td>2</td><td class="arg0">de a Câmara</td><td class="arg1">que investiga a Petrobras</td><td class="arg2">Comissão externa</td><td class='texto'>$PETR4 RT @agenciabrasil : <span class="arg2"><span class="rel">Comissão</span> externa</span><sub class="deprel">amod</sub> <span class="arg0">de a Câmara</span><sub class="deprel">nmod</sub> <span class="arg1">que investiga a Petrobras</span><sub class="deprel">obj</sub> aprova requerimentos http://t.co/q7VgfIdeUu</td></tr><tr data-instance-id="dante_01_446064765740515328l::comissão::1"><td>3</td><td class="arg0">-</td><td class="arg1">que vai investigar a Petrobrás</td><td class="arg2">comissão</td><td class='texto'>Olha lá a sujeira ... Governo terá maioria em <span class="arg2"><span class="rel">comissão</span></span><sub class="deprel">obl</sub> <span class="arg1">que vai investigar a Petrobrás</span><sub class="deprel">obj</sub> #PETR4</td></tr><tr data-instance-id="dante_01_448936393461731328l::comissão::1"><td>4</td><td class="arg0">A Petrobras</td><td class="arg1">para apurar os detalhes de a compra de a r</td><td class="arg2">comissão interna</td><td class='texto'><span class="arg0">A Petrobras</span><sub class="deprel">nsubj</sub> #PETR4 confirmou hoje que abriu uma <span class="arg2"><span class="rel">comissão</span> interna</span><sub class="deprel">amod</sub> ' de alto nível ' para apurar os detalhes de a compra de a refinaria de Pasadena .</td></tr><tr data-instance-id="dante_01_443546384562917376l::comissão::1"><td>5</td><td class="arg0">Câmara</td><td class="arg1">para investigar Petrobras</td><td class="arg2">comissão</td><td class='texto'>#PETR4 RT @valor_economico : <span class="arg0">Câmara</span><sub class="deprel">nsubj</sub> derrota governo e aprova <span class="arg2"><span class="rel">comissão</span></span><sub class="deprel">obj</sub> <span class="arg1">para investigar Petrobras</span><sub class="deprel">obj</sub> http://t.co/p37D1t2ARU</td></tr></tbody>
     </table>
     
   

@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: recipient</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: A os comprados em #bbas3 , paciência para bom <span class="rel">retorno</span> em curto prazo e a os vendidos sem surpreendam ! Vamos com tudo !</h3>
+  <h3 data-instance-id="dante_01_446601334377431040l::retorno::1">1: A os comprados em #bbas3 , paciência para bom <span class="rel">retorno</span> em curto prazo e a os vendidos sem surpreendam ! Vamos com tudo !</h3>
 <ul>
 <li class="rel">rel: retorno</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: Conheça os retornos mais rápidos de o Ibovespa e aproveite as oportunidades para investir : A G ... http://t.co/coBxXJOQg0 #infomoney #vale5</h3>
+<h3 data-instance-id="dante_01_458955542136762370l::retorno::1">2: Conheça os <span class="rel">retornos</span> mais rápidos de o Ibovespa e aproveite as oportunidades para investir : A G ... http://t.co/coBxXJOQg0 #infomoney #vale5</h3>
 <ul>
 <li class="rel">rel: retorno</li>
 <li class="arg0">Arg 0: da Ibovespa</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A os comprados em #bbas3 , paciência para bom <span class="rel">retorno</span> em curto prazo e a os vendidos sem surpreendam ! Vamos com tudo !</td></tr><tr><td>2</td><td class="arg0">da Ibovespa</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Conheça os retornos mais rápidos de o Ibovespa e aproveite as oportunidades para investir : A G ... http://t.co/coBxXJOQg0 #infomoney #vale5</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_446601334377431040l::retorno::1"><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A os comprados em #bbas3 , paciência para bom <span class="rel">retorno</span> em curto prazo e a os vendidos sem surpreendam ! Vamos com tudo !</td></tr><tr data-instance-id="dante_01_458955542136762370l::retorno::1"><td>2</td><td class="arg0">da Ibovespa</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Conheça os <span class="rel">retornos</span> mais rápidos de o Ibovespa e aproveite as oportunidades para investir : A G ... http://t.co/coBxXJOQg0 #infomoney #vale5</td></tr></tbody>
     </table>
     
   

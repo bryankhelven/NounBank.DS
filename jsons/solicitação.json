@@ -48,6 +48,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448972349292171264l::solicitação::1",
+          "predicate": {
+            "form": "solicitação",
+            "char_start": 23,
+            "char_end": 34
           }
         }
       ],

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451890459213037568l::eleição::1",
+          "predicate": {
+            "form": "eleição",
+            "char_start": 125,
+            "char_end": 132
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463667443161133056l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 49,
+            "char_end": 57
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463670775506272257l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 70,
+            "char_end": 78
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451411205161508866l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 71,
+            "char_end": 79
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449213411021176832l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 95,
+            "char_end": 103
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461512197651574785l::eleição::1",
+          "predicate": {
+            "form": "eleição",
+            "char_start": 35,
+            "char_end": 42
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443075536924200960l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 53,
+            "char_end": 61
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458630671448428544l::eleição::1",
+          "predicate": {
+            "form": "eleição",
+            "char_start": 94,
+            "char_end": 101
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446658495862292480l::eleição::1",
+          "predicate": {
+            "form": "eleições",
+            "char_start": 136,
+            "char_end": 144
           }
         },
         {
@@ -210,7 +264,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441235701271912448l::eleição::1"
         },
         {
           "sent_ID": "dante_01_441274491155787776l",
@@ -228,7 +283,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441274491155787776l::eleição::1"
         },
         {
           "sent_ID": "dante_01_449269972699975681l",
@@ -246,6 +302,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449269972699975681l::eleição::1",
+          "predicate": {
+            "form": "eleição",
+            "char_start": 120,
+            "char_end": 127
           }
         },
         {
@@ -264,7 +326,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449597804189847552l::eleição::1"
         },
         {
           "sent_ID": "dante_01_451149200290746369l",
@@ -282,6 +345,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451149200290746369l::eleição::1",
+          "predicate": {
+            "form": "Eleição",
+            "char_start": 43,
+            "char_end": 50
           }
         }
       ],

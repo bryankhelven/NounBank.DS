@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460775523166461953l::outorga::1",
+          "predicate": {
+            "form": "outorga",
+            "char_start": 74,
+            "char_end": 81
           }
         }
       ],

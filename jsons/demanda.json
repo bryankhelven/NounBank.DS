@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446682266539143169l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 111,
+            "char_end": 118
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464738307692191744l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 78,
+            "char_end": 85
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470183485622460416l::demanda::1",
+          "predicate": {
+            "form": "Demanda",
+            "char_start": 69,
+            "char_end": 76
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443166622409560064l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 60,
+            "char_end": 67
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443052011161157632l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 58,
+            "char_end": 65
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444140925212983296l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 102,
+            "char_end": 109
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443069104740917248l::demanda::1",
+          "predicate": {
+            "form": "demanda",
+            "char_start": 58,
+            "char_end": 65
           }
         }
       ],

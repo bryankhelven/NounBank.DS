@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443754762396508160l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 80,
+            "char_end": 87
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459499699377295361l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 51,
+            "char_end": 58
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459308840195194880l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 6,
+            "char_end": 13
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469451108096552960l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 23,
+            "char_end": 30
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469553057764626432l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 16,
+            "char_end": 23
           }
         },
         {
@@ -138,7 +168,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_454228302602182656l::decisão::1"
         },
         {
           "sent_ID": "dante_01_441913277376110592l",
@@ -156,6 +187,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441913277376110592l::decisão::1",
+          "predicate": {
+            "form": "decisão",
+            "char_start": 55,
+            "char_end": 62
           }
         }
       ],

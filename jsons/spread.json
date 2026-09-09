@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_459705031894507520l::spread::1",
+          "predicate": {
+            "form": "Spread",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_447096841172426753l::spread::1",
+          "predicate": {
+            "form": "Spread",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": "nsubj",
             "Arg4": null
+          },
+          "instance_id": "dante_01_464756005377540097l::spread::1",
+          "predicate": {
+            "form": "spread",
+            "char_start": 105,
+            "char_end": 111
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_445615969688616961l::spread::1",
+          "predicate": {
+            "form": "spread",
+            "char_start": 41,
+            "char_end": 47
           }
         }
       ],

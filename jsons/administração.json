@@ -48,7 +48,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449188871776247808l::administração::1"
         },
         {
           "sent_ID": "dante_01_443463813623738368l",
@@ -66,6 +67,12 @@
             "Arg2": "flat:name",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443463813623738368l::administração::1",
+          "predicate": {
+            "form": "administração",
+            "char_start": 64,
+            "char_end": 77
           }
         },
         {
@@ -84,6 +91,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443207013405700096l::administração::1",
+          "predicate": {
+            "form": "Administração",
+            "char_start": 58,
+            "char_end": 71
           }
         },
         {
@@ -102,7 +115,8 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_460756892646907904l::administração::1"
         },
         {
           "sent_ID": "dante_01_451103473405538304l",
@@ -120,6 +134,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451103473405538304l::administração::1",
+          "predicate": {
+            "form": "administração",
+            "char_start": 59,
+            "char_end": 72
           }
         },
         {
@@ -138,6 +158,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450677390780669952l::administração::1",
+          "predicate": {
+            "form": "administração",
+            "char_start": 86,
+            "char_end": 99
           }
         }
       ],

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464738307692191744l::transporte::1",
+          "predicate": {
+            "form": "transporte",
+            "char_start": 9,
+            "char_end": 19
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459330478110412800l::transporte::1",
+          "predicate": {
+            "form": "transporte",
+            "char_start": 100,
+            "char_end": 110
           }
         }
       ],

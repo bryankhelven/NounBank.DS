@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
+          },
+          "instance_id": "dante_01_445973204335882241l::monte::1",
+          "predicate": {
+            "form": "monte",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447068941912137728l::monte::1",
+          "predicate": {
+            "form": "monte",
+            "char_start": 54,
+            "char_end": 59
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456157178563280896l::monte::1",
+          "predicate": {
+            "form": "monte",
+            "char_start": 18,
+            "char_end": 23
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456157420415246336l::monte::1",
+          "predicate": {
+            "form": "monte",
+            "char_start": 33,
+            "char_end": 38
           }
         }
       ],

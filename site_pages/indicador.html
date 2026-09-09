@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: indicated to</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: @malcaetano : ITUB4 com IMA-CRASH em 0.88 . É alerta de queda forte , correto ? Mas tem que esperar o <span class="rel">indicador</span> virar para baixo , correto ? Abs</h3>
+  <h3 data-instance-id="dante_01_471738020191019010l::indicador::1">1: @malcaetano : ITUB4 com IMA-CRASH em 0.88 . É alerta de queda forte , correto ? Mas tem que esperar o <span class="rel">indicador</span> virar para baixo , correto ? Abs</h3>
 <ul>
 <li class="rel">rel: indicador</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: RT “ @PedroCerize : Um de os maiores indicadores de o <span class="arg1">mercado</span> : Capa de a Exame http://t.co/gBRLkPUHaa”// tô vendendo BRFS3 agora . Tem PUT liquida ?</h3>
+<h3 data-instance-id="dante_01_454332774741463041l::indicador::1">2: RT “ @PedroCerize : Um de os maiores <span class="rel">indicadores</span> de o <span class="arg1">mercado</span> : Capa de a Exame http://t.co/gBRLkPUHaa”// tô vendendo BRFS3 agora . Tem PUT liquida ?</h3>
 <ul>
 <li class="rel">rel: indicador</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@malcaetano : ITUB4 com IMA-CRASH em 0.88 . É alerta de queda forte , correto ? Mas tem que esperar o <span class="rel">indicador</span> virar para baixo , correto ? Abs</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">mercado</td><td class="arg2">-</td><td class='texto'>RT “ @PedroCerize : Um de os maiores indicadores de o <span class="arg1">mercado</span><sub class="deprel">nmod</sub> : Capa de a Exame http://t.co/gBRLkPUHaa”// tô vendendo BRFS3 agora . Tem PUT liquida ?</td></tr><tr><td>3</td><td class="arg0">Recompra de ações</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>LAME4 em o swing acima de R$ 14,85 parece dar compra ! <span class="arg0">Recompra de ações</span><sub class="deprel">nmod</sub> é mais um <span class="rel">indicador</span> ...</td></tr><tr><td>4</td><td class="arg0">-</td><td class="arg1">de péssima</td><td class="arg2">-</td><td class='texto'>OPORTUNIDADE #PETROBRAS : O MENOR PREÇO EM 20 ANOS ? #PETR4 Em a semana passada , vários indicadores <span class="arg1">de péssima</span><sub class="deprel">nmod:strunc</sub> ... http://t.co/o57yNlV4WC</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_471738020191019010l::indicador::1"><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@malcaetano : ITUB4 com IMA-CRASH em 0.88 . É alerta de queda forte , correto ? Mas tem que esperar o <span class="rel">indicador</span> virar para baixo , correto ? Abs</td></tr><tr data-instance-id="dante_01_454332774741463041l::indicador::1"><td>2</td><td class="arg0">-</td><td class="arg1">mercado</td><td class="arg2">-</td><td class='texto'>RT “ @PedroCerize : Um de os maiores <span class="rel">indicadores</span> de o <span class="arg1">mercado</span><sub class="deprel">nmod</sub> : Capa de a Exame http://t.co/gBRLkPUHaa”// tô vendendo BRFS3 agora . Tem PUT liquida ?</td></tr><tr data-instance-id="dante_01_445557796072079360l::indicador::1"><td>3</td><td class="arg0">Recompra de ações</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>LAME4 em o swing acima de R$ 14,85 parece dar compra ! <span class="arg0">Recompra de ações</span><sub class="deprel">nmod</sub> é mais um <span class="rel">indicador</span> ...</td></tr><tr data-instance-id="dante_01_448116868541587456l::indicador::1"><td>4</td><td class="arg0">-</td><td class="arg1">de péssima</td><td class="arg2">-</td><td class='texto'>OPORTUNIDADE #PETROBRAS : O MENOR PREÇO EM 20 ANOS ? #PETR4 Em a semana passada , vários <span class="rel">indicadores</span> <span class="arg1">de péssima</span><sub class="deprel">nmod:strunc</sub> ... http://t.co/o57yNlV4WC</td></tr></tbody>
     </table>
     
   

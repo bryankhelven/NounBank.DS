@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: theme</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #BRFS3 - O leilão por a <span class="rel">divisão</span> <span class="arg2">de lácteos</span> <span class="arg1">de a BRF</span> começou - http://t.co/fewoACB7aD</h3>
+  <h3 data-instance-id="dante_01_449261548754972672l::divisão::1">1: #BRFS3 - O leilão por a <span class="rel">divisão</span> <span class="arg2">de lácteos</span> <span class="arg1">de a BRF</span> começou - http://t.co/fewoACB7aD</h3>
 <ul>
 <li class="rel">rel: divisão</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: de a BRF</li>
 <li class="arg2">Arg 2: de lácteos</li>
 </ul>
-<h3>2: RT @ojappadonodo6 : @garimpodeacoes JBSS3 13Q4 ( N ) fraco desempenho em as divisões <span class="arg2">externas</span> . Bom desempenho em o Mercosul , com adição de Seara .</h3>
+<h3 data-instance-id="dante_01_458274836494946305l::divisão::1">2: RT @ojappadonodo6 : @garimpodeacoes JBSS3 13Q4 ( N ) fraco desempenho em as <span class="rel">divisões</span> <span class="arg2">externas</span> . Bom desempenho em o Mercosul , com adição de Seara .</h3>
 <ul>
 <li class="rel">rel: divisão</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">de a BRF</td><td class="arg2">de lácteos</td><td class='texto'>#BRFS3 - O leilão por a <span class="rel">divisão</span> <span class="arg2">de lácteos</span><sub class="deprel">nmod</sub> <span class="arg1">de a BRF</span><sub class="deprel">nmod</sub> começou - http://t.co/fewoACB7aD</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">externas</td><td class='texto'>RT @ojappadonodo6 : @garimpodeacoes JBSS3 13Q4 ( N ) fraco desempenho em as divisões <span class="arg2">externas</span><sub class="deprel">amod</sub> . Bom desempenho em o Mercosul , com adição de Seara .</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">de a TIM</td><td class="arg2">-</td><td class='texto'>#TIMP3 Telecom Italia inicia cruzada para evitar <span class="rel">divisão</span> <span class="arg1">de a TIM</span><sub class="deprel">nmod</sub> O executivo-chefe de a Telecom Italia , Marco ... http://t.co/tZnICpk4Tu</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_449261548754972672l::divisão::1"><td>1</td><td class="arg0">-</td><td class="arg1">de a BRF</td><td class="arg2">de lácteos</td><td class='texto'>#BRFS3 - O leilão por a <span class="rel">divisão</span> <span class="arg2">de lácteos</span><sub class="deprel">nmod</sub> <span class="arg1">de a BRF</span><sub class="deprel">nmod</sub> começou - http://t.co/fewoACB7aD</td></tr><tr data-instance-id="dante_01_458274836494946305l::divisão::1"><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">externas</td><td class='texto'>RT @ojappadonodo6 : @garimpodeacoes JBSS3 13Q4 ( N ) fraco desempenho em as <span class="rel">divisões</span> <span class="arg2">externas</span><sub class="deprel">amod</sub> . Bom desempenho em o Mercosul , com adição de Seara .</td></tr><tr data-instance-id="dante_01_472335234953117697l::divisão::1"><td>3</td><td class="arg0">-</td><td class="arg1">de a TIM</td><td class="arg2">-</td><td class='texto'>#TIMP3 Telecom Italia inicia cruzada para evitar <span class="rel">divisão</span> <span class="arg1">de a TIM</span><sub class="deprel">nmod</sub> O executivo-chefe de a Telecom Italia , Marco ... http://t.co/tZnICpk4Tu</td></tr></tbody>
     </table>
     
   

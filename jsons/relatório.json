@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454244536920072193l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 100,
+            "char_end": 109
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445687170125549568l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 41,
+            "char_end": 50
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453600686664876033l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 81,
+            "char_end": 90
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_467278962154942464l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 35,
+            "char_end": 44
           }
         },
         {
@@ -120,7 +144,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461548302069424128l::relatório::1"
         },
         {
           "sent_ID": "dante_01_448818884754538496l",
@@ -138,6 +163,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448818884754538496l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 5,
+            "char_end": 14
           }
         },
         {
@@ -156,6 +187,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448825268309065728l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 27,
+            "char_end": 36
           }
         },
         {
@@ -174,6 +211,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452159443690864640l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 32,
+            "char_end": 41
           }
         },
         {
@@ -192,6 +235,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445935426608840705l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 32,
+            "char_end": 41
           }
         },
         {
@@ -210,6 +259,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445935520766783488l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 32,
+            "char_end": 41
           }
         },
         {
@@ -228,7 +283,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459304788837289984l::relatório::1"
         },
         {
           "sent_ID": "dante_01_444458618797436928l",
@@ -246,6 +302,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444458618797436928l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 72,
+            "char_end": 81
           }
         },
         {
@@ -264,6 +326,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448818300957769728l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 63,
+            "char_end": 72
           }
         },
         {
@@ -282,6 +350,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448823904044613632l::relatório::1",
+          "predicate": {
+            "form": "Relatório",
+            "char_start": 85,
+            "char_end": 94
           }
         },
         {
@@ -300,7 +374,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461469597271867392l::relatório::1"
         },
         {
           "sent_ID": "dante_01_464029868133711872l",
@@ -318,7 +393,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_464029868133711872l::relatório::1"
         },
         {
           "sent_ID": "dante_01_464415910338772993l",
@@ -336,7 +412,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_464415910338772993l::relatório::1"
         },
         {
           "sent_ID": "dante_01_445615969688616961l",
@@ -354,7 +431,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_445615969688616961l::relatório::1"
         },
         {
           "sent_ID": "dante_01_447482644084035584l",
@@ -372,6 +450,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447482644084035584l::relatório::1",
+          "predicate": {
+            "form": "relatórios",
+            "char_start": 76,
+            "char_end": 86
           }
         },
         {
@@ -390,6 +474,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453562030759616512l::relatório::1",
+          "predicate": {
+            "form": "relatório",
+            "char_start": 5,
+            "char_end": 14
           }
         },
         {
@@ -408,7 +498,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448498069731307520l::relatório::1"
         },
         {
           "sent_ID": "dante_01_461507335035555840l",
@@ -426,7 +517,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461507335035555840l::relatório::1"
         },
         {
           "sent_ID": "dante_01_462327183563042816l",
@@ -444,7 +536,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_462327183563042816l::relatório::1"
         },
         {
           "sent_ID": "dante_01_466193199934210048l",
@@ -462,7 +555,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_466193199934210048l::relatório::1"
         }
       ],
       "syntactic_profile": {

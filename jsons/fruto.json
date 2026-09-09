@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452154691905126400l::fruto::1",
+          "predicate": {
+            "form": "frutos",
+            "char_start": 69,
+            "char_end": 75
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "acl:relcl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471628526152454144l::fruto::1",
+          "predicate": {
+            "form": "frutos",
+            "char_start": 25,
+            "char_end": 31
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "acl:relcl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471708570082639873l::fruto::1",
+          "predicate": {
+            "form": "frutos",
+            "char_start": 25,
+            "char_end": 31
           }
         }
       ],

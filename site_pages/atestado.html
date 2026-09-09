@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,7 +106,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: beneficiary, proved-to</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: já pode emitir <span class="rel">atestado</span> <span class="arg1">de óbito</span> <span class="arg2">de a #PETR4</span> ? o.O</h3>
+  <h3 data-instance-id="dante_01_445603272754466816l::atestado::1">1: já pode emitir <span class="rel">atestado</span> <span class="arg1">de óbito</span> <span class="arg2">de a #PETR4</span> ? o.O</h3>
 <ul>
 <li class="rel">rel: atestado</li>
 <li class="arg0">Arg 0: -</li>
@@ -115,7 +120,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">de óbito</td><td class="arg2">de a #PETR4</td><td class='texto'>já pode emitir <span class="rel">atestado</span> <span class="arg1">de óbito</span><sub class="deprel">nmod</sub> <span class="arg2">de a #PETR4</span><sub class="deprel">nmod</sub> ? o.O</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_445603272754466816l::atestado::1"><td>1</td><td class="arg0">-</td><td class="arg1">de óbito</td><td class="arg2">de a #PETR4</td><td class='texto'>já pode emitir <span class="rel">atestado</span> <span class="arg1">de óbito</span><sub class="deprel">nmod</sub> <span class="arg2">de a #PETR4</span><sub class="deprel">nmod</sub> ? o.O</td></tr></tbody>
     </table>
     
   

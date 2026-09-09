@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,13 +105,13 @@ body{margin:0;}
 <li class="arg1">Arg 1: thing (place, stuff) explored</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: <span class="arg0">#Petrobrás</span> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> <span class="arg1">de o fisiologismo em a bacia de as almas</span> . #PETR4</h3>
+  <h3 data-instance-id="dante_01_444116429194162176l::exploração::1">1: <span class="arg0">#Petrobrás</span> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> <span class="arg1">de o fisiologismo em a bacia de as almas</span> . #PETR4</h3>
 <ul>
 <li class="rel">rel: exploração</li>
 <li class="arg0">Arg 0: #Petrobrás</li>
 <li class="arg1">Arg 1: de o fisiologismo em a bacia de as almas</li>
 </ul>
-<h3>2: RT @ppaulovagner : <span class="arg0">#Petrobrás</span> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> de o fisiologismo em a bacia de as …</h3>
+<h3 data-instance-id="dante_01_444118685725507584l::exploração::1">2: RT @ppaulovagner : <span class="arg0">#Petrobrás</span> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> de o fisiologismo em a bacia de as …</h3>
 <ul>
 <li class="rel">rel: exploração</li>
 <li class="arg0">Arg 0: #Petrobrás</li>
@@ -119,7 +124,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'><span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> <span class="arg1">de o fisiologismo em a bacia de as almas</span><sub class="deprel">nmod</sub> . #PETR4</td></tr><tr><td>2</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'>RT @ppaulovagner : <span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> de o fisiologismo em a bacia de as …</td></tr><tr><td>3</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'>RT @ppaulovagner : <span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas . #PETR4</td></tr><tr><td>4</td><td class="arg0">-</td><td class="arg1">de potássio</td><td class='texto'>Vale ( VALE5 ) – Adiou para 30 de março o prazo para a decisão sobre o projeto de <span class="rel">exploração</span> <span class="arg1">de potássio</span><sub class="deprel">nmod</sub> . #VisaoAtiva - Marginalmente negativa</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_444116429194162176l::exploração::1"><td>1</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'><span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> <span class="arg1">de o fisiologismo em a bacia de as almas</span><sub class="deprel">nmod</sub> . #PETR4</td></tr><tr data-instance-id="dante_01_444118685725507584l::exploração::1"><td>2</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'>RT @ppaulovagner : <span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a <span class="rel">exploração</span> de o fisiologismo em a bacia de as …</td></tr><tr data-instance-id="dante_01_444119089167212544l::exploração::1" data-rel="missing"><td>3</td><td class="arg0">#Petrobrás</td><td class="arg1">de o fisiologismo em a bacia de as almas</td><td class='texto'>RT @ppaulovagner : <span class="arg0">#Petrobrás</span><sub class="deprel">nsubj</sub> anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas . #PETR4<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_441913277376110592l::exploração::1"><td>4</td><td class="arg0">-</td><td class="arg1">de potássio</td><td class='texto'>Vale ( VALE5 ) – Adiou para 30 de março o prazo para a decisão sobre o projeto de <span class="rel">exploração</span> <span class="arg1">de potássio</span><sub class="deprel">nmod</sub> . #VisaoAtiva - Marginalmente negativa</td></tr></tbody>
     </table>
     
   

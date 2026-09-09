@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471738020191019010l::indicador::1",
+          "predicate": {
+            "form": "indicador",
+            "char_start": 102,
+            "char_end": 111
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454332774741463041l::indicador::1",
+          "predicate": {
+            "form": "indicadores",
+            "char_start": 37,
+            "char_end": 48
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445557796072079360l::indicador::1",
+          "predicate": {
+            "form": "indicador",
+            "char_start": 83,
+            "char_end": 92
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448116868541587456l::indicador::1",
+          "predicate": {
+            "form": "indicadores",
+            "char_start": 89,
+            "char_end": 100
           }
         }
       ],

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441545011491254272l::rateio::1",
+          "predicate": {
+            "form": "Rateio",
+            "char_start": 45,
+            "char_end": 51
           }
         }
       ],

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463375453735374849l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 8,
+            "char_end": 15
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468835433070460928l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 56,
+            "char_end": 63
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441233076748681216l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 43,
+            "char_end": 50
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443217384078598144l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 24,
+            "char_end": 31
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447705608960344064l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 23,
+            "char_end": 30
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466312523223166979l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 17,
+            "char_end": 24
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441581046753419264l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 16,
+            "char_end": 23
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446040335706492930l::caminho::1",
+          "predicate": {
+            "form": "caminho",
+            "char_start": 33,
+            "char_end": 40
           }
         }
       ],

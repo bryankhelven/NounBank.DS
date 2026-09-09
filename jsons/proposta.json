@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446638058633699328l::proposta::1",
+          "predicate": {
+            "form": "proposta",
+            "char_start": 30,
+            "char_end": 38
           }
         },
         {
@@ -62,10 +68,16 @@
           },
           "syntax": {
             "Arg0": "nmod",
-            "Arg1": "amod",
+            "Arg1": "nmod",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448061183451746304l::proposta::1",
+          "predicate": {
+            "form": "Proposta",
+            "char_start": 48,
+            "char_end": 56
           }
         },
         {
@@ -74,16 +86,22 @@
           "realization": {
             "Arg0": "Energias Br",
             "Arg1": null,
-            "Arg2": "Ago",
+            "Arg2": "Ago/e",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
-            "Arg0": "flat:name",
+            "Arg0": "nmod",
             "Arg1": null,
-            "Arg2": null,
+            "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460783757025624064l::proposta::1",
+          "predicate": {
+            "form": "Proposta",
+            "char_start": 51,
+            "char_end": 59
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456398217542766592l::proposta::1",
+          "predicate": {
+            "form": "proposta",
+            "char_start": 58,
+            "char_end": 66
           }
         },
         {
@@ -116,10 +140,16 @@
           },
           "syntax": {
             "Arg0": "nsubj",
-            "Arg1": "nmod",
+            "Arg1": "acl",
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456842896021278720l::proposta::1",
+          "predicate": {
+            "form": "proposta",
+            "char_start": 13,
+            "char_end": 21
           }
         },
         {
@@ -134,25 +164,79 @@
           },
           "syntax": {
             "Arg0": "nmod",
-            "Arg1": "amod",
+            "Arg1": "parataxis",
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449545769029496834l::proposta::1",
+          "predicate": {
+            "form": "Proposta",
+            "char_start": 34,
+            "char_end": 42
           }
+        },
+        {
+          "sent_ID": "dante_01_449542704209612801l",
+          "text": "$ELET3 - Eletrobras (elet-n1)- Proposta A Ago (juros Sobre O Capital Proprio) http://t.co/KYIQa6FoQV",
+          "realization": {
+            "Arg0": "Eletrobras (elet-n1)",
+            "Arg1": "juros Sobre O Capital Proprio",
+            "Arg2": "A Ago",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "parataxis",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "predicate": {
+            "form": "Proposta",
+            "char_start": 31,
+            "char_end": 39
+          },
+          "instance_id": "dante_01_449542704209612801l::proposta::1"
+        },
+        {
+          "sent_ID": "dante_01_451323756733296640l",
+          "text": "$CSAN3 - Cosan (csan-nm)- Fato Relevante - Extensao De Prazo Prop. Vinculante -rumo E All http://t.co/7ymF2YkjpP",
+          "realization": {
+            "Arg0": "Cosan (csan-nm)",
+            "Arg1": null,
+            "Arg2": "rumo E All",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "predicate": {
+            "form": "Prop.",
+            "char_start": 61,
+            "char_end": 66
+          },
+          "instance_id": "dante_01_451323756733296640l::proposta::1"
         }
       ],
       "syntactic_profile": {
         "Arg0": {
-          "nmod": 4,
-          "flat:name": 1,
+          "nmod": 7,
           "nsubj": 1
         },
         "Arg1": {
           "nmod": 3,
-          "amod": 2
+          "acl": 1,
+          "parataxis": 2
         },
         "Arg2": {
-          "nmod": 3
+          "nmod": 6
         }
       }
     }

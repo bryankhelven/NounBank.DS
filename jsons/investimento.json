@@ -48,6 +48,12 @@
             "Arg2": "obj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460034860225429504l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 116,
+            "char_end": 128
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451152647618166786l::investimento::1",
+          "predicate": {
+            "form": "Investimentos",
+            "char_start": 16,
+            "char_end": 29
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454023247101562882l::investimento::1",
+          "predicate": {
+            "form": "Investimentos",
+            "char_start": 16,
+            "char_end": 29
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443188111057887232l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 30,
+            "char_end": 42
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454344759843098624l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 55,
+            "char_end": 68
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456154554036264963l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 52,
+            "char_end": 64
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471998284022964224l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 66,
+            "char_end": 78
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454593417712902144l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 23,
+            "char_end": 35
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454596496378171393l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 13,
+            "char_end": 25
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454601973732368384l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 13,
+            "char_end": 25
           }
         },
         {
@@ -228,6 +288,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444958920105529345l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 9,
+            "char_end": 22
           }
         },
         {
@@ -246,7 +312,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447144750601494528l::investimento::1"
         },
         {
           "sent_ID": "dante_01_447144585316544512l",
@@ -264,7 +331,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447144585316544512l::investimento::1"
         },
         {
           "sent_ID": "dante_01_450603977550598144l",
@@ -282,6 +350,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450603977550598144l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 39,
+            "char_end": 51
           }
         },
         {
@@ -300,6 +374,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450606516790652928l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 57,
+            "char_end": 69
           }
         },
         {
@@ -318,6 +398,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444077454463102977l::investimento::1",
+          "predicate": {
+            "form": "Investimentos",
+            "char_start": 31,
+            "char_end": 44
           }
         },
         {
@@ -336,6 +422,12 @@
             "Arg2": "parataxis",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444092114222481408l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 32,
+            "char_end": 44
           }
         },
         {
@@ -354,6 +446,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444519209742381056l::investimento::1",
+          "predicate": {
+            "form": "Investimento",
+            "char_start": 18,
+            "char_end": 30
           }
         },
         {
@@ -372,7 +470,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447161570007982082l::investimento::1"
         },
         {
           "sent_ID": "dante_01_448600303500533760l",
@@ -390,6 +489,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448600303500533760l::investimento::1",
+          "predicate": {
+            "form": "Investimento",
+            "char_start": 65,
+            "char_end": 77
           }
         },
         {
@@ -408,6 +513,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459035481196724225l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 103,
+            "char_end": 115
           }
         },
         {
@@ -426,6 +537,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441409696948584448l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 88,
+            "char_end": 101
           }
         },
         {
@@ -444,6 +561,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448601665160355840l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 82,
+            "char_end": 94
           }
         },
         {
@@ -462,6 +585,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443116596328800256l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 59,
+            "char_end": 71
           }
         },
         {
@@ -480,6 +609,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444585471096938497l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 20,
+            "char_end": 32
           }
         },
         {
@@ -498,6 +633,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458630609720836097l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 94,
+            "char_end": 107
           }
         },
         {
@@ -516,7 +657,8 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447144710101286912l::investimento::1"
         },
         {
           "sent_ID": "dante_01_456417455875690497l",
@@ -534,6 +676,12 @@
             "Arg2": "csubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456417455875690497l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 21,
+            "char_end": 33
           }
         },
         {
@@ -552,6 +700,12 @@
             "Arg2": "csubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456492096237477888l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 39,
+            "char_end": 51
           }
         },
         {
@@ -570,6 +724,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456391863964954624l::investimento::1",
+          "predicate": {
+            "form": "investimento",
+            "char_start": 63,
+            "char_end": 75
           }
         },
         {
@@ -588,6 +748,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455901715850874880l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 74,
+            "char_end": 87
           }
         },
         {
@@ -606,6 +772,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451691747266297856l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 90,
+            "char_end": 103
           }
         },
         {
@@ -624,6 +796,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451693774117552128l::investimento::1",
+          "predicate": {
+            "form": "investimentos",
+            "char_start": 108,
+            "char_end": 121
           }
         }
       ],

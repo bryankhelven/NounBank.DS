@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460788178345926657l::visão::1",
+          "predicate": {
+            "form": "visão",
+            "char_start": 66,
+            "char_end": 71
           }
         }
       ],

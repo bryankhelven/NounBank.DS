@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470924397415759872l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 111,
+            "char_end": 118
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449181054575050752l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 21,
+            "char_end": 28
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459396230943358976l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 9,
+            "char_end": 16
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456146063598944256l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 129,
+            "char_end": 136
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456195852424314880l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 29,
+            "char_end": 36
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444187355206144002l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 44,
+            "char_end": 51
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466633356126740481l::cenário::1",
+          "predicate": {
+            "form": "cenário",
+            "char_start": 9,
+            "char_end": 16
           }
         }
       ],

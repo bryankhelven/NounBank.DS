@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,7 +106,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: source</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $GOLL4 - <span class="arg2">GOL</span> protocola <span class="rel">solicitação</span> para <span class="arg1">operar voos regulares entre Campinas e Miami</span> http://t.co/mm0EgtD8kW</h3>
+  <h3 data-instance-id="dante_01_448972349292171264l::solicitação::1">1: $GOLL4 - <span class="arg2">GOL</span> protocola <span class="rel">solicitação</span> para <span class="arg1">operar voos regulares entre Campinas e Miami</span> http://t.co/mm0EgtD8kW</h3>
 <ul>
 <li class="rel">rel: solicitação</li>
 <li class="arg0">Arg 0: -</li>
@@ -115,7 +120,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">operar voos regulares entre Campinas e Miami</td><td class="arg2">GOL</td><td class='texto'>$GOLL4 - <span class="arg2">GOL</span><sub class="deprel">nsubj</sub> protocola <span class="rel">solicitação</span> para <span class="arg1">operar voos regulares entre Campinas e Miami</span><sub class="deprel">nmod</sub> http://t.co/mm0EgtD8kW</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_448972349292171264l::solicitação::1"><td>1</td><td class="arg0">-</td><td class="arg1">operar voos regulares entre Campinas e Miami</td><td class="arg2">GOL</td><td class='texto'>$GOLL4 - <span class="arg2">GOL</span><sub class="deprel">nsubj</sub> protocola <span class="rel">solicitação</span> para <span class="arg1">operar voos regulares entre Campinas e Miami</span><sub class="deprel">nmod</sub> http://t.co/mm0EgtD8kW</td></tr></tbody>
     </table>
     
   

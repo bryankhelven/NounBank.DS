@@ -48,6 +48,12 @@
             "Arg2": "obl",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455723336879075328l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 93,
+            "char_end": 98
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468921386799747072l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 103,
+            "char_end": 108
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443801199993946112l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 94,
+            "char_end": 99
           }
         },
         {
@@ -102,7 +120,8 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_452154691905126400l::venda::1"
         },
         {
           "sent_ID": "dante_01_459077159676829696l",
@@ -120,6 +139,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459077159676829696l::venda::1",
+          "predicate": {
+            "form": "Vendas",
+            "char_start": 14,
+            "char_end": 20
           }
         },
         {
@@ -138,6 +163,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119267261571072l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 7,
+            "char_end": 12
           }
         },
         {
@@ -156,6 +187,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119267261571072l::venda::2",
+          "predicate": {
+            "form": "venda",
+            "char_start": 29,
+            "char_end": 34
           }
         },
         {
@@ -174,6 +211,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119267261571072l::venda::3",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 52,
+            "char_end": 57
           }
         },
         {
@@ -192,6 +235,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449550989469970432l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 20,
+            "char_end": 25
           }
         },
         {
@@ -210,6 +259,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444526624000987136l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 44,
+            "char_end": 49
           }
         },
         {
@@ -228,6 +283,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456434512214638592l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 16,
+            "char_end": 21
           }
         },
         {
@@ -246,6 +307,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456132193338015744l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 83,
+            "char_end": 88
           }
         },
         {
@@ -264,6 +331,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456525257927454720l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 53,
+            "char_end": 58
           }
         },
         {
@@ -282,6 +355,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455676245368664065l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 30,
+            "char_end": 35
           }
         },
         {
@@ -300,6 +379,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443801182675689473l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -318,6 +403,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443815279802724352l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -336,6 +427,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443829193080844288l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -354,6 +451,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444106491218632704l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -372,6 +475,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444180742932017152l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -390,6 +499,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444496479131287552l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -408,6 +523,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444561188731756545l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -426,6 +547,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445557247364829184l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -444,6 +571,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445560979867578369l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -462,6 +595,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445940500210925569l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -480,6 +619,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445942735087104001l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -498,6 +643,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445983742226870272l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -516,6 +667,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445988803610951682l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -534,6 +691,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445993566423502849l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -552,6 +715,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446278582575579136l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -570,6 +739,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446301419499712514l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -588,6 +763,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446305173074616320l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -606,6 +787,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446344536202444800l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -624,6 +811,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446349798820818944l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -642,6 +835,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446357823157698560l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -660,6 +859,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446358680796413953l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -678,6 +883,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442007959133229056l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -696,6 +907,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119534161911808l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 3,
+            "char_end": 9
           }
         },
         {
@@ -714,6 +931,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119534161911808l::venda::2",
+          "predicate": {
+            "form": "venda",
+            "char_start": 85,
+            "char_end": 90
           }
         },
         {
@@ -732,6 +955,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119534161911808l::venda::3",
+          "predicate": {
+            "form": "venda",
+            "char_start": 107,
+            "char_end": 112
           }
         },
         {
@@ -750,6 +979,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444119534161911808l::venda::4",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 130,
+            "char_end": 135
           }
         },
         {
@@ -768,6 +1003,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452232585507504129l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 18,
+            "char_end": 23
           }
         },
         {
@@ -786,6 +1027,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454691501646557184l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 43,
+            "char_end": 48
           }
         },
         {
@@ -804,6 +1051,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459695340170780672l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 84,
+            "char_end": 89
           }
         },
         {
@@ -822,7 +1075,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_460773304958468097l::venda::1"
         },
         {
           "sent_ID": "dante_01_441233204976971778l",
@@ -840,6 +1094,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441233204976971778l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 39,
+            "char_end": 45
           }
         },
         {
@@ -858,6 +1118,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442034626115026944l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -876,6 +1142,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442035278715166720l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -894,6 +1166,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442036297268330496l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -912,6 +1190,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447488834431754240l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -930,6 +1214,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447489734705569792l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -948,6 +1238,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450612161270669312l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -966,6 +1262,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450612645712760832l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -984,6 +1286,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450613437463142400l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -1002,6 +1310,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452411602084438016l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -1020,6 +1334,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452412713898352640l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 70,
+            "char_end": 75
           }
         },
         {
@@ -1038,6 +1358,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452416903995469824l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 70,
+            "char_end": 75
           }
         },
         {
@@ -1056,6 +1382,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454651438225170433l::venda::1",
+          "predicate": {
+            "form": "Vendas",
+            "char_start": 19,
+            "char_end": 25
           }
         },
         {
@@ -1074,6 +1406,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459392747989131264l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 107,
+            "char_end": 112
           }
         },
         {
@@ -1092,6 +1430,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461205481458237441l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 69,
+            "char_end": 74
           }
         },
         {
@@ -1110,6 +1454,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451751146777247744l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -1128,6 +1478,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459705031894507520l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 88,
+            "char_end": 93
           }
         },
         {
@@ -1146,6 +1502,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460783018320220160l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -1164,6 +1526,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_441299470852976640l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 42,
+            "char_end": 47
           }
         },
         {
@@ -1182,6 +1550,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441386302311649280l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 30,
+            "char_end": 35
           }
         },
         {
@@ -1200,7 +1574,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441629457304940544l::venda::1"
         },
         {
           "sent_ID": "dante_01_441736153918492673l",
@@ -1218,6 +1593,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441736153918492673l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 8,
+            "char_end": 13
           }
         },
         {
@@ -1236,6 +1617,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441737897742327809l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 8,
+            "char_end": 13
           }
         },
         {
@@ -1254,6 +1641,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441739305895985154l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 8,
+            "char_end": 13
           }
         },
         {
@@ -1272,6 +1665,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441921979365752832l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 14,
+            "char_end": 19
           }
         },
         {
@@ -1290,6 +1689,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443075661473660928l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 88,
+            "char_end": 93
           }
         },
         {
@@ -1308,6 +1713,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443410433006133248l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 9,
+            "char_end": 14
           }
         },
         {
@@ -1326,6 +1737,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443470752999030784l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 55,
+            "char_end": 60
           }
         },
         {
@@ -1344,6 +1761,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444567446595198976l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 83,
+            "char_end": 88
           }
         },
         {
@@ -1362,6 +1785,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446655962460749824l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 37,
+            "char_end": 42
           }
         },
         {
@@ -1380,6 +1809,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446661635747635200l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -1398,6 +1833,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448519431216693249l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 19,
+            "char_end": 24
           }
         },
         {
@@ -1416,6 +1857,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448837995089903616l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 23,
+            "char_end": 28
           }
         },
         {
@@ -1434,6 +1881,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448866856779010049l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 69,
+            "char_end": 74
           }
         },
         {
@@ -1452,6 +1905,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449551763301883904l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 38,
+            "char_end": 43
           }
         },
         {
@@ -1470,6 +1929,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_453631123914899457l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 63,
+            "char_end": 68
           }
         },
         {
@@ -1488,6 +1953,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453631123914899457l::venda::2",
+          "predicate": {
+            "form": "venda",
+            "char_start": 95,
+            "char_end": 100
           }
         },
         {
@@ -1506,6 +1977,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458620477104066560l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -1524,6 +2001,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458968505359302656l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 7,
+            "char_end": 12
           }
         },
         {
@@ -1542,6 +2025,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459033003134840832l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -1560,6 +2049,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461505194225057793l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 16,
+            "char_end": 21
           }
         },
         {
@@ -1578,6 +2073,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_467339304860393472l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 62,
+            "char_end": 67
           }
         },
         {
@@ -1596,6 +2097,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468810982425624576l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 19,
+            "char_end": 24
           }
         },
         {
@@ -1614,6 +2121,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469209239307960320l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 129,
+            "char_end": 134
           }
         },
         {
@@ -1632,6 +2145,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472140893135577089l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 95,
+            "char_end": 100
           }
         },
         {
@@ -1650,6 +2169,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443757704147120128l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 87,
+            "char_end": 93
           }
         },
         {
@@ -1668,6 +2193,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452107678744338432l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 47,
+            "char_end": 52
           }
         },
         {
@@ -1686,6 +2217,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450691713724846082l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 58,
+            "char_end": 63
           }
         },
         {
@@ -1704,7 +2241,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453574497535549440l::venda::1"
         },
         {
           "sent_ID": "dante_01_453657409186455552l",
@@ -1722,7 +2260,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453657409186455552l::venda::1"
         },
         {
           "sent_ID": "dante_01_449147872840548353l",
@@ -1740,6 +2279,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449147872840548353l::venda::1",
+          "predicate": {
+            "form": "VENDA",
+            "char_start": 71,
+            "char_end": 76
           }
         },
         {
@@ -1758,6 +2303,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448094235615846401l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 3,
+            "char_end": 8
           }
         },
         {
@@ -1776,6 +2327,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448882743410438144l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 20,
+            "char_end": 25
           }
         },
         {
@@ -1794,6 +2351,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443796076974604288l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 81,
+            "char_end": 86
           }
         },
         {
@@ -1812,6 +2375,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450968255876698112l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 69,
+            "char_end": 74
           }
         },
         {
@@ -1830,6 +2399,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449171971776188416l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -1848,6 +2423,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_449199828321701889l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 16,
+            "char_end": 21
           }
         },
         {
@@ -1866,6 +2447,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448101479430500352l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 28,
+            "char_end": 33
           }
         },
         {
@@ -1884,7 +2471,8 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451785072761643008l::venda::1"
         },
         {
           "sent_ID": "dante_01_469931698818654208l",
@@ -1902,6 +2490,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469931698818654208l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 120,
+            "char_end": 125
           }
         },
         {
@@ -1920,6 +2514,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447488010985426944l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 65,
+            "char_end": 70
           }
         },
         {
@@ -1938,7 +2538,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_450990370739191808l::venda::1"
         },
         {
           "sent_ID": "dante_01_458619519691685888l",
@@ -1956,6 +2557,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458619519691685888l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 44,
+            "char_end": 49
           }
         },
         {
@@ -1974,6 +2581,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458628285879287808l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 35,
+            "char_end": 40
           }
         },
         {
@@ -1992,6 +2605,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442035844182851584l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -2010,6 +2629,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447490511918469120l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -2028,6 +2653,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452411144007733248l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 50,
+            "char_end": 55
           }
         },
         {
@@ -2046,6 +2677,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454642454936182785l::venda::1",
+          "predicate": {
+            "form": "Vendas",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -2064,6 +2701,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454606593280442368l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 25,
+            "char_end": 30
           }
         },
         {
@@ -2082,7 +2725,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459690255801933824l::venda::1"
         },
         {
           "sent_ID": "dante_01_459731276208287744l",
@@ -2100,7 +2744,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459731276208287744l::venda::1"
         },
         {
           "sent_ID": "dante_01_443427864109940736l",
@@ -2118,6 +2763,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443427864109940736l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 136,
+            "char_end": 141
           }
         },
         {
@@ -2136,6 +2787,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_461144999334510592l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 12,
+            "char_end": 17
           }
         },
         {
@@ -2154,6 +2811,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471724434127339520l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 18,
+            "char_end": 23
           }
         },
         {
@@ -2172,6 +2835,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441618452839936000l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 25,
+            "char_end": 30
           }
         },
         {
@@ -2190,6 +2859,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441997448626835456l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 91,
+            "char_end": 96
           }
         },
         {
@@ -2208,7 +2883,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_464091353862144000l::venda::1"
         },
         {
           "sent_ID": "dante_01_464864439670702080l",
@@ -2226,6 +2902,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464864439670702080l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 38,
+            "char_end": 43
           }
         },
         {
@@ -2244,6 +2926,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451832968454365184l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 17,
+            "char_end": 22
           }
         },
         {
@@ -2262,6 +2950,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_447045920262463488l::venda::1",
+          "predicate": {
+            "form": "VENDA",
+            "char_start": 53,
+            "char_end": 58
           }
         },
         {
@@ -2280,6 +2974,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_447045857310179328l::venda::1",
+          "predicate": {
+            "form": "VENDA",
+            "char_start": 41,
+            "char_end": 46
           }
         },
         {
@@ -2298,6 +2998,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448156367472189440l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -2316,6 +3022,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443935701881462785l::venda::1",
+          "predicate": {
+            "form": "VENDA",
+            "char_start": 8,
+            "char_end": 13
           }
         },
         {
@@ -2334,6 +3046,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442124576127193088l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 21,
+            "char_end": 26
           }
         },
         {
@@ -2352,6 +3070,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444185949317398529l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 17,
+            "char_end": 22
           }
         },
         {
@@ -2370,6 +3094,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453140831000866816l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 43,
+            "char_end": 48
           }
         },
         {
@@ -2388,6 +3118,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459336318691315712l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 53,
+            "char_end": 58
           }
         },
         {
@@ -2406,6 +3142,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_451412337673912320l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 8,
+            "char_end": 13
           }
         },
         {
@@ -2424,6 +3166,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468759628042739713l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 59,
+            "char_end": 65
           }
         },
         {
@@ -2442,7 +3190,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_456168427879931904l::venda::1"
         },
         {
           "sent_ID": "dante_01_443138797375848448l",
@@ -2460,6 +3209,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443138797375848448l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 62,
+            "char_end": 67
           }
         },
         {
@@ -2478,6 +3233,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445560692998168577l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 9,
+            "char_end": 14
           }
         },
         {
@@ -2496,6 +3257,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445578794670510080l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 23,
+            "char_end": 28
           }
         },
         {
@@ -2514,6 +3281,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442007999989944320l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 38,
+            "char_end": 43
           }
         },
         {
@@ -2532,6 +3305,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446389858747957248l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 113,
+            "char_end": 118
           }
         },
         {
@@ -2550,6 +3329,12 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": "obl"
+          },
+          "instance_id": "dante_01_448827289187667970l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 14,
+            "char_end": 19
           }
         },
         {
@@ -2568,6 +3353,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455681580678529025l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 58,
+            "char_end": 63
           }
         },
         {
@@ -2586,6 +3377,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456095341130313729l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 45,
+            "char_end": 51
           }
         },
         {
@@ -2604,6 +3401,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456173625939599360l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 97,
+            "char_end": 102
           }
         },
         {
@@ -2622,6 +3425,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456813024410861568l::venda::1",
+          "predicate": {
+            "form": "vendas",
+            "char_start": 73,
+            "char_end": 79
           }
         },
         {
@@ -2640,6 +3449,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461138340071604224l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 99,
+            "char_end": 104
           }
         },
         {
@@ -2658,6 +3473,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_466633356126740481l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 36,
+            "char_end": 41
           }
         },
         {
@@ -2676,6 +3497,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468400226781655040l::venda::1",
+          "predicate": {
+            "form": "Venda",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -2694,6 +3521,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_471702597414690816l::venda::1",
+          "predicate": {
+            "form": "venda",
+            "char_start": 131,
+            "char_end": 136
           }
         },
         {
@@ -2712,7 +3545,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_447047277907939328l::venda::1"
         }
       ],
       "syntactic_profile": {

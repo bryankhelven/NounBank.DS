@@ -38,7 +38,7 @@
           "realization": {
             "Arg0": null,
             "Arg1": null,
-            "Arg2": "com o conselho de administração",
+            "Arg2": "de o conselho de administração",
             "Arg3": "dia 25 de fevereiro",
             "Arg4": null
           },
@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443463813623738368l::reunião::1",
+          "predicate": {
+            "form": "reunião",
+            "char_start": 39,
+            "char_end": 46
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "nmod",
             "Arg3": "advmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_443207013405700096l::reunião::1",
+          "predicate": {
+            "form": "Reunião",
+            "char_start": 33,
+            "char_end": 40
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "nmod",
             "Arg3": "advmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_446975198274002944l::reunião::1",
+          "predicate": {
+            "form": "reunião",
+            "char_start": 60,
+            "char_end": 67
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_451103473405538304l::reunião::1",
+          "predicate": {
+            "form": "reunião",
+            "char_start": 34,
+            "char_end": 41
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443019897816109057l::reunião::1",
+          "predicate": {
+            "form": "reunião",
+            "char_start": 34,
+            "char_end": 41
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": "flat:name"
+          },
+          "instance_id": "dante_01_444121511981760512l::reunião::1",
+          "predicate": {
+            "form": "Reunião",
+            "char_start": 0,
+            "char_end": 7
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": "nmod",
             "Arg3": "nmod",
             "Arg4": "flat:name"
+          },
+          "instance_id": "dante_01_444123736917409792l::reunião::1",
+          "predicate": {
+            "form": "Reunião",
+            "char_start": 18,
+            "char_end": 25
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": "nmod",
             "Arg3": "advmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_459655850961809408l::reunião::1",
+          "predicate": {
+            "form": "Reunião",
+            "char_start": 0,
+            "char_end": 7
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445919193561432067l::reunião::1",
+          "predicate": {
+            "form": "reunião",
+            "char_start": 20,
+            "char_end": 27
           }
         }
       ],

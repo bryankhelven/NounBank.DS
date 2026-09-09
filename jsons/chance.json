@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445998715699220480l::chance::1",
+          "predicate": {
+            "form": "chance",
+            "char_start": 43,
+            "char_end": 49
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446694812100460544l::chance::1",
+          "predicate": {
+            "form": "chance",
+            "char_start": 73,
+            "char_end": 79
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454332111319998466l::chance::1",
+          "predicate": {
+            "form": "chances",
+            "char_start": 34,
+            "char_end": 41
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "advmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461163872431665152l::chance::1",
+          "predicate": {
+            "form": "chance",
+            "char_start": 130,
+            "char_end": 136
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459014681404137472l::chance::1",
+          "predicate": {
+            "form": "chances",
+            "char_start": 38,
+            "char_end": 45
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459089851821096960l::chance::1",
+          "predicate": {
+            "form": "chances",
+            "char_start": 58,
+            "char_end": 65
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461152552814669824l::chance::1",
+          "predicate": {
+            "form": "chance",
+            "char_start": 109,
+            "char_end": 115
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441961900067524608l::chance::1",
+          "predicate": {
+            "form": "chance",
+            "char_start": 59,
+            "char_end": 65
           }
         }
       ],

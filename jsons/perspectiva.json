@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464201927031803904l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 26,
+            "char_end": 37
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450653213835145216l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 40,
+            "char_end": 51
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456867956006588416l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 24,
+            "char_end": 35
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448888350523813888l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 62,
+            "char_end": 73
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449269972699975681l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 83,
+            "char_end": 94
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449597804189847552l::perspectiva::1",
+          "predicate": {
+            "form": "perspectiva",
+            "char_start": 101,
+            "char_end": 112
           }
         }
       ],

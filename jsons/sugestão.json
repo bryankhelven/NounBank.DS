@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": "vocative",
             "Arg4": null
+          },
+          "instance_id": "dante_01_453888972205600768l::sugestão::1",
+          "predicate": {
+            "form": "sugestão",
+            "char_start": 27,
+            "char_end": 35
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": "nmod",
             "Arg3": "flat:name",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453546592155738113l::sugestão::1"
         }
       ],
       "syntactic_profile": {

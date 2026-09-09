@@ -48,6 +48,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459422862726942721l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 47,
+            "char_end": 54
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "nsubj",
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_459430937936560128l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 36,
+            "char_end": 43
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459419985748570112l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 26,
+            "char_end": 33
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nsubj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461502968475299840l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 39,
+            "char_end": 46
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461536397468639232l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 54,
+            "char_end": 61
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461538650585829376l::taxação::1",
+          "predicate": {
+            "form": "taxação",
+            "char_start": 65,
+            "char_end": 72
           }
         }
       ],

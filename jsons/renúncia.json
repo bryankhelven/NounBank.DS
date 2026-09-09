@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458606212007727105l::renúncia::1",
+          "predicate": {
+            "form": "renúncia",
+            "char_start": 50,
+            "char_end": 58
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441235701271912448l::renúncia::1"
         },
         {
           "sent_ID": "dante_01_441274491155787776l",
@@ -84,7 +91,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441274491155787776l::renúncia::1"
         }
       ],
       "syntactic_profile": {

@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461510898428182528l::mix::1",
+          "predicate": {
+            "form": "mix",
+            "char_start": 35,
+            "char_end": 38
           }
         }
       ],

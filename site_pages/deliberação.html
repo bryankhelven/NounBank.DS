@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -99,12 +104,12 @@ body{margin:0;}
 <li class="arg0">Arg 0: thinker</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $TIMP3 - Tim Part S/a (timp-nm) - Deliberacoes <span class="arg0">Da Assembleia</span> http://t.co/0MkHI1c4BP</h3>
+  <h3 data-instance-id="dante_01_454359459591380992l::deliberação::1">1: $TIMP3 - Tim Part S/a (timp-nm) - Deliberacoes <span class="arg0">Da Assembleia</span> http://t.co/0MkHI1c4BP<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: deliberação</li>
 <li class="arg0">Arg 0: Da Assembleia</li>
 </ul>
-<h3>2: $LIGT3 - Light S/a (ligt-nm) - deliberacoes <span class="arg0">De Assembleias</span> / Distribuicao De Dividendo http://t.co/IoOoCOiGT1</h3>
+<h3 data-instance-id="dante_01_459657331467649026l::deliberação::1">2: $LIGT3 - Light S/a (ligt-nm) - deliberacoes <span class="arg0">De Assembleias</span> / Distribuicao De Dividendo http://t.co/IoOoCOiGT1<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: deliberação</li>
 <li class="arg0">Arg 0: De Assembleias</li>
@@ -116,7 +121,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">Da Assembleia</td><td class='texto'>$TIMP3 - Tim Part S/a (timp-nm) - Deliberacoes <span class="arg0">Da Assembleia</span><sub class="deprel">nmod</sub> http://t.co/0MkHI1c4BP</td></tr><tr><td>2</td><td class="arg0">De Assembleias</td><td class='texto'>$LIGT3 - Light S/a (ligt-nm) - deliberacoes <span class="arg0">De Assembleias</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/IoOoCOiGT1</td></tr><tr><td>3</td><td class="arg0">Da Ago</td><td class='texto'>$DASA3 - Dasa (dasa-nm)- Deliberacoes <span class="arg0">Da Ago</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/9eQGNWhrwd</td></tr><tr><td>4</td><td class="arg0">Da Ago/e</td><td class='texto'>$CYRE3 - Cyrela Realt (cyre) - Deliberacoes <span class="arg0">Da Ago/e</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/m7Rt4wHstX</td></tr><tr><td>5</td><td class="arg0">De Ago/e</td><td class='texto'>$RENT3 - Localiza (rent-nm) - deliberacoes <span class="arg0">De Ago/e</span><sub class="deprel">nmod</sub> http://t.co/koG0j3sK7K</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_454359459591380992l::deliberação::1" data-rel="missing"><td>1</td><td class="arg0">Da Assembleia</td><td class='texto'>$TIMP3 - Tim Part S/a (timp-nm) - Deliberacoes <span class="arg0">Da Assembleia</span><sub class="deprel">nmod</sub> http://t.co/0MkHI1c4BP<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_459657331467649026l::deliberação::1" data-rel="missing"><td>2</td><td class="arg0">De Assembleias</td><td class='texto'>$LIGT3 - Light S/a (ligt-nm) - deliberacoes <span class="arg0">De Assembleias</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/IoOoCOiGT1<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_460825538517794816l::deliberação::1" data-rel="missing"><td>3</td><td class="arg0">Da Ago</td><td class='texto'>$DASA3 - Dasa (dasa-nm)- Deliberacoes <span class="arg0">Da Ago</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/9eQGNWhrwd<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_461124301060849664l::deliberação::1" data-rel="missing"><td>4</td><td class="arg0">Da Ago/e</td><td class='texto'>$CYRE3 - Cyrela Realt (cyre) - Deliberacoes <span class="arg0">Da Ago/e</span><sub class="deprel">nmod</sub> / Distribuicao De Dividendo http://t.co/m7Rt4wHstX<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_461471315422367744l::deliberação::1" data-rel="missing"><td>5</td><td class="arg0">De Ago/e</td><td class='texto'>$RENT3 - Localiza (rent-nm) - deliberacoes <span class="arg0">De Ago/e</span><sub class="deprel">nmod</sub> http://t.co/koG0j3sK7K<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
     </table>
     
   

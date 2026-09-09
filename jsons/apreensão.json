@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455017195706523648l::apreensão::1",
+          "predicate": {
+            "form": "apreensão",
+            "char_start": 66,
+            "char_end": 75
           }
         }
       ],

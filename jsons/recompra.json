@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444467288595775488l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 82,
+            "char_end": 90
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444470974206214144l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 70,
+            "char_end": 78
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_444471063641333760l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 33,
+            "char_end": 41
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449162222611468288l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 43,
+            "char_end": 51
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456440001882882048l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 66,
+            "char_end": 74
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459744836766416897l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 51,
+            "char_end": 59
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_468731360044384256l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 36,
+            "char_end": 44
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468731360044384256l::recompra::2",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 105,
+            "char_end": 113
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472016320159285248l::recompra::1",
+          "predicate": {
+            "form": "recompras",
+            "char_start": 42,
+            "char_end": 51
           }
         },
         {
@@ -210,7 +264,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449226702712225792l::recompra::1"
         },
         {
           "sent_ID": "dante_01_445557796072079360l",
@@ -228,6 +283,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445557796072079360l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 55,
+            "char_end": 63
           }
         },
         {
@@ -246,6 +307,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_467018177952874496l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 56,
+            "char_end": 64
           }
         },
         {
@@ -264,6 +331,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444495896227885056l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 19,
+            "char_end": 27
           }
         },
         {
@@ -282,6 +355,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445904977484316672l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 44,
+            "char_end": 52
           }
         },
         {
@@ -300,6 +379,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445926666809122816l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 38,
+            "char_end": 46
           }
         },
         {
@@ -318,6 +403,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456251408770428928l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 60,
+            "char_end": 68
           }
         },
         {
@@ -336,6 +427,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456258632997294082l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 74,
+            "char_end": 82
           }
         },
         {
@@ -354,6 +451,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456419051376365569l::recompra::1",
+          "predicate": {
+            "form": "Recompra",
+            "char_start": 29,
+            "char_end": 37
           }
         },
         {
@@ -372,6 +475,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458665044927332353l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 35,
+            "char_end": 43
           }
         },
         {
@@ -390,6 +499,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458665044927332353l::recompra::2",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 102,
+            "char_end": 110
           }
         },
         {
@@ -408,6 +523,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470914432332496896l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 34,
+            "char_end": 42
           }
         },
         {
@@ -426,6 +547,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470970886087258112l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 71,
+            "char_end": 79
           }
         },
         {
@@ -444,6 +571,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470972350767583232l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 21,
+            "char_end": 29
           }
         },
         {
@@ -462,6 +595,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470972350767583232l::recompra::2",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 81,
+            "char_end": 89
           }
         },
         {
@@ -480,6 +619,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470982638564806656l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 21,
+            "char_end": 29
           }
         },
         {
@@ -498,6 +643,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_470982638564806656l::recompra::2",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 81,
+            "char_end": 89
           }
         },
         {
@@ -516,6 +667,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444484995537989632l::recompra::1",
+          "predicate": {
+            "form": "recompra",
+            "char_start": 29,
+            "char_end": 37
           }
         }
       ],

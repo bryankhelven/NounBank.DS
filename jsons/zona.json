@@ -48,6 +48,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449250160464625664l::zona::1",
+          "predicate": {
+            "form": "zona",
+            "char_start": 35,
+            "char_end": 39
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450691713724846082l::zona::1",
+          "predicate": {
+            "form": "zona",
+            "char_start": 14,
+            "char_end": 18
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460899883462180865l::zona::1",
+          "predicate": {
+            "form": "zona",
+            "char_start": 48,
+            "char_end": 52
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_468786582493745153l::zona::1",
+          "predicate": {
+            "form": "zona",
+            "char_start": 27,
+            "char_end": 31
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460784899197505536l::zona::1",
+          "predicate": {
+            "form": "zona",
+            "char_start": 31,
+            "char_end": 35
           }
         }
       ],

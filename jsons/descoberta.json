@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469952216032620544l::descoberta::1",
+          "predicate": {
+            "form": "descobertas",
+            "char_start": 76,
+            "char_end": 87
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469952216032620544l::descoberta::2",
+          "predicate": {
+            "form": "descoberta",
+            "char_start": 129,
+            "char_end": 139
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453546592155738113l::descoberta::1",
+          "predicate": {
+            "form": "descobertas",
+            "char_start": 125,
+            "char_end": 136
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_444116429194162176l::descoberta::1",
+          "predicate": {
+            "form": "descoberta",
+            "char_start": 19,
+            "char_end": 29
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_444118685725507584l::descoberta::1",
+          "predicate": {
+            "form": "descoberta",
+            "char_start": 38,
+            "char_end": 48
           }
         },
         {
@@ -138,7 +168,8 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444119089167212544l::descoberta::1"
         },
         {
           "sent_ID": "dante_01_469966875737473024l",
@@ -156,7 +187,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_469966875737473024l::descoberta::1"
         },
         {
           "sent_ID": "dante_01_469966875737473024l",
@@ -174,7 +206,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_469966875737473024l::descoberta::2"
         },
         {
           "sent_ID": "dante_01_444081961909633024l",
@@ -192,6 +225,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_444081961909633024l::descoberta::1",
+          "predicate": {
+            "form": "Descoberta",
+            "char_start": 39,
+            "char_end": 49
           }
         }
       ],

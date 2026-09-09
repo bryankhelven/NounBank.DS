@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441546751867367424l::acordo::1",
+          "predicate": {
+            "form": "Acordo",
+            "char_start": 54,
+            "char_end": 60
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446266855536492544l::acordo::1",
+          "predicate": {
+            "form": "Acordo",
+            "char_start": 66,
+            "char_end": 72
           }
         },
         {
@@ -84,7 +96,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446975526323109888l::acordo::1"
         },
         {
           "sent_ID": "dante_01_454604295078690816l",
@@ -102,6 +115,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454604295078690816l::acordo::1",
+          "predicate": {
+            "form": "acordo",
+            "char_start": 27,
+            "char_end": 33
           }
         },
         {
@@ -120,6 +139,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454607743392178177l::acordo::1",
+          "predicate": {
+            "form": "acordo",
+            "char_start": 31,
+            "char_end": 37
           }
         }
       ],
@@ -182,6 +207,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448534744804777984l::acordo::1",
+          "predicate": {
+            "form": "acordo",
+            "char_start": 53,
+            "char_end": 59
           }
         },
         {
@@ -200,6 +231,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448543126202757120l::acordo::1",
+          "predicate": {
+            "form": "acordo",
+            "char_start": 56,
+            "char_end": 62
           }
         },
         {
@@ -218,6 +255,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451467886263934976l::acordo::1",
+          "predicate": {
+            "form": "acordo",
+            "char_start": 48,
+            "char_end": 54
           }
         }
       ],
@@ -276,6 +319,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459762929609756672l::acordo::1",
+          "predicate": {
+            "form": "Acordos",
+            "char_start": 70,
+            "char_end": 77
           }
         }
       ],

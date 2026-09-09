@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449261548754972672l::divisão::1",
+          "predicate": {
+            "form": "divisão",
+            "char_start": 24,
+            "char_end": 31
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_458274836494946305l::divisão::1",
+          "predicate": {
+            "form": "divisões",
+            "char_start": 76,
+            "char_end": 84
           }
         }
       ],
@@ -125,6 +137,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_472335234953117697l::divisão::1",
+          "predicate": {
+            "form": "divisão",
+            "char_start": 49,
+            "char_end": 56
           }
         }
       ],

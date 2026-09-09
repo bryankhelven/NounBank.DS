@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: end state</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $MRVE3 - Mrv ( mrve-nm ) - Pagamento De Dividendo / <span class="rel">Ajuste</span> <span class="arg1">Em o Valor</span> http://t.co/OLYAVgQz1Q</h3>
+  <h3 data-instance-id="dante_01_467283107109175296l::ajuste::1">1: $MRVE3 - Mrv ( mrve-nm ) - Pagamento De Dividendo / <span class="rel">Ajuste</span> <span class="arg1">Em o Valor</span> http://t.co/OLYAVgQz1Q</h3>
 <ul>
 <li class="rel">rel: ajuste</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: Em o Valor</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: <span class="arg0">Posições que ja alcançaram realização parcial</span> , <span class="rel">ajuste</span> em <span class="arg1">os stops</span> ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV</h3>
+<h3 data-instance-id="dante_01_444567446595198976l::ajuste::1">2: <span class="arg0">Posições que ja alcançaram realização parcial</span> , <span class="rel">ajuste</span> em <span class="arg1">os stops</span> ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV</h3>
 <ul>
 <li class="rel">rel: ajuste</li>
 <li class="arg0">Arg 0: Posições que ja alcançaram realização parcial</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">Em o Valor</td><td class="arg2">-</td><td class='texto'>$MRVE3 - Mrv ( mrve-nm ) - Pagamento De Dividendo / <span class="rel">Ajuste</span> <span class="arg1">Em o Valor</span><sub class="deprel">nmod</sub> http://t.co/OLYAVgQz1Q</td></tr><tr><td>2</td><td class="arg0">Posições que ja alcançaram realização parcial</td><td class="arg1">os stops</td><td class="arg2">-</td><td class='texto'><span class="arg0">Posições que ja alcançaram realização parcial</span><sub class="deprel">amod</sub> , <span class="rel">ajuste</span> em <span class="arg1">os stops</span><sub class="deprel">nmod</sub> ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_467283107109175296l::ajuste::1"><td>1</td><td class="arg0">-</td><td class="arg1">Em o Valor</td><td class="arg2">-</td><td class='texto'>$MRVE3 - Mrv ( mrve-nm ) - Pagamento De Dividendo / <span class="rel">Ajuste</span> <span class="arg1">Em o Valor</span><sub class="deprel">nmod</sub> http://t.co/OLYAVgQz1Q</td></tr><tr data-instance-id="dante_01_444567446595198976l::ajuste::1"><td>2</td><td class="arg0">Posições que ja alcançaram realização parcial</td><td class="arg1">os stops</td><td class="arg2">-</td><td class='texto'><span class="arg0">Posições que ja alcançaram realização parcial</span><sub class="deprel">amod</sub> , <span class="rel">ajuste</span> em <span class="arg1">os stops</span><sub class="deprel">nmod</sub> ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV</td></tr></tbody>
     </table>
     
   

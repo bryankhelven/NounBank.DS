@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446696446884990976l::postagem::1",
+          "predicate": {
+            "form": "postagem",
+            "char_start": 6,
+            "char_end": 14
           }
         }
       ],

@@ -48,7 +48,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446250331123773440l::declaração::1"
         },
         {
           "sent_ID": "dante_01_460816612405567488l",
@@ -66,6 +67,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460816612405567488l::declaração::1",
+          "predicate": {
+            "form": "declaração",
+            "char_start": 54,
+            "char_end": 64
           }
         },
         {
@@ -84,6 +91,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456926942101770240l::declaração::1",
+          "predicate": {
+            "form": "Declaração",
+            "char_start": 8,
+            "char_end": 18
           }
         }
       ],

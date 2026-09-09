@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445603272754466816l::atestado::1",
+          "predicate": {
+            "form": "atestado",
+            "char_start": 15,
+            "char_end": 23
           }
         }
       ],

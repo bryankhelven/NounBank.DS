@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: because of what</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: @ferrisss @dfittarelli vendinha de itub4 em os 35,10 começando a dar frutos , VAI QUE VAI !</h3>
+  <h3 data-instance-id="dante_01_452154691905126400l::fruto::1">1: @ferrisss @dfittarelli vendinha de itub4 em os 35,10 começando a dar <span class="rel">frutos</span> , VAI QUE VAI !</h3>
 <ul>
 <li class="rel">rel: fruto</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: ' <span class="arg0">Vale</span> vai trazer muitos frutos para <span class="arg1">quem</span> <span class="arg2">investir</span> ' , diz gestor de fundo : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</h3>
+<h3 data-instance-id="dante_01_471628526152454144l::fruto::1">2: ' <span class="arg0">Vale</span> vai trazer muitos <span class="rel">frutos</span> para <span class="arg1">quem</span> <span class="arg2">investir</span> ' , diz gestor de fundo : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</h3>
 <ul>
 <li class="rel">rel: fruto</li>
 <li class="arg0">Arg 0: Vale</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@ferrisss @dfittarelli vendinha de itub4 em os 35,10 começando a dar frutos , VAI QUE VAI !</td></tr><tr><td>2</td><td class="arg0">Vale</td><td class="arg1">quem</td><td class="arg2">investir</td><td class='texto'>' <span class="arg0">Vale</span><sub class="deprel">nsubj</sub> vai trazer muitos frutos para <span class="arg1">quem</span><sub class="deprel">obl</sub> <span class="arg2">investir</span><sub class="deprel">acl:relcl</sub> ' , diz gestor de fundo : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</td></tr><tr><td>3</td><td class="arg0">Vale</td><td class="arg1">quem</td><td class="arg2">investir</td><td class='texto'>' <span class="arg0">Vale</span><sub class="deprel">nsubj</sub> vai trazer muitos frutos para <span class="arg1">quem</span><sub class="deprel">obl</sub> <span class="arg2">investir</span><sub class="deprel">acl:relcl</sub> ' , diz gestor de fundo http://t.co/s9IQkrTxMV #VALE4 #VALE5</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_452154691905126400l::fruto::1"><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@ferrisss @dfittarelli vendinha de itub4 em os 35,10 começando a dar <span class="rel">frutos</span> , VAI QUE VAI !</td></tr><tr data-instance-id="dante_01_471628526152454144l::fruto::1"><td>2</td><td class="arg0">Vale</td><td class="arg1">quem</td><td class="arg2">investir</td><td class='texto'>' <span class="arg0">Vale</span><sub class="deprel">nsubj</sub> vai trazer muitos <span class="rel">frutos</span> para <span class="arg1">quem</span><sub class="deprel">obl</sub> <span class="arg2">investir</span><sub class="deprel">acl:relcl</sub> ' , diz gestor de fundo : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_471708570082639873l::fruto::1"><td>3</td><td class="arg0">Vale</td><td class="arg1">quem</td><td class="arg2">investir</td><td class='texto'>' <span class="arg0">Vale</span><sub class="deprel">nsubj</sub> vai trazer muitos <span class="rel">frutos</span> para <span class="arg1">quem</span><sub class="deprel">obl</sub> <span class="arg2">investir</span><sub class="deprel">acl:relcl</sub> ' , diz gestor de fundo http://t.co/s9IQkrTxMV #VALE4 #VALE5</td></tr></tbody>
     </table>
     
   

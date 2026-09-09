@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,7 +106,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: obligation</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: <span class="arg1">Quem tem acoes de a Petrobras Petr4</span> tem obrigacao <span class="arg2">de fazer campanha contra Dilma e PT</span> que destruíram mais de 50 % de o valor de a empresa</h3>
+  <h3 data-instance-id="dante_01_455744272138907648l::obrigação::1">1: <span class="arg1">Quem tem acoes de a Petrobras Petr4</span> tem obrigacao <span class="arg2">de fazer campanha contra Dilma e PT</span> que destruíram mais de 50 % de o valor de a empresa<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: obrigação</li>
 <li class="arg0">Arg 0: -</li>
@@ -115,7 +120,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">Quem tem acoes de a Petrobras Petr4</td><td class="arg2">de fazer campanha contra Dilma e PT</td><td class='texto'><span class="arg1">Quem tem acoes de a Petrobras Petr4</span><sub class="deprel">nmod</sub> tem obrigacao <span class="arg2">de fazer campanha contra Dilma e PT</span><sub class="deprel">nmod</sub> que destruíram mais de 50 % de o valor de a empresa</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_455744272138907648l::obrigação::1" data-rel="missing"><td>1</td><td class="arg0">-</td><td class="arg1">Quem tem acoes de a Petrobras Petr4</td><td class="arg2">de fazer campanha contra Dilma e PT</td><td class='texto'><span class="arg1">Quem tem acoes de a Petrobras Petr4</span><sub class="deprel">nmod</sub> tem obrigacao <span class="arg2">de fazer campanha contra Dilma e PT</span><sub class="deprel">nmod</sub> que destruíram mais de 50 % de o valor de a empresa<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
     </table>
     
   

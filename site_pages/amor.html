@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,7 +105,7 @@ body{margin:0;}
 <li class="arg1">Arg 1: loved, cause</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o <span class="rel">amor</span> como investimento mais seguro</h3>
+  <h3 data-instance-id="dante_01_460034860225429504l::amor::1">1: Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o <span class="rel">amor</span> como investimento mais seguro</h3>
 <ul>
 <li class="rel">rel: amor</li>
 <li class="arg0">Arg 0: -</li>
@@ -113,7 +118,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class='texto'>Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o <span class="rel">amor</span> como investimento mais seguro</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_460034860225429504l::amor::1"><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class='texto'>Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o <span class="rel">amor</span> como investimento mais seguro</td></tr></tbody>
     </table>
     
   

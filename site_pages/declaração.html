@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: hearer</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: $LREN3 - Lojas Renner ( lren-nm ) - Declaracao E Pagamento <span class="arg1">De Juros Sobre O Capital Proprio</span> http://t.co/flXNxtpbT1</h3>
+  <h3 data-instance-id="dante_01_446250331123773440l::declaração::1">1: $LREN3 - Lojas Renner ( lren-nm ) - Declaracao E Pagamento <span class="arg1">De Juros Sobre O Capital Proprio</span> http://t.co/flXNxtpbT1<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
 <ul>
 <li class="rel">rel: declaração</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: De Juros Sobre O Capital Proprio</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: Dica para a Mega-Sena : o número de o recibo de a sua <span class="rel">declaração</span> <span class="arg1">de Imposto de renda tem 6 dígitos</span> joga em a Mega Sena #ibov #vale5 #petr4 #sorte</h3>
+<h3 data-instance-id="dante_01_460816612405567488l::declaração::1">2: Dica para a Mega-Sena : o número de o recibo de a sua <span class="rel">declaração</span> <span class="arg1">de Imposto de renda tem 6 dígitos</span> joga em a Mega Sena #ibov #vale5 #petr4 #sorte</h3>
 <ul>
 <li class="rel">rel: declaração</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">De Juros Sobre O Capital Proprio</td><td class="arg2">-</td><td class='texto'>$LREN3 - Lojas Renner ( lren-nm ) - Declaracao E Pagamento <span class="arg1">De Juros Sobre O Capital Proprio</span><sub class="deprel">amod</sub> http://t.co/flXNxtpbT1</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">de Imposto de renda tem 6 dígitos</td><td class="arg2">-</td><td class='texto'>Dica para a Mega-Sena : o número de o recibo de a sua <span class="rel">declaração</span> <span class="arg1">de Imposto de renda tem 6 dígitos</span><sub class="deprel">obj</sub> joga em a Mega Sena #ibov #vale5 #petr4 #sorte</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">de o Imposto de Renda</td><td class="arg2">-</td><td class='texto'>Dica de <span class="rel">Declaração</span> <span class="arg1">de o Imposto de Renda</span><sub class="deprel">flat:name</sub> > Situação em 31/12/2013 [ bêbado vendo os fogos de artifício ] #ibov #petr4 #vale5 receita federal</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_446250331123773440l::declaração::1" data-rel="missing"><td>1</td><td class="arg0">-</td><td class="arg1">De Juros Sobre O Capital Proprio</td><td class="arg2">-</td><td class='texto'>$LREN3 - Lojas Renner ( lren-nm ) - Declaracao E Pagamento <span class="arg1">De Juros Sobre O Capital Proprio</span><sub class="deprel">amod</sub> http://t.co/flXNxtpbT1<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_460816612405567488l::declaração::1"><td>2</td><td class="arg0">-</td><td class="arg1">de Imposto de renda tem 6 dígitos</td><td class="arg2">-</td><td class='texto'>Dica para a Mega-Sena : o número de o recibo de a sua <span class="rel">declaração</span> <span class="arg1">de Imposto de renda tem 6 dígitos</span><sub class="deprel">obj</sub> joga em a Mega Sena #ibov #vale5 #petr4 #sorte</td></tr><tr data-instance-id="dante_01_456926942101770240l::declaração::1"><td>3</td><td class="arg0">-</td><td class="arg1">de o Imposto de Renda</td><td class="arg2">-</td><td class='texto'>Dica de <span class="rel">Declaração</span> <span class="arg1">de o Imposto de Renda</span><sub class="deprel">flat:name</sub> > Situação em 31/12/2013 [ bêbado vendo os fogos de artifício ] #ibov #petr4 #vale5 receita federal</td></tr></tbody>
     </table>
     
   

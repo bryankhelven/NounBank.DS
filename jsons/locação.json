@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445254491609128961l::locação::1",
+          "predicate": {
+            "form": "locação",
+            "char_start": 95,
+            "char_end": 102
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451011065510649856l::locação::1",
+          "predicate": {
+            "form": "locação",
+            "char_start": 110,
+            "char_end": 117
           }
         }
       ],

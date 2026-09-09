@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443747856852480000l::procura::1",
+          "predicate": {
+            "form": "procura",
+            "char_start": 104,
+            "char_end": 111
           }
         }
       ],

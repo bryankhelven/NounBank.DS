@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454753167272869888l::convocação::1",
+          "predicate": {
+            "form": "Convocação",
+            "char_start": 31,
+            "char_end": 41
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459711941817417728l::convocação::1"
         }
       ],
       "syntactic_profile": {

@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443765996206444544l::entendimento::1",
+          "predicate": {
+            "form": "entendimento",
+            "char_start": 56,
+            "char_end": 68
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443800394989580289l::entendimento::1",
+          "predicate": {
+            "form": "entendimento",
+            "char_start": 77,
+            "char_end": 89
           }
         }
       ],
@@ -125,6 +137,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456410278024839169l::entendimento::1",
+          "predicate": {
+            "form": "Entendimentos",
+            "char_start": 42,
+            "char_end": 55
           }
         }
       ],

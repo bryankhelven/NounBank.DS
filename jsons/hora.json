@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451860438641561600l::hora::1",
+          "predicate": {
+            "form": "Hora",
+            "char_start": 0,
+            "char_end": 4
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448806475805122560l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 58,
+            "char_end": 62
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464425177833803777l::hora::1",
+          "predicate": {
+            "form": "Hora",
+            "char_start": 0,
+            "char_end": 4
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443757704147120128l::hora::1",
+          "predicate": {
+            "form": "Hora",
+            "char_start": 46,
+            "char_end": 50
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452110212363997184l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 80,
+            "char_end": 84
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_460807375470231553l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 59,
+            "char_end": 63
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443052651430031360l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 10,
+            "char_end": 14
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444563909958434816l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 85,
+            "char_end": 89
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452093340193157121l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 111,
+            "char_end": 115
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461128955505168384l::hora::1",
+          "predicate": {
+            "form": "hora",
+            "char_start": 112,
+            "char_end": 116
           }
         }
       ],

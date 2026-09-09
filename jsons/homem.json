@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454614905983741952l::homem::1",
+          "predicate": {
+            "form": "homens",
+            "char_start": 30,
+            "char_end": 36
           }
         }
       ],

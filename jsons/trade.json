@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469104796453314561l::trade::1",
+          "predicate": {
+            "form": "Trade",
+            "char_start": 32,
+            "char_end": 37
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442658465542991872l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 16,
+            "char_end": 21
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450723339045449729l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 67,
+            "char_end": 72
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455334111087824898l::trade::1",
+          "predicate": {
+            "form": "Trades",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449196737367146496l::trade::1",
+          "predicate": {
+            "form": "TRADE",
+            "char_start": 98,
+            "char_end": 103
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453185594030850048l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 55,
+            "char_end": 60
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453184992144023553l::trade::1",
+          "predicate": {
+            "form": "Trade",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447488010985426944l::trade::1",
+          "predicate": {
+            "form": "Trades",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444474400981938176l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 106,
+            "char_end": 111
           }
         },
         {
@@ -210,6 +264,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443830052690882560l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 53,
+            "char_end": 58
           }
         },
         {
@@ -228,6 +288,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446327698953338880l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 14,
+            "char_end": 19
           }
         },
         {
@@ -246,6 +312,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447485591756632065l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 17,
+            "char_end": 22
           }
         },
         {
@@ -264,6 +336,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447006955258011648l::trade::1",
+          "predicate": {
+            "form": "trade",
+            "char_start": 31,
+            "char_end": 36
           }
         }
       ],

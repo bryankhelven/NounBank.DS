@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446990945779986432l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 15,
+            "char_end": 21
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444482105675104256l::leilão::1"
         },
         {
           "sent_ID": "dante_01_444077459664023552l",
@@ -84,7 +91,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_444077459664023552l::leilão::1"
         },
         {
           "sent_ID": "dante_01_461484549030297600l",
@@ -102,6 +110,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461484549030297600l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 9,
+            "char_end": 15
           }
         },
         {
@@ -120,7 +134,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_462198318102482945l::leilão::1"
         },
         {
           "sent_ID": "dante_01_456479295968272384l",
@@ -138,6 +153,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456479295968272384l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 75,
+            "char_end": 81
           }
         },
         {
@@ -156,7 +177,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459037552989966336l::leilão::1"
         },
         {
           "sent_ID": "dante_01_456159880961744896l",
@@ -174,6 +196,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456159880961744896l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 17,
+            "char_end": 23
           }
         },
         {
@@ -192,6 +220,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462323742912557057l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 24,
+            "char_end": 30
           }
         },
         {
@@ -210,7 +244,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_443480227277455360l::leilão::1"
         },
         {
           "sent_ID": "dante_01_451813351711334400l",
@@ -228,6 +263,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451813351711334400l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 84,
+            "char_end": 90
           }
         },
         {
@@ -246,6 +287,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_442029907129143297l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 22,
+            "char_end": 28
           }
         },
         {
@@ -264,6 +311,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_447100306728681472l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 18,
+            "char_end": 24
           }
         },
         {
@@ -282,7 +335,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_453631123914899457l::leilão::1"
         },
         {
           "sent_ID": "dante_01_461596679620542464l",
@@ -300,6 +354,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461596679620542464l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 7,
+            "char_end": 13
           }
         },
         {
@@ -318,6 +378,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_451811019154010112l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 91,
+            "char_end": 97
           }
         },
         {
@@ -336,6 +402,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462319584553758723l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 45,
+            "char_end": 51
           }
         },
         {
@@ -354,7 +426,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_441602347777925121l::leilão::1"
         },
         {
           "sent_ID": "dante_01_449261548754972672l",
@@ -372,6 +445,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449261548754972672l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 11,
+            "char_end": 17
           }
         },
         {
@@ -390,6 +469,12 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_447099598587572224l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -408,7 +493,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451871894732423169l::leilão::1"
         },
         {
           "sent_ID": "dante_01_443394009567088640l",
@@ -426,6 +512,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443394009567088640l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 134,
+            "char_end": 140
           }
         },
         {
@@ -444,7 +536,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_443760585290027008l::leilão::1"
         },
         {
           "sent_ID": "dante_01_463669474844233728l",
@@ -462,6 +555,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_463669474844233728l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 21,
+            "char_end": 27
           }
         },
         {
@@ -480,6 +579,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_451703359612157952l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 25,
+            "char_end": 31
           }
         },
         {
@@ -498,6 +603,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461596119689342976l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 2,
+            "char_end": 8
           }
         },
         {
@@ -516,6 +627,12 @@
             "Arg2": null,
             "Arg3": "nummod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_462318215440642049l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 13,
+            "char_end": 19
           }
         },
         {
@@ -534,6 +651,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461467831213629440l::leilão::1",
+          "predicate": {
+            "form": "Leilão",
+            "char_start": 0,
+            "char_end": 6
           }
         },
         {
@@ -552,6 +675,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_444462050371461120l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 31,
+            "char_end": 37
           }
         },
         {
@@ -570,6 +699,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453267806331891712l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 9,
+            "char_end": 15
           }
         },
         {
@@ -588,6 +723,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453268042580262912l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 23,
+            "char_end": 29
           }
         },
         {
@@ -606,6 +747,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": "parataxis"
+          },
+          "instance_id": "dante_01_449531461797154816l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 40,
+            "char_end": 46
           }
         },
         {
@@ -624,6 +771,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_462314687338917888l::leilão::1",
+          "predicate": {
+            "form": "leilão",
+            "char_start": 82,
+            "char_end": 88
           }
         }
       ],

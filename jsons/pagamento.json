@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_467283107109175296l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 27,
+            "char_end": 36
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": "case",
             "Arg4": null
+          },
+          "instance_id": "dante_01_468734838485561344l::pagamento::1",
+          "predicate": {
+            "form": "pagamento",
+            "char_start": 12,
+            "char_end": 21
           }
         },
         {
@@ -84,7 +96,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446313621803773953l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_448080834743238656l",
@@ -102,7 +115,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448080834743238656l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_448827600157552640l",
@@ -120,7 +134,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448827600157552640l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_448951505845256193l",
@@ -138,7 +153,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448951505845256193l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449160391227346944l",
@@ -156,7 +172,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449160391227346944l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449571881864409088l",
@@ -174,7 +191,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449571881864409088l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449573509464076288l",
@@ -192,7 +210,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449573509464076288l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_448954583717806080l",
@@ -210,7 +229,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448954583717806080l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_446638880327229441l",
@@ -228,7 +248,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446638880327229441l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_446320170353844226l",
@@ -246,7 +267,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_446320170353844226l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449175205903335427l",
@@ -264,7 +286,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449175205903335427l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_452110015714033664l",
@@ -282,7 +305,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_452110015714033664l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_462227745637138432l",
@@ -300,7 +324,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_462227745637138432l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449646149990096896l",
@@ -318,7 +343,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449646149990096896l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_461553439965974528l",
@@ -336,7 +362,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461553439965974528l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_449657325595660288l",
@@ -354,7 +381,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_449657325595660288l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_459684982190268416l",
@@ -372,7 +400,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_459684982190268416l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_450677267967250432l",
@@ -390,7 +419,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_450677267967250432l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_461555333207707648l",
@@ -408,7 +438,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_461555333207707648l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_452114970592165888l",
@@ -426,7 +457,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_452114970592165888l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_452175883265384449l",
@@ -444,7 +476,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_452175883265384449l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_456794505094520832l",
@@ -462,7 +495,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_456794505094520832l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_458573835730960384l",
@@ -480,6 +514,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_458573835730960384l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 30,
+            "char_end": 39
           }
         },
         {
@@ -498,6 +538,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445913773539598336l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 32,
+            "char_end": 41
           }
         },
         {
@@ -516,6 +562,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456409905574854656l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 32,
+            "char_end": 41
           }
         },
         {
@@ -534,6 +586,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_445656190060883969l::pagamento::1",
+          "predicate": {
+            "form": "pagamento",
+            "char_start": 72,
+            "char_end": 81
           }
         },
         {
@@ -552,6 +610,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_446250331123773440l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 49,
+            "char_end": 58
           }
         },
         {
@@ -570,6 +634,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_449327281002270721l::pagamento::1",
+          "predicate": {
+            "form": "pagamento",
+            "char_start": 24,
+            "char_end": 33
           }
         },
         {
@@ -588,6 +658,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_469457671318667264l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 34,
+            "char_end": 43
           }
         },
         {
@@ -606,6 +682,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_469515693843820544l::pagamento::1",
+          "predicate": {
+            "form": "pagamento",
+            "char_start": 27,
+            "char_end": 36
           }
         },
         {
@@ -624,6 +706,12 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_453151478317088768l::pagamento::1",
+          "predicate": {
+            "form": "Pagamento",
+            "char_start": 31,
+            "char_end": 40
           }
         },
         {
@@ -642,7 +730,8 @@
             "Arg2": null,
             "Arg3": "nmod",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448437735054139393l::pagamento::1"
         },
         {
           "sent_ID": "dante_01_446614292822228992l",
@@ -660,6 +749,12 @@
             "Arg2": null,
             "Arg3": "amod",
             "Arg4": null
+          },
+          "instance_id": "dante_01_446614292822228992l::pagamento::1",
+          "predicate": {
+            "form": "pagamento",
+            "char_start": 28,
+            "char_end": 37
           }
         }
       ],

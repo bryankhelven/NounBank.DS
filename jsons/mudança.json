@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_455484807212838913l::mudança::1",
+          "predicate": {
+            "form": "Mudanças",
+            "char_start": 43,
+            "char_end": 51
           }
         },
         {
@@ -66,7 +72,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_448066819480629248l::mudança::1"
         },
         {
           "sent_ID": "dante_01_449246089036963841l",
@@ -84,6 +91,12 @@
             "Arg2": "root",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449246089036963841l::mudança::1",
+          "predicate": {
+            "form": "mudança",
+            "char_start": 57,
+            "char_end": 64
           }
         },
         {
@@ -102,7 +115,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_451754343704690688l::mudança::1"
         },
         {
           "sent_ID": "dante_01_446694551160233985l",
@@ -120,6 +134,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446694551160233985l::mudança::1",
+          "predicate": {
+            "form": "mudança",
+            "char_start": 36,
+            "char_end": 43
           }
         },
         {
@@ -138,6 +158,12 @@
             "Arg2": "parataxis",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446711741431676928l::mudança::1",
+          "predicate": {
+            "form": "mudanças",
+            "char_start": 38,
+            "char_end": 46
           }
         },
         {
@@ -156,6 +182,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461038611555958784l::mudança::1",
+          "predicate": {
+            "form": "Mudanças",
+            "char_start": 0,
+            "char_end": 8
           }
         },
         {
@@ -174,6 +206,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443853159660654592l::mudança::1",
+          "predicate": {
+            "form": "mudanças",
+            "char_start": 10,
+            "char_end": 18
           }
         }
       ],

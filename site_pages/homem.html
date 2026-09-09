@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,9 +106,9 @@ body{margin:0;}
 <li class="arg2">Arg 2: group, associated-with</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Remem para o Money : Todos os <span class="arg1"><span class="rel">homens</span></span> <span class="arg0">de Eike</span> ! Bastidores ! OGX3 , petr4 , bovespa , opções http://t.co/BK42PGmSgt</h3>
+  <h3 data-instance-id="dante_01_454614905983741952l::homem::1">1: Remem para o Money : Todos os <span class="arg1"><span class="rel">homens</span></span> <span class="arg0">de Eike</span> ! Bastidores ! OGX3 , petr4 , bovespa , opções http://t.co/BK42PGmSgt</h3>
 <ul>
-<li class="rel">rel: homens</li>
+<li class="rel">rel: homem</li>
 <li class="arg0">Arg 0: de Eike</li>
 <li class="arg1">Arg 1: homens</li>
 <li class="arg2">Arg 2: -</li>
@@ -115,7 +120,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">de Eike</td><td class="arg1">homens</td><td class="arg2">-</td><td class='texto'>Remem para o Money : Todos os <span class="arg1"><span class="rel">homem</span></span><sub class="deprel">root</sub> <span class="arg0">de Eike</span><sub class="deprel">nmod</sub> ! Bastidores ! OGX3 , petr4 , bovespa , opções http://t.co/BK42PGmSgt</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_454614905983741952l::homem::1"><td>1</td><td class="arg0">de Eike</td><td class="arg1">homens</td><td class="arg2">-</td><td class='texto'>Remem para o Money : Todos os <span class="arg1"><span class="rel">homens</span></span><sub class="deprel">root</sub> <span class="arg0">de Eike</span><sub class="deprel">nmod</sub> ! Bastidores ! OGX3 , petr4 , bovespa , opções http://t.co/BK42PGmSgt</td></tr></tbody>
     </table>
     
   

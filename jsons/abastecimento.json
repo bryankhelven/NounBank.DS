@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459034935748485120l::abastecimento::1",
+          "predicate": {
+            "form": "abastecimento",
+            "char_start": 34,
+            "char_end": 47
           }
         }
       ],

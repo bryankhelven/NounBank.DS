@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: hearer</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #PETR4 RT @kitowgallo : <span class="arg0">PGR</span> manda <span class="arg2">para o Rio</span> <span class="rel">pedido</span> <span class="arg1">para apurar suposto suborno em a Petrobras</span> : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD</h3>
+  <h3 data-instance-id="dante_01_443546875632029696l::pedido::1">1: #PETR4 RT @kitowgallo : <span class="arg0">PGR</span> manda <span class="arg2">para o Rio</span> <span class="rel">pedido</span> <span class="arg1">para apurar suposto suborno em a Petrobras</span> : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD</h3>
 <ul>
 <li class="rel">rel: pedido</li>
 <li class="arg0">Arg 0: PGR</li>
 <li class="arg1">Arg 1: para apurar suposto suborno em a Petrobras</li>
 <li class="arg2">Arg 2: para o Rio</li>
 </ul>
-<h3>2: <span class="arg0">A oposição</span> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span> , de esta vez composta por senadores e deputados .</h3>
+<h3 data-instance-id="dante_01_451457092516577283l::pedido::1">2: <span class="arg0">A oposição</span> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span> , de esta vez composta por senadores e deputados .</h3>
 <ul>
 <li class="rel">rel: pedido</li>
 <li class="arg0">Arg 0: A oposição</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">PGR</td><td class="arg1">para apurar suposto suborno em a Petrobras</td><td class="arg2">para o Rio</td><td class='texto'>#PETR4 RT @kitowgallo : <span class="arg0">PGR</span><sub class="deprel">nsubj</sub> manda <span class="arg2">para o Rio</span><sub class="deprel">obl</sub> <span class="rel">pedido</span> <span class="arg1">para apurar suposto suborno em a Petrobras</span><sub class="deprel">nmod</sub> : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD</td></tr><tr><td>2</td><td class="arg0">A oposição</td><td class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</td><td class="arg2">-</td><td class='texto'><span class="arg0">A oposição</span><sub class="deprel">nsubj</sub> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span><sub class="deprel">nmod</sub> , de esta vez composta por senadores e deputados .</td></tr><tr><td>3</td><td class="arg0">A oposição</td><td class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</td><td class="arg2">-</td><td class='texto'>RT @AlesandroAlves : <span class="arg0">A oposição</span><sub class="deprel">nsubj</sub> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span><sub class="deprel">nmod</sub> , de esta vez composta por sen …</td></tr><tr><td>4</td><td class="arg0">-</td><td class="arg1">de Procuracao</td><td class="arg2">-</td><td class='texto'>$BRFS3 - Brf Sa ( brfs-nm ) - Material A Disposicao ( <span class="rel">pedido</span> Publico <span class="arg1">De Procuracao</span><sub class="deprel">nmod</sub> ) http://t.co/0vmBXdZc0u</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_443546875632029696l::pedido::1"><td>1</td><td class="arg0">PGR</td><td class="arg1">para apurar suposto suborno em a Petrobras</td><td class="arg2">para o Rio</td><td class='texto'>#PETR4 RT @kitowgallo : <span class="arg0">PGR</span><sub class="deprel">nsubj</sub> manda <span class="arg2">para o Rio</span><sub class="deprel">obl</sub> <span class="rel">pedido</span> <span class="arg1">para apurar suposto suborno em a Petrobras</span><sub class="deprel">nmod</sub> : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD</td></tr><tr data-instance-id="dante_01_451457092516577283l::pedido::1"><td>2</td><td class="arg0">A oposição</td><td class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</td><td class="arg2">-</td><td class='texto'><span class="arg0">A oposição</span><sub class="deprel">nsubj</sub> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span><sub class="deprel">nmod</sub> , de esta vez composta por senadores e deputados .</td></tr><tr data-instance-id="dante_01_451460186029719552l::pedido::1"><td>3</td><td class="arg0">A oposição</td><td class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</td><td class="arg2">-</td><td class='texto'>RT @AlesandroAlves : <span class="arg0">A oposição</span><sub class="deprel">nsubj</sub> protocolou mais um <span class="rel">pedido</span> <span class="arg1">de criação de CPI para investigar a Petrobras PETR4.SA</span><sub class="deprel">nmod</sub> , de esta vez composta por sen …</td></tr><tr data-instance-id="dante_01_445556435427287040l::pedido::1"><td>4</td><td class="arg0">-</td><td class="arg1">de Procuracao</td><td class="arg2">-</td><td class='texto'>$BRFS3 - Brf Sa ( brfs-nm ) - Material A Disposicao ( <span class="rel">pedido</span> Publico <span class="arg1">De Procuracao</span><sub class="deprel">nmod</sub> ) http://t.co/0vmBXdZc0u</td></tr></tbody>
     </table>
     
   

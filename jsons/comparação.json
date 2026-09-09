@@ -48,6 +48,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_459396230943358976l::comparação::1",
+          "predicate": {
+            "form": "comparação",
+            "char_start": 68,
+            "char_end": 78
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": "case",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456818046393262080l::comparação::1",
+          "predicate": {
+            "form": "comparação",
+            "char_start": 84,
+            "char_end": 94
           }
         },
         {
@@ -73,17 +85,23 @@
           "text": "@picapautrader https://t.co/lN1y2KpkOJ comparação #PETR4 x #SPX quer dizer comparação só a título didático pq nem se compara msm",
           "realization": {
             "Arg0": null,
-            "Arg1": "#PETR4 x #SPX",
-            "Arg2": "#PETR4 x #SPX",
+            "Arg1": "#PETR4",
+            "Arg2": "#SPX",
             "Arg3": null,
             "Arg4": null
           },
           "syntax": {
             "Arg0": null,
             "Arg1": "nmod",
-            "Arg2": "nmod",
+            "Arg2": "conj",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443438866146807809l::comparação::1",
+          "predicate": {
+            "form": "comparação",
+            "char_start": 39,
+            "char_end": 49
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443438866146807809l::comparação::2",
+          "predicate": {
+            "form": "comparação",
+            "char_start": 75,
+            "char_end": 85
           }
         }
       ],
@@ -111,8 +135,9 @@
           "nmod": 1
         },
         "Arg2": {
-          "nmod": 2,
-          "case": 1
+          "nmod": 1,
+          "case": 1,
+          "conj": 1
         }
       }
     }

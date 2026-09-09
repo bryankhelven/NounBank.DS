@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441614055694811136l::troca::1",
+          "predicate": {
+            "form": "trocas",
+            "char_start": 14,
+            "char_end": 20
           }
         }
       ],

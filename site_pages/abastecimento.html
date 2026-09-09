@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,7 +106,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: entity provided for (beneficiary)</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Sabesp (SBSP3): Responsável por o <span class="arg1"><span class="rel">abastecimento</span> de 47% de a região metropolitana de São Paulo</span>, <span class="arg0">o Sistema Cantareira</span>... http://t.co/xs8ji7To5z</h3>
+  <h3 data-instance-id="dante_01_459034935748485120l::abastecimento::1">1: Sabesp (SBSP3): Responsável por o <span class="arg1"><span class="rel">abastecimento</span> de 47% de a região metropolitana de São Paulo</span>, <span class="arg0">o Sistema Cantareira</span>... http://t.co/xs8ji7To5z</h3>
 <ul>
 <li class="rel">rel: abastecimento</li>
 <li class="arg0">Arg 0: o Sistema Cantareira</li>
@@ -115,7 +120,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">o Sistema Cantareira</td><td class="arg1">abastecimento de 47% de a região metropolitana de São Paulo</td><td class="arg2">-</td><td class='texto'>Sabesp (SBSP3): Responsável por o <span class="arg1"><span class="rel">abastecimento</span> de 47% de a região metropolitana de São Paulo</span><sub class="deprel">flat:name</sub>, <span class="arg0">o Sistema Cantareira</span><sub class="deprel">flat:name</sub>... http://t.co/xs8ji7To5z</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_459034935748485120l::abastecimento::1"><td>1</td><td class="arg0">o Sistema Cantareira</td><td class="arg1">abastecimento de 47% de a região metropolitana de São Paulo</td><td class="arg2">-</td><td class='texto'>Sabesp (SBSP3): Responsável por o <span class="arg1"><span class="rel">abastecimento</span> de 47% de a região metropolitana de São Paulo</span><sub class="deprel">flat:name</sub>, <span class="arg0">o Sistema Cantareira</span><sub class="deprel">flat:name</sub>... http://t.co/xs8ji7To5z</td></tr></tbody>
     </table>
     
   

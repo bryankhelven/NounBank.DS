@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456538277151916035l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 22,
+            "char_end": 27
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448916390691733504l::fusão::1",
+          "predicate": {
+            "form": "FUSÃO",
+            "char_start": 0,
+            "char_end": 5
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441060770843852800l::fusão::1",
+          "predicate": {
+            "form": "Fusão",
+            "char_start": 13,
+            "char_end": 18
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_456113321658580992l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 48,
+            "char_end": 53
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": "flat:name",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_445941752961040384l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 47,
+            "char_end": 52
           }
         },
         {
@@ -138,6 +168,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_449210608115015680l::fusão::1",
+          "predicate": {
+            "form": "Fusão",
+            "char_start": 9,
+            "char_end": 14
           }
         },
         {
@@ -156,6 +192,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441968116361609217l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 52,
+            "char_end": 57
           }
         },
         {
@@ -174,6 +216,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454606593280442368l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 68,
+            "char_end": 73
           }
         },
         {
@@ -192,6 +240,12 @@
             "Arg2": "nmod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464369509340430337l::fusão::1",
+          "predicate": {
+            "form": "fusão",
+            "char_start": 25,
+            "char_end": 30
           }
         }
       ],

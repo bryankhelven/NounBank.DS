@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454607743392178177l::compartilhamento::1",
+          "predicate": {
+            "form": "compartilhamento",
+            "char_start": 41,
+            "char_end": 57
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454604295078690816l::compartilhamento::1",
+          "predicate": {
+            "form": "compartilhamento",
+            "char_start": 39,
+            "char_end": 55
           }
         }
       ],

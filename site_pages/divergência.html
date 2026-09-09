@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,13 +105,13 @@ body{margin:0;}
 <li class="arg2">Arg 2: second entity</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: @RivanewsBRKM5 15min: com formação de pivot de alta , após <span class="rel">divergência</span> <span class="arg0">de alta em o estocástico %k ( 12.3 )</span></h3>
+  <h3 data-instance-id="dante_01_444121049849139200l::divergência::1">1: @RivanewsBRKM5 15min: com formação de pivot de alta , após <span class="rel">divergência</span> <span class="arg0">de alta em o estocástico %k ( 12.3 )</span></h3>
 <ul>
 <li class="rel">rel: divergência</li>
 <li class="arg0">Arg 0: de alta em o estocástico %k ( 12.3 )</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: A <span class="rel">divergência</span> <span class="arg0">de baixa formada em o diário de #CMIG4</span> serviu apenas para fechar o descolamento com o RK ... Leia mais : http://t.co/QL31D4iUAV</h3>
+<h3 data-instance-id="dante_01_454560977007443968l::divergência::1">2: A <span class="rel">divergência</span> <span class="arg0">de baixa formada em o diário de #CMIG4</span> serviu apenas para fechar o descolamento com o RK ... Leia mais : http://t.co/QL31D4iUAV</h3>
 <ul>
 <li class="rel">rel: divergência</li>
 <li class="arg0">Arg 0: de baixa formada em o diário de #CMIG4</li>
@@ -119,7 +124,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">de alta em o estocástico %k ( 12.3 )</td><td class="arg2">-</td><td class='texto'>@RivanewsBRKM5 15min: com formação de pivot de alta , após <span class="rel">divergência</span> <span class="arg0">de alta em o estocástico %k ( 12.3 )</span><sub class="deprel">nmod</sub></td></tr><tr><td>2</td><td class="arg0">de baixa formada em o diário de #CMIG4</td><td class="arg2">-</td><td class='texto'>A <span class="rel">divergência</span> <span class="arg0">de baixa formada em o diário de #CMIG4</span><sub class="deprel">nmod</sub> serviu apenas para fechar o descolamento com o RK ... Leia mais : http://t.co/QL31D4iUAV</td></tr><tr><td>3</td><td class="arg0">de alta</td><td class="arg2">-</td><td class='texto'>#GGBR4 apresentando <span class="rel">divergência</span> <span class="arg0">de alta</span><sub class="deprel">nmod</sub> . Aguardando sinais mais claros de reversão para alta . http://t.co/3GLBoEdZbb</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_444121049849139200l::divergência::1"><td>1</td><td class="arg0">de alta em o estocástico %k ( 12.3 )</td><td class="arg2">-</td><td class='texto'>@RivanewsBRKM5 15min: com formação de pivot de alta , após <span class="rel">divergência</span> <span class="arg0">de alta em o estocástico %k ( 12.3 )</span><sub class="deprel">nmod</sub></td></tr><tr data-instance-id="dante_01_454560977007443968l::divergência::1"><td>2</td><td class="arg0">de baixa formada em o diário de #CMIG4</td><td class="arg2">-</td><td class='texto'>A <span class="rel">divergência</span> <span class="arg0">de baixa formada em o diário de #CMIG4</span><sub class="deprel">nmod</sub> serviu apenas para fechar o descolamento com o RK ... Leia mais : http://t.co/QL31D4iUAV</td></tr><tr data-instance-id="dante_01_460933625907650560l::divergência::1"><td>3</td><td class="arg0">de alta</td><td class="arg2">-</td><td class='texto'>#GGBR4 apresentando <span class="rel">divergência</span> <span class="arg0">de alta</span><sub class="deprel">nmod</sub> . Aguardando sinais mais claros de reversão para alta . http://t.co/3GLBoEdZbb</td></tr></tbody>
     </table>
     
   

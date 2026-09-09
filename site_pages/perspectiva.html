@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: hearer</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #BOVESPA #USIM5 <span class="arg0">S&amp;P</span> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span> : http://t.co/JdfGy10phl #BR</h3>
+  <h3 data-instance-id="dante_01_464201927031803904l::perspectiva::1">1: #BOVESPA #USIM5 <span class="arg0">S&amp;P</span> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span> : http://t.co/JdfGy10phl #BR</h3>
 <ul>
 <li class="rel">rel: perspectiva</li>
 <li class="arg0">Arg 0: S&amp;P</li>
 <li class="arg1">Arg 1: de nota de a Usiminas para estável</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: #BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span> . http://t.co/dcYSiVa45x #ASIA</h3>
+<h3 data-instance-id="dante_01_450653213835145216l::perspectiva::1">2: #BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span> . http://t.co/dcYSiVa45x #ASIA</h3>
 <ul>
 <li class="rel">rel: perspectiva</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">S&amp;P</td><td class="arg1">de nota de a Usiminas para estável</td><td class="arg2">-</td><td class='texto'>#BOVESPA #USIM5 <span class="arg0">S&amp;P</span><sub class="deprel">nsubj</sub> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span><sub class="deprel">obl</sub> : http://t.co/JdfGy10phl #BR</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">de estímulo em a China</td><td class="arg2">-</td><td class='texto'>#BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span><sub class="deprel">nmod</sub> . http://t.co/dcYSiVa45x #ASIA</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">de divulgação de nova pesquisa de o IBOPE</td><td class="arg2">-</td><td class='texto'>@coroneldoblog Apenas a <span class="rel">perspectiva</span> <span class="arg1">de divulgação de nova pesquisa de o IBOPE</span><sub class="deprel">nmod</sub> , logo mais , faz Petrobrás ( PETR4 ) disparar em a Bovespa de novo .</td></tr><tr><td>4</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>#PETR3 #PETR4 - Fitch afirma rating de a Petrobras em BBB com <span class="rel">perspectiva</span> estável - http://t.co/O6p9US6gV4</td></tr><tr><td>5</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a eleição</td><td class="arg2">-</td><td class='texto'>Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a eleição</span><sub class="deprel">obj</sub> ...</td></tr><tr><td>6</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a el</td><td class="arg2">-</td><td class='texto'>RT @chrinvestor : Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a el</span><sub class="deprel">obj:wtrunc</sub> …</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_464201927031803904l::perspectiva::1"><td>1</td><td class="arg0">S&amp;P</td><td class="arg1">de nota de a Usiminas para estável</td><td class="arg2">-</td><td class='texto'>#BOVESPA #USIM5 <span class="arg0">S&amp;P</span><sub class="deprel">nsubj</sub> eleva <span class="rel">perspectiva</span> <span class="arg1">de nota de a Usiminas para estável</span><sub class="deprel">obl</sub> : http://t.co/JdfGy10phl #BR</td></tr><tr data-instance-id="dante_01_450653213835145216l::perspectiva::1"><td>2</td><td class="arg0">-</td><td class="arg1">de estímulo em a China</td><td class="arg2">-</td><td class='texto'>#BOVESPA #VALE5 Ação de a Vale sobe com <span class="rel">perspectiva</span> <span class="arg1">de estímulo em a China</span><sub class="deprel">nmod</sub> . http://t.co/dcYSiVa45x #ASIA</td></tr><tr data-instance-id="dante_01_456867956006588416l::perspectiva::1"><td>3</td><td class="arg0">-</td><td class="arg1">de divulgação de nova pesquisa de o IBOPE</td><td class="arg2">-</td><td class='texto'>@coroneldoblog Apenas a <span class="rel">perspectiva</span> <span class="arg1">de divulgação de nova pesquisa de o IBOPE</span><sub class="deprel">nmod</sub> , logo mais , faz Petrobrás ( PETR4 ) disparar em a Bovespa de novo .</td></tr><tr data-instance-id="dante_01_448888350523813888l::perspectiva::1"><td>4</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>#PETR3 #PETR4 - Fitch afirma rating de a Petrobras em BBB com <span class="rel">perspectiva</span> estável - http://t.co/O6p9US6gV4</td></tr><tr data-instance-id="dante_01_449269972699975681l::perspectiva::1"><td>5</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a eleição</td><td class="arg2">-</td><td class='texto'>Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a eleição</span><sub class="deprel">obj</sub> ...</td></tr><tr data-instance-id="dante_01_449597804189847552l::perspectiva::1"><td>6</td><td class="arg0">-</td><td class="arg1">de que ela pode perder a el</td><td class="arg2">-</td><td class='texto'>RT @chrinvestor : Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a <span class="rel">perspectiva</span> <span class="arg1">de que ela pode perder a el</span><sub class="deprel">obj:wtrunc</sub> …</td></tr></tbody>
     </table>
     
   

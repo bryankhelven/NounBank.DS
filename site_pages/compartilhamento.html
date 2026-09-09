@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: shared with, if separate from arg0</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #BR #BOVESPA #GOLL4 <span class="arg0">Gol</span> assina acordo de <span class="rel">compartilhamento</span> <span class="arg1">de voos</span> com TAP . http://t.co/wHGukBg7qp</h3>
+  <h3 data-instance-id="dante_01_454607743392178177l::compartilhamento::1">1: #BR #BOVESPA #GOLL4 <span class="arg0">Gol</span> assina acordo de <span class="rel">compartilhamento</span> <span class="arg1">de voos</span> com TAP . http://t.co/wHGukBg7qp</h3>
 <ul>
 <li class="rel">rel: compartilhamento</li>
 <li class="arg0">Arg 0: Gol</li>
 <li class="arg1">Arg 1: de voos</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: $GOLL4 - <span class="arg0">GOL</span> e TAP assinam acordo para <span class="rel">compartilhamento</span> <span class="arg1">de voos</span> http://t.co/F87EcEzEWK</h3>
+<h3 data-instance-id="dante_01_454604295078690816l::compartilhamento::1">2: $GOLL4 - <span class="arg0">GOL</span> e TAP assinam acordo para <span class="rel">compartilhamento</span> <span class="arg1">de voos</span> http://t.co/F87EcEzEWK</h3>
 <ul>
 <li class="rel">rel: compartilhamento</li>
 <li class="arg0">Arg 0: GOL</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">Gol</td><td class="arg1">de voos</td><td class="arg2">-</td><td class='texto'>#BR #BOVESPA #GOLL4 <span class="arg0">Gol</span><sub class="deprel">nsubj</sub> assina acordo de <span class="rel">compartilhamento</span> <span class="arg1">de voos</span><sub class="deprel">nmod</sub> com TAP . http://t.co/wHGukBg7qp</td></tr><tr><td>2</td><td class="arg0">GOL</td><td class="arg1">de voos</td><td class="arg2">-</td><td class='texto'>$GOLL4 - <span class="arg0">GOL</span><sub class="deprel">nsubj</sub> e TAP assinam acordo para <span class="rel">compartilhamento</span> <span class="arg1">de voos</span><sub class="deprel">nmod</sub> http://t.co/F87EcEzEWK</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_454607743392178177l::compartilhamento::1"><td>1</td><td class="arg0">Gol</td><td class="arg1">de voos</td><td class="arg2">-</td><td class='texto'>#BR #BOVESPA #GOLL4 <span class="arg0">Gol</span><sub class="deprel">nsubj</sub> assina acordo de <span class="rel">compartilhamento</span> <span class="arg1">de voos</span><sub class="deprel">nmod</sub> com TAP . http://t.co/wHGukBg7qp</td></tr><tr data-instance-id="dante_01_454604295078690816l::compartilhamento::1"><td>2</td><td class="arg0">GOL</td><td class="arg1">de voos</td><td class="arg2">-</td><td class='texto'>$GOLL4 - <span class="arg0">GOL</span><sub class="deprel">nsubj</sub> e TAP assinam acordo para <span class="rel">compartilhamento</span> <span class="arg1">de voos</span><sub class="deprel">nmod</sub> http://t.co/F87EcEzEWK</td></tr></tbody>
     </table>
     
   

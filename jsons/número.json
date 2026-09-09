@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443356969936510977l::número::1",
+          "predicate": {
+            "form": "número",
+            "char_start": 22,
+            "char_end": 28
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443391474357776384l::número::1",
+          "predicate": {
+            "form": "número",
+            "char_start": 30,
+            "char_end": 36
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": "xcomp",
             "Arg4": null
+          },
+          "instance_id": "dante_01_448924122459160577l::número::1",
+          "predicate": {
+            "form": "número",
+            "char_start": 50,
+            "char_end": 56
           }
         },
         {
@@ -102,7 +120,8 @@
             "Arg2": null,
             "Arg3": "obl",
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_442016957525921792l::número::1"
         },
         {
           "sent_ID": "dante_01_460225661630947328l",
@@ -120,7 +139,8 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
-          }
+          },
+          "instance_id": "dante_01_460225661630947328l::número::1"
         },
         {
           "sent_ID": "dante_01_461178854116429824l",
@@ -138,6 +158,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_461178854116429824l::número::1",
+          "predicate": {
+            "form": "número",
+            "char_start": 50,
+            "char_end": 56
           }
         }
       ],

@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,7 +105,7 @@ body{margin:0;}
 <li class="arg1">Arg 1: thing viewed</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a <span class="arg0">nossa</span> <span class="rel">visão</span> <span class="arg1">sobre os dados divulgados por a empresa</span> . http://t.co/wifhNsopqt</h3>
+  <h3 data-instance-id="dante_01_460788178345926657l::visão::1">1: Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a <span class="arg0">nossa</span> <span class="rel">visão</span> <span class="arg1">sobre os dados divulgados por a empresa</span> . http://t.co/wifhNsopqt</h3>
 <ul>
 <li class="rel">rel: visão</li>
 <li class="arg0">Arg 0: nossa</li>
@@ -113,7 +118,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">nossa</td><td class="arg1">sobre os dados divulgados por a empresa</td><td class='texto'>Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a <span class="arg0">nossa</span><sub class="deprel">nsubj</sub> <span class="rel">visão</span> <span class="arg1">sobre os dados divulgados por a empresa</span><sub class="deprel">nmod</sub> . http://t.co/wifhNsopqt</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_460788178345926657l::visão::1"><td>1</td><td class="arg0">nossa</td><td class="arg1">sobre os dados divulgados por a empresa</td><td class='texto'>Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a <span class="arg0">nossa</span><sub class="deprel">nsubj</sub> <span class="rel">visão</span> <span class="arg1">sobre os dados divulgados por a empresa</span><sub class="deprel">nmod</sub> . http://t.co/wifhNsopqt</td></tr></tbody>
     </table>
     
   

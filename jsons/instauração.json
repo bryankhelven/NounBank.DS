@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_441969387289845761l::instauração::1",
+          "predicate": {
+            "form": "instauração",
+            "char_start": 39,
+            "char_end": 50
           }
         }
       ],

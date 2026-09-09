@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,13 +105,13 @@ body{margin:0;}
 <li class="arg1">Arg 1: action</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: RT @JoaoPaulodg : Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span> <span class="rel">avaliação</span> <span class="arg1">de risco</span> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de …</h3>
+  <h3 data-instance-id="dante_01_453209164035420160l::avaliação::1">1: RT @JoaoPaulodg : Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span> <span class="rel">avaliação</span> <span class="arg1">de risco</span> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de …</h3>
 <ul>
 <li class="rel">rel: avaliação</li>
 <li class="arg0">Arg 0: cia de</li>
 <li class="arg1">Arg 1: de risco</li>
 </ul>
-<h3>2: Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span> <span class="rel">avaliação</span> <span class="arg1">de risco</span> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de forma mais severa</h3>
+<h3 data-instance-id="dante_01_453208679303897089l::avaliação::1">2: Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span> <span class="rel">avaliação</span> <span class="arg1">de risco</span> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de forma mais severa</h3>
 <ul>
 <li class="rel">rel: avaliação</li>
 <li class="arg0">Arg 0: cia de</li>
@@ -119,7 +124,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">cia de</td><td class="arg1">de risco</td><td class='texto'>RT @JoaoPaulodg : Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span><sub class="deprel">case</sub> <span class="rel">avaliação</span> <span class="arg1">de risco</span><sub class="deprel">nmod</sub> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de …</td></tr><tr><td>2</td><td class="arg0">cia de</td><td class="arg1">de risco</td><td class='texto'>Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span><sub class="deprel">case</sub> <span class="rel">avaliação</span> <span class="arg1">de risco</span><sub class="deprel">nmod</sub> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de forma mais severa</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_453209164035420160l::avaliação::1"><td>1</td><td class="arg0">cia de</td><td class="arg1">de risco</td><td class='texto'>RT @JoaoPaulodg : Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span><sub class="deprel">case</sub> <span class="rel">avaliação</span> <span class="arg1">de risco</span><sub class="deprel">nmod</sub> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de …</td></tr><tr data-instance-id="dante_01_453208679303897089l::avaliação::1"><td>2</td><td class="arg0">cia de</td><td class="arg1">de risco</td><td class='texto'>Mas é claro RT @garimpodeacoes : FITCH , <span class="arg0">cia de</span><sub class="deprel">case</sub> <span class="rel">avaliação</span> <span class="arg1">de risco</span><sub class="deprel">nmod</sub> diz que seca prolongada deve pressionar Sabesp ( SBSP3 ) de forma mais severa</td></tr></tbody>
     </table>
     
   

@@ -48,6 +48,12 @@
             "Arg2": "amod",
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446307389328076801l::aliança::1",
+          "predicate": {
+            "form": "aliança",
+            "char_start": 21,
+            "char_end": 28
           }
         }
       ],

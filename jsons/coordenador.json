@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_464368387788136448l::coordenador::1",
+          "predicate": {
+            "form": "Coordenador",
+            "char_start": 30,
+            "char_end": 41
           }
         }
       ],

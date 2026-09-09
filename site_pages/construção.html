@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: material, start state</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada <span class="rel">construção</span> ... http://t.co/DTTsUJsh3i</h3>
+  <h3 data-instance-id="dante_01_469457551306665984l::construção::1">1: Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada <span class="rel">construção</span> ... http://t.co/DTTsUJsh3i</h3>
 <ul>
 <li class="rel">rel: construção</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: setor financeiro ganha participação e <span class="rel">construção</span> perde . ABEV3 , UGPA3 , ITUB4 , PCAR4 , BBDC4 , BRFS3 , CIEL3 , BBSE3 TODAS GANHARAM entre 30 a 50 %</h3>
+<h3 data-instance-id="dante_01_456412254607777792l::construção::1">2: setor financeiro ganha participação e <span class="rel">construção</span> perde . ABEV3 , UGPA3 , ITUB4 , PCAR4 , BBDC4 , BRFS3 , CIEL3 , BBSE3 TODAS GANHARAM entre 30 a 50 %</h3>
 <ul>
 <li class="rel">rel: construção</li>
 <li class="arg0">Arg 0: -</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada <span class="rel">construção</span> ... http://t.co/DTTsUJsh3i</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>setor financeiro ganha participação e <span class="rel">construção</span> perde . ABEV3 , UGPA3 , ITUB4 , PCAR4 , BBDC4 , BRFS3 , CIEL3 , BBSE3 TODAS GANHARAM entre 30 a 50 %</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">De o Complexo Eolico Santa Monica</td><td class="arg2">-</td><td class='texto'>$TBLE3 - Tractebel ( tble-nm ) - Obras De Construcao <span class="arg1">De o Complexo Eolico Santa Monica</span><sub class="deprel">flat:name</sub> http://t.co/BA3MoUuYIg</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_469457551306665984l::construção::1"><td>1</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada <span class="rel">construção</span> ... http://t.co/DTTsUJsh3i</td></tr><tr data-instance-id="dante_01_456412254607777792l::construção::1"><td>2</td><td class="arg0">-</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>setor financeiro ganha participação e <span class="rel">construção</span> perde . ABEV3 , UGPA3 , ITUB4 , PCAR4 , BBDC4 , BRFS3 , CIEL3 , BBSE3 TODAS GANHARAM entre 30 a 50 %</td></tr><tr data-instance-id="dante_01_455679053480345600l::construção::1" data-rel="missing"><td>3</td><td class="arg0">-</td><td class="arg1">De o Complexo Eolico Santa Monica</td><td class="arg2">-</td><td class='texto'>$TBLE3 - Tractebel ( tble-nm ) - Obras De Construcao <span class="arg1">De o Complexo Eolico Santa Monica</span><sub class="deprel">flat:name</sub> http://t.co/BA3MoUuYIg<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
     </table>
     
   

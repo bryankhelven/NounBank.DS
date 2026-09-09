@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_446975526323109888l::assinatura::1",
+          "predicate": {
+            "form": "Assinatura",
+            "char_start": 47,
+            "char_end": 57
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453581504170717184l::assinatura::1",
+          "predicate": {
+            "form": "assinatura",
+            "char_start": 49,
+            "char_end": 59
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_450801978567041024l::assinatura::1",
+          "predicate": {
+            "form": "assinatura",
+            "char_start": 39,
+            "char_end": 49
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453504179232079872l::assinatura::1",
+          "predicate": {
+            "form": "Assinatura",
+            "char_start": 30,
+            "char_end": 40
           }
         }
       ],

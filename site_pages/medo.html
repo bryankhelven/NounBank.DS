@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -100,13 +105,13 @@ body{margin:0;}
 <li class="arg1">Arg 1: theme</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... <span class="arg1">#PETR4</span> dá <span class="rel">medo</span> ... o.O</h3>
+  <h3 data-instance-id="dante_01_451067992206753792l::medo::1">1: é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... <span class="arg1">#PETR4</span> dá <span class="rel">medo</span> ... o.O</h3>
 <ul>
 <li class="rel">rel: medo</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: #PETR4</li>
 </ul>
-<h3>2: #petr4 sem <span class="rel">medo</span> <span class="arg1">de errar</span> , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !</h3>
+<h3 data-instance-id="dante_01_446658495862292480l::medo::1">2: #petr4 sem <span class="rel">medo</span> <span class="arg1">de errar</span> , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !</h3>
 <ul>
 <li class="rel">rel: medo</li>
 <li class="arg0">Arg 0: -</li>
@@ -119,7 +124,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">#PETR4</td><td class='texto'>é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... <span class="arg1">#PETR4</span><sub class="deprel">nsubj</sub> dá <span class="rel">medo</span> ... o.O</td></tr><tr><td>2</td><td class="arg0">-</td><td class="arg1">de errar</td><td class='texto'>#petr4 sem <span class="rel">medo</span> <span class="arg1">de errar</span><sub class="deprel">acl</sub> , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !</td></tr><tr><td>3</td><td class="arg0">-</td><td class="arg1">de o fantasma de o Eike</td><td class='texto'>@ferrisss oi Ferri , estou comprado em CIEL3 q já subiu bastante . Em a sua opinião vale a pena trocar por MMX ? <span class="rel">Medo</span> <span class="arg1">de o fantasma de o Eike</span><sub class="deprel">nmod</sub> ...</td></tr><tr><td>4</td><td class="arg0">eu</td><td class="arg1">de essa #PETR4</td><td class='texto'>@Live_Trade <span class="arg0">eu</span><sub class="deprel">nsubj</sub> to cagando de <span class="rel">medo</span> <span class="arg1">de essa #PETR4</span><sub class="deprel">nmod</sub> ! ! ! to com posição grnade desde o rompimento de os 14,20 dia 24/03 ! king kong adestrado por o PT</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_451067992206753792l::medo::1"><td>1</td><td class="arg0">-</td><td class="arg1">#PETR4</td><td class='texto'>é ... quase em a máxima . Isso após testar o suporte em os R$ 15,5 ... <span class="arg1">#PETR4</span><sub class="deprel">nsubj</sub> dá <span class="rel">medo</span> ... o.O</td></tr><tr data-instance-id="dante_01_446658495862292480l::medo::1"><td>2</td><td class="arg0">-</td><td class="arg1">de errar</td><td class='texto'>#petr4 sem <span class="rel">medo</span> <span class="arg1">de errar</span><sub class="deprel">acl</sub> , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !</td></tr><tr data-instance-id="dante_01_452861055509991424l::medo::1"><td>3</td><td class="arg0">-</td><td class="arg1">de o fantasma de o Eike</td><td class='texto'>@ferrisss oi Ferri , estou comprado em CIEL3 q já subiu bastante . Em a sua opinião vale a pena trocar por MMX ? <span class="rel">Medo</span> <span class="arg1">de o fantasma de o Eike</span><sub class="deprel">nmod</sub> ...</td></tr><tr data-instance-id="dante_01_449629179051790336l::medo::1"><td>4</td><td class="arg0">eu</td><td class="arg1">de essa #PETR4</td><td class='texto'>@Live_Trade <span class="arg0">eu</span><sub class="deprel">nsubj</sub> to cagando de <span class="rel">medo</span> <span class="arg1">de essa #PETR4</span><sub class="deprel">nmod</sub> ! ! ! to com posição grnade desde o rompimento de os 14,20 dia 24/03 ! king kong adestrado por o PT</td></tr></tbody>
     </table>
     
   

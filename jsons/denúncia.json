@@ -48,6 +48,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_452210549578010624l::denúncia::1",
+          "predicate": {
+            "form": "denúncias",
+            "char_start": 93,
+            "char_end": 102
           }
         },
         {
@@ -66,6 +72,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_454456974034624512l::denúncia::1",
+          "predicate": {
+            "form": "Denúncia",
+            "char_start": 36,
+            "char_end": 44
           }
         },
         {
@@ -84,6 +96,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_453318847161200640l::denúncia::1",
+          "predicate": {
+            "form": "Denúncias",
+            "char_start": 59,
+            "char_end": 68
           }
         },
         {
@@ -102,6 +120,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_448084897677471744l::denúncia::1",
+          "predicate": {
+            "form": "denúncias",
+            "char_start": 17,
+            "char_end": 26
           }
         },
         {
@@ -120,6 +144,12 @@
             "Arg2": null,
             "Arg3": null,
             "Arg4": null
+          },
+          "instance_id": "dante_01_443546458860834817l::denúncia::1",
+          "predicate": {
+            "form": "denúncias",
+            "char_start": 105,
+            "char_end": 114
           }
         }
       ],

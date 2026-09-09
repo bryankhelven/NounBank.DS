@@ -69,6 +69,11 @@ body{margin:0;}
 }
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
+
+/* ===== Instância com REL fora do trecho truncado ===== */
+.rel-missing{
+  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
+}
 </style>
 </head>
 <body>
@@ -101,14 +106,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: destination</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3>1: #GOLL4 O <span class="rel">transporte</span> doméstico <span class="arg1">de passageiros</span> registrou aumento de 8,16 % em a demanda medida em passageiros ... http://t.co/8pIYzbanHG</h3>
+  <h3 data-instance-id="dante_01_464738307692191744l::transporte::1">1: #GOLL4 O <span class="rel">transporte</span> doméstico <span class="arg1">de passageiros</span> registrou aumento de 8,16 % em a demanda medida em passageiros ... http://t.co/8pIYzbanHG</h3>
 <ul>
 <li class="rel">rel: transporte</li>
 <li class="arg0">Arg 0: -</li>
 <li class="arg1">Arg 1: de passageiros</li>
 <li class="arg2">Arg 2: -</li>
 </ul>
-<h3>2: ( ALLL3 ) : A ALL e a Rumo deram início a conversas para que <span class="arg0">a concessionária</span> aumente o volume de o <span class="rel">transporte</span> de ... http://t.co/t2JXbpKAef</h3>
+<h3 data-instance-id="dante_01_459330478110412800l::transporte::1">2: ( ALLL3 ) : A ALL e a Rumo deram início a conversas para que <span class="arg0">a concessionária</span> aumente o volume de o <span class="rel">transporte</span> de ... http://t.co/t2JXbpKAef</h3>
 <ul>
 <li class="rel">rel: transporte</li>
 <li class="arg0">Arg 0: a concessionária</li>
@@ -122,7 +127,7 @@ body{margin:0;}
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr><td>1</td><td class="arg0">-</td><td class="arg1">de passageiros</td><td class="arg2">-</td><td class='texto'>#GOLL4 O <span class="rel">transporte</span> doméstico <span class="arg1">de passageiros</span><sub class="deprel">nmod</sub> registrou aumento de 8,16 % em a demanda medida em passageiros ... http://t.co/8pIYzbanHG</td></tr><tr><td>2</td><td class="arg0">a concessionária</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>( ALLL3 ) : A ALL e a Rumo deram início a conversas para que <span class="arg0">a concessionária</span><sub class="deprel">nsubj</sub> aumente o volume de o <span class="rel">transporte</span> de ... http://t.co/t2JXbpKAef</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_464738307692191744l::transporte::1"><td>1</td><td class="arg0">-</td><td class="arg1">de passageiros</td><td class="arg2">-</td><td class='texto'>#GOLL4 O <span class="rel">transporte</span> doméstico <span class="arg1">de passageiros</span><sub class="deprel">nmod</sub> registrou aumento de 8,16 % em a demanda medida em passageiros ... http://t.co/8pIYzbanHG</td></tr><tr data-instance-id="dante_01_459330478110412800l::transporte::1"><td>2</td><td class="arg0">a concessionária</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>( ALLL3 ) : A ALL e a Rumo deram início a conversas para que <span class="arg0">a concessionária</span><sub class="deprel">nsubj</sub> aumente o volume de o <span class="rel">transporte</span> de ... http://t.co/t2JXbpKAef</td></tr></tbody>
     </table>
     
   
