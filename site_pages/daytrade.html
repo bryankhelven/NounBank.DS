@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">daytrade</i></h1>
   <p><strong>Roleset id:</strong> daytrade.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trade.xml">trade.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/trade.html">verb-trade.01</a></p>
   <h2>Roles:</h2>
@@ -123,14 +119,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_441608336748720128l::daytrade::1"><td>1</td><td class="arg0">-</td><td class="arg1">BBDC4</td><td class="arg2">-</td><td class='texto'><span class="arg1">BBDC4</span><sub class="deprel">root</sub> Linda WW em o <span class="rel">Daytrade</span> , mesmo entrando atrasado ... e saindo cedo .. ";D" http://t.co/WQPK5B1lNL</td></tr><tr data-instance-id="dante_01_461179533669187584l::daytrade::1"><td>2</td><td class="arg0">-</td><td class="arg1">de OIBR4</td><td class="arg2">-</td><td class='texto'>@Live_Trade Marcos , qual o objetivo <span class="rel">daytrade</span> <span class="arg1">de OIBR4</span><sub class="deprel">nmod</sub> ? Abs</td></tr><tr data-instance-id="dante_01_449619485667123200l::daytrade::1" data-rel="missing"><td>3</td><td class="arg0">-</td><td class="arg1">em PETR4</td><td class="arg2">-</td><td class='texto'>é quem entrou vendido , day-trade <span class="arg1">em PETR4</span><sub class="deprel">nmod</sub> se deu bem !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_449250160464625664l::daytrade::1" data-rel="missing"><td>4</td><td class="arg0">-</td><td class="arg1">VALE5</td><td class="arg2">-</td><td class='texto'>Day trade <span class="arg1">VALE5</span><sub class="deprel">nmod</sub> Previsto e evitado zona de alto risco e falta de liquidez absurda 27-03-14 http://t.co/FZV3HPrEG3<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_448159009464664064l::daytrade::1" data-rel="missing"><td>5</td><td class="arg0">-</td><td class="arg1">VALE5</td><td class="arg2">-</td><td class='texto'>Day trade <span class="arg1">VALE5</span><sub class="deprel">nmod</sub> Espetacular – 6 prejuízos previstos e evitados ( - 1,6 % de perda evitada ! ) 24/03/2014 http://t.co/OOP3CcpEDF<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_441608336748720128l::daytrade::1"><td>1</td><td class="arg0">-</td><td class="arg1">BBDC4</td><td class="arg2">-</td><td class='texto'><span class="arg1">BBDC4</span><sub class="deprel">root</sub> Linda WW em o <span class="rel">Daytrade</span> , mesmo entrando atrasado ... e saindo cedo .. ";D" http://t.co/WQPK5B1lNL</td></tr><tr data-instance-id="dante_01_461179533669187584l::daytrade::1"><td>2</td><td class="arg0">-</td><td class="arg1">de OIBR4</td><td class="arg2">-</td><td class='texto'>@Live_Trade Marcos , qual o objetivo <span class="rel">daytrade</span> <span class="arg1">de OIBR4</span><sub class="deprel">nmod</sub> ? Abs</td></tr><tr data-instance-id="dante_01_449619485667123200l::daytrade::1"><td>3</td><td class="arg0">-</td><td class="arg1">em PETR4</td><td class="arg2">-</td><td class='texto'>é quem entrou vendido , <span class="rel">day-trade</span> <span class="arg1">em PETR4</span><sub class="deprel">nmod</sub> se deu bem !</td></tr><tr data-instance-id="dante_01_449250160464625664l::daytrade::1"><td>4</td><td class="arg0">-</td><td class="arg1">VALE5</td><td class="arg2">-</td><td class='texto'><span class="rel">Day trade</span> <span class="arg1">VALE5</span><sub class="deprel">nmod</sub> Previsto e evitado zona de alto risco e falta de liquidez absurda 27-03-14 http://t.co/FZV3HPrEG3</td></tr><tr data-instance-id="dante_01_448159009464664064l::daytrade::1"><td>5</td><td class="arg0">-</td><td class="arg1">VALE5</td><td class="arg2">-</td><td class='texto'><span class="rel">Day trade</span> <span class="arg1">VALE5</span><sub class="deprel">nmod</sub> Espetacular – 6 prejuízos previstos e evitados ( - 1,6 % de perda evitada ! ) 24/03/2014 http://t.co/OOP3CcpEDF</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -138,7 +134,7 @@ body{margin:0;}
         <tbody><tr><td>nmod</td><td>0</td><td>4</td><td>0</td></tr><tr><td>root</td><td>0</td><td>1</td><td>0</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=d" title="Voltar para letra D">← Voltar para D</a>

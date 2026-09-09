@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">encerramento</i></h1>
   <p><strong>Roleset id:</strong> encerramento.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/closure.xml">closure.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/close.html">verb-close.01</a></p>
   <h2>Roles:</h2>
@@ -106,7 +102,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: anti-beneficiary</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3 data-instance-id="dante_01_442999412265320448l::encerramento::1">1: $DASA3 - Dasa ( dasa-nm ) - Fato Relevante Comunicado Cromossomo Prazo De Encermto . <span class="arg1">De a Opa</span> http://t.co/uVUVxbGicB<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
+  <h3 data-instance-id="dante_01_442999412265320448l::encerramento::1">1: $DASA3 - Dasa ( dasa-nm ) - Fato Relevante Comunicado Cromossomo Prazo De <span class="rel">Encermto</span> . <span class="arg1">De a Opa</span> http://t.co/uVUVxbGicB</h3>
 <ul>
 <li class="rel">rel: encerramento</li>
 <li class="arg0">Arg 0: -</li>
@@ -123,14 +119,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_442999412265320448l::encerramento::1" data-rel="missing"><td>1</td><td class="arg0">-</td><td class="arg1">De a Opa</td><td class="arg2">-</td><td class='texto'>$DASA3 - Dasa ( dasa-nm ) - Fato Relevante Comunicado Cromossomo Prazo De Encermto . <span class="arg1">De a Opa</span><sub class="deprel">parataxis</sub> http://t.co/uVUVxbGicB<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_453583096823443456l::encerramento::1"><td>2</td><td class="arg0">-</td><td class="arg1">De a Licenca De o Diretor De Distribuicao</td><td class="arg2">-</td><td class='texto'>$ELET3 - Eletrobras ( elet-n1 ) - <span class="rel">Encerramento</span> <span class="arg1">De a Licenca De o Diretor De Distribuicao</span><sub class="deprel">nmod</sub> http://t.co/t0zHiXiVwN</td></tr><tr data-instance-id="dante_01_463297321254809600l::encerramento::1" data-rel="missing"><td>3</td><td class="arg0">-</td><td class="arg1">de as Inscricoes De o Plano De Incentivo Deslig. Voluntario</td><td class="arg2">-</td><td class='texto'>$PETR3 - Petrobras ( petr ) - encer. <span class="arg1">de as Inscricoes De o Plano De Incentivo Deslig. Voluntario</span><sub class="deprel">amod</sub> http://t.co/pmJ0jol3wY<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_441236209134993410l::encerramento::1"><td>4</td><td class="arg0">-</td><td class="arg1">Prazo De Preferencia</td><td class="arg2">-</td><td class='texto'>$MRFG3 - Marfrig ( mrfg-nm ) - <span class="rel">encerramento</span> <span class="arg1">Prazo De Preferencia</span><sub class="deprel">nmod</sub> / inicio De o Periodo De Sobras http://t.co/tWzEE1HdrT</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_442999412265320448l::encerramento::1"><td>1</td><td class="arg0">-</td><td class="arg1">De a Opa</td><td class="arg2">-</td><td class='texto'>$DASA3 - Dasa ( dasa-nm ) - Fato Relevante Comunicado Cromossomo Prazo De <span class="rel">Encermto</span> . <span class="arg1">De a Opa</span><sub class="deprel">parataxis</sub> http://t.co/uVUVxbGicB</td></tr><tr data-instance-id="dante_01_453583096823443456l::encerramento::1"><td>2</td><td class="arg0">-</td><td class="arg1">De a Licenca De o Diretor De Distribuicao</td><td class="arg2">-</td><td class='texto'>$ELET3 - Eletrobras ( elet-n1 ) - <span class="rel">Encerramento</span> <span class="arg1">De a Licenca De o Diretor De Distribuicao</span><sub class="deprel">nmod</sub> http://t.co/t0zHiXiVwN</td></tr><tr data-instance-id="dante_01_463297321254809600l::encerramento::1"><td>3</td><td class="arg0">-</td><td class="arg1">de as Inscricoes De o Plano De Incentivo Deslig. Voluntario</td><td class="arg2">-</td><td class='texto'>$PETR3 - Petrobras ( petr ) - <span class="rel">encer.</span> <span class="arg1">de as Inscricoes De o Plano De Incentivo Deslig. Voluntario</span><sub class="deprel">amod</sub> http://t.co/pmJ0jol3wY</td></tr><tr data-instance-id="dante_01_441236209134993410l::encerramento::1"><td>4</td><td class="arg0">-</td><td class="arg1">Prazo De Preferencia</td><td class="arg2">-</td><td class='texto'>$MRFG3 - Marfrig ( mrfg-nm ) - <span class="rel">encerramento</span> <span class="arg1">Prazo De Preferencia</span><sub class="deprel">nmod</sub> / inicio De o Periodo De Sobras http://t.co/tWzEE1HdrT</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -138,7 +134,7 @@ body{margin:0;}
         <tbody><tr><td>amod</td><td>0</td><td>1</td><td>0</td></tr><tr><td>nmod</td><td>0</td><td>2</td><td>0</td></tr><tr><td>parataxis</td><td>0</td><td>1</td><td>0</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=e" title="Voltar para letra E">← Voltar para E</a>

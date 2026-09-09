@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">número</i></h1>
   <p><strong>Roleset id:</strong> número.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/number.xml">number.01</a></p>
   <h2>Roles:</h2>
@@ -117,14 +113,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_443356969936510977l::número::1"><td>1</td><td class="arg1">de ativos</td><td class='texto'>Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5</td></tr><tr data-instance-id="dante_01_443391474357776384l::número::1"><td>2</td><td class="arg1">de ativos</td><td class='texto'>BBSE3 - Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5</td></tr><tr data-instance-id="dante_01_448924122459160577l::número::1"><td>3</td><td class="arg1">de pessoas acima de 60 anos</td><td class='texto'>" @itau : E aí , preparado para 2050 ? Até lá , o <span class="rel">número</span> <span class="arg1">de pessoas acima de 60 anos</span><sub class="deprel">obl</sub> deve triplicar : http://t.co/FxDpaVp4dr ” $QUAL3 ?</td></tr><tr data-instance-id="dante_01_442016957525921792l::número::1" data-rel="missing"><td>4</td><td class="arg1">de papéis tomados de BBAS3</td><td class='texto'>Nº <span class="arg1">de papéis tomados de BBAS3</span><sub class="deprel">obl</sub> subiu 45 % em os últimos 4 pregões .<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_460225661630947328l::número::1" data-rel="missing"><td>5</td><td class="arg1">de Negócios</td><td class='texto'>#PETROBRAS ON PETR3 Preço R$ 15,12 #Oscilação - 1,11 % Nº <span class="arg1">de Negócios</span><sub class="deprel">nmod</sub> 16.661<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_461178854116429824l::número::1"><td>6</td><td class="arg1">de investidores</td><td class='texto'>O mercado acionário brasileiro é desanimador , um <span class="rel">número</span> pífio <span class="arg1">de investidores</span><sub class="deprel">nmod</sub> cada vez menos empresas listadas , hoje SANB11 entra para a lista .</td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_443356969936510977l::número::1"><td>1</td><td class="arg1">de ativos</td><td class='texto'>Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5</td></tr><tr data-instance-id="dante_01_443391474357776384l::número::1"><td>2</td><td class="arg1">de ativos</td><td class='texto'>BBSE3 - Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5</td></tr><tr data-instance-id="dante_01_448924122459160577l::número::1"><td>3</td><td class="arg1">de pessoas acima de 60 anos</td><td class='texto'>" @itau : E aí , preparado para 2050 ? Até lá , o <span class="rel">número</span> <span class="arg1">de pessoas acima de 60 anos</span><sub class="deprel">obl</sub> deve triplicar : http://t.co/FxDpaVp4dr ” $QUAL3 ?</td></tr><tr data-instance-id="dante_01_442016957525921792l::número::1"><td>4</td><td class="arg1">de papéis tomados de BBAS3</td><td class='texto'><span class="rel">Nº</span> <span class="arg1">de papéis tomados de BBAS3</span><sub class="deprel">obl</sub> subiu 45 % em os últimos 4 pregões .</td></tr><tr data-instance-id="dante_01_460225661630947328l::número::1"><td>5</td><td class="arg1">de Negócios</td><td class='texto'>#PETROBRAS ON PETR3 Preço R$ 15,12 #Oscilação - 1,11 % <span class="rel">Nº</span> <span class="arg1">de Negócios</span><sub class="deprel">nmod</sub> 16.661</td></tr><tr data-instance-id="dante_01_461178854116429824l::número::1"><td>6</td><td class="arg1">de investidores</td><td class='texto'>O mercado acionário brasileiro é desanimador , um <span class="rel">número</span> pífio <span class="arg1">de investidores</span><sub class="deprel">nmod</sub> cada vez menos empresas listadas , hoje SANB11 entra para a lista .</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -132,7 +128,7 @@ body{margin:0;}
         <tbody><tr><td>nmod</td><td>4</td></tr><tr><td>obl</td><td>2</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=n" title="Voltar para letra N">← Voltar para N</a>

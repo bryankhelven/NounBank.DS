@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">transferência</i></h1>
   <p><strong>Roleset id:</strong> transferência.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/transfer.xml">transfer.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/transfer.html">verb-transfer.01</a></p>
   <h2>Roles:</h2>
@@ -106,7 +102,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: recipient</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3 data-instance-id="dante_01_468734838485561344l::transferência::1">1: <span class="arg0">Empresas de pagamento e tranf.</span> <span class="arg1">de recursos</span> terão grandes desafios em os próximos anos ... @chrinvestor Abre o olho #CIEL3<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
+  <h3 data-instance-id="dante_01_468734838485561344l::transferência::1">1: <span class="arg0">Empresas de pagamento e <span class="rel">tranf.</span></span> <span class="arg1">de recursos</span> terão grandes desafios em os próximos anos ... @chrinvestor Abre o olho #CIEL3</h3>
 <ul>
 <li class="rel">rel: transferência</li>
 <li class="arg0">Arg 0: Empresas de pagamento e tranf.</li>
@@ -116,14 +112,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_468734838485561344l::transferência::1" data-rel="missing"><td>1</td><td class="arg0">Empresas de pagamento e tranf.</td><td class="arg1">de recursos</td><td class="arg2">-</td><td class='texto'><span class="arg0">Empresas de pagamento e tranf.</span><sub class="deprel">nsubj</sub> <span class="arg1">de recursos</span><sub class="deprel">nmod</sub> terão grandes desafios em os próximos anos ... @chrinvestor Abre o olho #CIEL3<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_468734838485561344l::transferência::1"><td>1</td><td class="arg0">Empresas de pagamento e tranf.</td><td class="arg1">de recursos</td><td class="arg2">-</td><td class='texto'><span class="arg0">Empresas de pagamento e <span class="rel">tranf.</span></span><sub class="deprel">nsubj</sub> <span class="arg1">de recursos</span><sub class="deprel">nmod</sub> terão grandes desafios em os próximos anos ... @chrinvestor Abre o olho #CIEL3</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -131,7 +127,7 @@ body{margin:0;}
         <tbody><tr><td>nmod</td><td>0</td><td>1</td><td>0</td></tr><tr><td>nsubj</td><td>1</td><td>0</td><td>0</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=t" title="Voltar para letra T">← Voltar para T</a>

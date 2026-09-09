@@ -18,16 +18,28 @@ drift documented in the audit:
 
 Each <tr>/<h3> block also carries a data-instance-id attribute so rows are
 individually addressable and multi-instance groups are never visually
-collapsed. When an instance's predicate could not be safely located in the
-(often truncated) stored text, the row is marked data-rel="missing" and a
-small inline note is rendered instead of silently leaving the row looking
-like an unexplained duplicate.
+collapsed.
+
+REL resolution (HOTFIX REL VISUAL): the REL predicate for a given instance
+ALWAYS exists scientifically — `predicate` is only a positional anchor used
+to disambiguate which textual occurrence belongs to that instance when a
+sent_ID has more than one. When an instance has no exact `predicate` anchor
+in the JSON, this renderer falls back to a resolution computed from the
+DANTEStocks legacy CoNLL-U authority (tools/resolve_predicate_anchors.py,
+cached in tools/predicate_anchor_resolutions.json) instead of ever
+displaying an "REL truncado" placeholder. Nothing is ever guessed: the
+fallback is only used when it was derived from token-level evidence in the
+legacy corpus.
 """
 import re
 import html
 import json
+import sys
 import unicodedata
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from predicate_anchor_cache import load_cache  # noqa: E402
 
 escape = html.escape
 
@@ -36,6 +48,8 @@ HTML_DIR = Path("site_pages")
 CSS_HREF = "../styles.css"
 MAX_EXAMPLES_IN_SECTION = 2
 DOWNLOAD_PREFIX_FROM_PAGE = "../jsons/"
+
+PREDICATE_CACHE = load_cache()
 
 STYLE_BLOCK = """
 :root{
@@ -102,10 +116,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 """
 
 # ---------- utils ----------
@@ -124,61 +134,115 @@ def _boundary_safe_pattern(phrase: str):
     return re.compile(patt, flags=re.IGNORECASE)
 
 
-def highlight_once(text, phrase, cls, deprel=None):
+def _wrap_once(colored, orig_map, phrase, cls, deprel=None):
+    """Wrap the first boundary-safe occurrence of `phrase` in `colored` with
+    a <span>, and extend `orig_map` (colored-index -> original-text-index,
+    or None for pure markup) to cover the newly inserted characters. Returns
+    the (possibly unchanged) (colored, orig_map) pair."""
     if not phrase:
-        return text
+        return colored, orig_map
     pat = _boundary_safe_pattern(phrase)
+    m = pat.search(colored)
+    if not m:
+        return colored, orig_map
+    s, e = m.start(1), m.end(1)
+    frag = m.group(1)
+    prefix = f'<span class="{cls}">'
+    suffix = "</span>"
+    if deprel:
+        suffix += f'<sub class="deprel">{escape(deprel)}</sub>'
+    esc_pieces = [escape(c) for c in frag]
+    new_colored = colored[:s] + prefix + "".join(esc_pieces) + suffix + colored[e:]
+    new_map = (
+        orig_map[:s]
+        + [None] * len(prefix)
+        + [oi for oi, piece in zip(orig_map[s:e], esc_pieces) for _ in piece]
+        + [None] * len(suffix)
+        + orig_map[e:]
+    )
+    return new_colored, new_map
 
-    def _rep(m):
-        frag = m.group(1)
-        h = f'<span class="{cls}">{escape(frag)}</span>'
-        if deprel:
-            h += f'<sub class="deprel">{escape(deprel)}</sub>'
-        return h
 
-    new_text, _ = pat.subn(_rep, text, count=1)
-    return new_text
-
-
-def build_colored(text, real, syn, rel_predicate, order):
-    """Mirror the legacy renderer: wrap ArgN values first (sequential
-    substitution, same as the original generator — this preserves its
-    nested-span behavior for the rare case where an Arg span textually
-    contains the REL occurrence). REL is then inserted at the *correct*
-    occurrence — determined from the JSON's per-instance predicate anchor,
-    counting which ordinal occurrence of that literal form it is in the
-    original text, and applying the same ordinal in the (already
-    arg-tagged) colored string. This fixes the legacy bug (which always
-    grabbed the first occurrence in the page-rendered string, colliding
-    multi-instance sent_IDs onto one row) without disturbing the existing
-    Arg-highlighting behavior.
-    Returns (html_fragment, rel_found: bool).
-    """
-    colored = text
-    for arg_id in order:
-        k = int(arg_id[-1])
-        val = real.get(arg_id)
-        if val:
-            colored = highlight_once(colored, val, f"arg{k}", syn.get(arg_id))
-
-    rel_found = False
+def resolve_rel_span(text, instance_id, sent_id, lemma, rel_predicate):
+    """Return (form, char_start, char_end) for the REL occurrence belonging
+    to this instance, or None. The REL scientifically always exists for
+    every instance; `predicate` (or, failing that, the legacy-CoNLL-U-backed,
+    schema-validated resolution cache) is only a positional anchor telling
+    us *which* occurrence in the text to highlight. char_start/char_end are
+    always positions in the ORIGINAL example text - they are the positional
+    authority, never rediscovered by searching already-marked-up HTML
+    (see _place_rel_by_offset)."""
     if rel_predicate:
         start, end = rel_predicate["char_start"], rel_predicate["char_end"]
         form = rel_predicate["form"]
         if text[start:end] == form:
-            pat = _boundary_safe_pattern(form)
-            ordinal = sum(1 for m in pat.finditer(text) if m.start(1) <= start)
-            matches = list(pat.finditer(colored))
-            if 1 <= ordinal <= len(matches):
-                target = matches[ordinal - 1]
-                s, e = target.start(1), target.end(1)
-                colored = colored[:s] + f'<span class="rel">{colored[s:e]}</span>' + colored[e:]
-                rel_found = True
+            return form, start, end
+    fallback = PREDICATE_CACHE.get_validated(instance_id, sent_id, lemma, text)
+    if fallback:
+        return fallback["form"], fallback["char_start"], fallback["char_end"]
+    return None
 
-    html_out = colored
-    if not rel_found:
-        html_out += '<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span>'
-    return html_out, rel_found
+
+def _place_rel_by_offset(colored, orig_map, rel_start, rel_end, instance_id):
+    """Locate, within the already Arg-wrapped `colored` string, the exact
+    span that renders original-text characters [rel_start, rel_end) - using
+    the offset map built while wrapping Args, never a fresh text search over
+    `colored` itself (BLOCKER 8: char_start/char_end is the sole positional
+    authority). Raises if an ArgN wrap boundary lands strictly inside the
+    REL interval (a wrap may legitimately CONTAIN the REL span - that is the
+    normal nested case - but it must never CROSS it)."""
+    positions = [j for j, oi in enumerate(orig_map) if oi is not None and rel_start <= oi < rel_end]
+    if not positions:
+        return None
+    lo, hi = min(positions), max(positions) + 1
+    actual = orig_map[lo:hi]
+    if any(oi is None for oi in actual):
+        raise RuntimeError(
+            f"{instance_id}: an ArgN markup boundary crosses the REL interval "
+            f"[{rel_start},{rel_end}) - refusing to render a corrupted REL span"
+        )
+    collapsed = []
+    for oi in actual:
+        if not collapsed or collapsed[-1] != oi:
+            collapsed.append(oi)
+    if collapsed != list(range(rel_start, rel_end)):
+        raise RuntimeError(
+            f"{instance_id}: REL interval [{rel_start},{rel_end}) does not map "
+            f"back cleanly onto the original text after ArgN markup"
+        )
+    return lo, hi
+
+
+def build_colored(text, real, syn, rel_predicate, order, instance_id="", sent_id="", lemma=""):
+    """Wrap ArgN values first (sequential substitution, same as the original
+    generator - this preserves its nested-span behavior for the rare case
+    where an Arg span textually contains the REL occurrence), tracking an
+    offset map back to the original text as we go. REL is then placed using
+    that offset map at the *authoritative* [char_start, char_end) position
+    from the JSON predicate anchor (or, when absent, the validated
+    legacy-authority cache) - never by re-searching the Arg-marked-up HTML
+    string to decide which occurrence is the REL.
+    Returns (html_fragment, rel_found: bool).
+    """
+    colored = text
+    orig_map = list(range(len(text)))
+    for arg_id in order:
+        k = int(arg_id[-1])
+        val = real.get(arg_id)
+        if val:
+            colored, orig_map = _wrap_once(colored, orig_map, val, f"arg{k}", syn.get(arg_id))
+
+    rel_found = False
+    resolved = resolve_rel_span(text, instance_id, sent_id, lemma, rel_predicate)
+    if resolved:
+        _form, start, end = resolved
+        span = _place_rel_by_offset(colored, orig_map, start, end, instance_id)
+        if span:
+            lo, hi = span
+            colored = colored[:lo] + f'<span class="rel">{colored[lo:hi]}</span>' + colored[hi:]
+            rel_found = True
+
+    return colored, rel_found
 
 
 def build_roles_list(roles):
@@ -212,7 +276,8 @@ def build_examples_section(lemma, shown_args, examples, max_examples: int):
         text = ex.get("text") or ""
         real = ex.get("realization") or {}
         iid = ex.get("instance_id", "")
-        colored, _ = build_colored(text, real, {}, ex.get("predicate"), order)
+        colored, _ = build_colored(text, real, {}, ex.get("predicate"), order,
+                                    instance_id=iid, sent_id=ex.get("sent_ID", ""), lemma=lemma)
         parts.append(f'<h3 data-instance-id="{escape(iid)}">{i}: {colored}</h3>')
         items = [f'<li class="rel">rel: {escape(lemma)}</li>']
         for arg_id in shown_args:
@@ -233,7 +298,17 @@ def build_realization_table(lemma, shown_args, examples):
         real = ex.get("realization") or {}
         syn = ex.get("syntax") or {}
         iid = ex.get("instance_id", "")
-        colored, rel_found = build_colored(text, real, syn, ex.get("predicate"), order)
+        colored, rel_found = build_colored(text, real, syn, ex.get("predicate"), order,
+                                            instance_id=iid, sent_id=ex.get("sent_ID", ""), lemma=lemma)
+        if not rel_found:
+            # HARD RULE: the REL always exists scientifically; a row must
+            # never be left without its highlighted occurrence. If this
+            # fires, the legacy-authority resolution cache is missing that
+            # instance_id — see tools/resolve_predicate_anchors.py.
+            raise RuntimeError(
+                f"no REL highlight resolvable for instance {iid!r} (lemma={lemma!r}); "
+                "run tools/resolve_predicate_anchors.py and re-check its residual TSV"
+            )
         tds = [f"<td>{i}</td>"]
         for arg_id in shown_args:
             k = int(arg_id[-1])
@@ -241,8 +316,6 @@ def build_realization_table(lemma, shown_args, examples):
             tds.append(f'<td class="arg{k}">{escape(val) if val is not None else "-"}</td>')
         tds.append(f"<td class='texto'>{colored}</td>")
         attrs = f' data-instance-id="{escape(iid)}"'
-        if not rel_found:
-            attrs += ' data-rel="missing"'
         rows.append(f"<tr{attrs}>" + "".join(tds) + "</tr>")
     return f"""
     <table id="relations-table">
@@ -405,7 +478,13 @@ def render_html(doc: dict, json_filename: str) -> str:
 </body>
 </html>
 """
-    return head + topo + tail
+    out = head + topo + tail
+    # The f-string templates above interpolate multi-line fragments (tables,
+    # example blocks) inside indented lines, which leaves indentation-only
+    # ("trailing whitespace") lines behind wherever a fragment starts or
+    # ends with its own newline. Strip trailing whitespace deterministically
+    # rather than hand-tuning every template.
+    return re.sub(r"[ \t]+$", "", out, flags=re.M)
 
 
 def main():

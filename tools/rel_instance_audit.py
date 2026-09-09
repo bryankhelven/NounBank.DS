@@ -16,7 +16,25 @@ reassignment exists) and regenerate the affected site pages - this remains an
 explicitly separate, opt-in operation from reporting.
 Never guesses: AMBIGUOUS_REL cases are reported, not silently resolved.
 
-Statuses:
+Anchor source (consulted in this order, never guessed):
+  JSON_PREDICATE_ANCHORED    - ex["predicate"] present and its offset matches
+                               its own stored form.
+  FALLBACK_PREDICATE_ANCHORED - no JSON predicate, but the schema-validated
+                               legacy-authority cache
+                               (tools/predicate_anchor_resolutions.json, via
+                               tools/predicate_anchor_cache.py) has a binding,
+                               validated entry for this instance_id.
+  PREDICATE_ANCHOR_UNRESOLVED - neither source has a usable anchor. This is a
+                               hard-failure-worthy state, not a cosmetic
+                               category: the site renderer refuses to render
+                               a row without a resolvable REL (see
+                               tools/render_site_from_json.py). The old
+                               TRUNCATED_REL/MISSING_REL distinction is
+                               retired - it was scoped to the JSON predicate
+                               field alone and is stale now that the fallback
+                               cache exists.
+
+Statuses (orthogonal to anchor source above):
   PASS_DISTINCT_REL      - group size N, N distinct correct occurrences, each
                             instance's anchor lands on its own occurrence and
                             (when it has realized Args) those Args are at
@@ -24,11 +42,6 @@ Statuses:
                             sibling occurrence in the same group.
   PASS_SAME_REL_JUSTIFIED - singleton group (nothing to disambiguate) with a
                             valid anchor.
-  TRUNCATED_REL           - predicate anchor absent because the literal form
-                            does not occur anywhere in the stored (possibly
-                            truncated) tweet text at all (singleton groups
-                            only) - matches the site's own "[REL truncado]"
-                            rendering.
   AMBIGUOUS_REL           - multi-instance group where the number of textual
                             candidate occurrences does not safely map 1:1 to
                             the number of instances, or where a realized Arg
@@ -40,10 +53,6 @@ Statuses:
                             (char_start, char_end) span, AND an unambiguous
                             non-overlapping reassignment exists (candidate
                             count == group size). Auto-fixable with --fix.
-  MISSING_REL             - predicate anchor absent for a reason other than
-                            "not found in text" (e.g. the anchor computation
-                            bailed on a structural count mismatch inside a
-                            multi-instance group). Reported, not guessed.
 """
 import argparse
 import glob
@@ -54,14 +63,34 @@ from collections import defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
-from compute_predicate_anchors import attested_forms, find_matches  # noqa: E402
 from pt_pluralize import pluralize  # noqa: E402
+from predicate_anchor_cache import load_cache  # noqa: E402
 
 JSON_DIR = Path("jsons")
 SITE_DIR = Path("site_pages")
 ADJUDICATION_LEDGER = Path("tools/rel_instance_adjudications.tsv")
 
 ARG_RE_CACHE = {}
+
+PREDICATE_CACHE = load_cache()
+
+
+def get_effective_predicate(ex, lemma, text):
+    """Anchor authority for REL, consulted in the order the corpus actually
+    supports it: the JSON `predicate` field first; when that is absent, the
+    schema-validated legacy-authority fallback cache
+    (tools/predicate_anchor_resolutions.json via predicate_anchor_cache.py).
+    Returns (pred_dict_or_None, source) where source is one of
+    "JSON_PREDICATE_ANCHORED", "FALLBACK_PREDICATE_ANCHORED", or None. Never
+    guesses: an invalid/missing fallback entry yields (None, None), same as
+    no anchor at all - it is NOT synthesized from scratch here."""
+    pred = ex.get("predicate")
+    if pred:
+        return pred, "JSON_PREDICATE_ANCHORED"
+    fb = PREDICATE_CACHE.get_validated(ex.get("instance_id"), ex.get("sent_ID"), lemma, text)
+    if fb:
+        return fb, "FALLBACK_PREDICATE_ANCHORED"
+    return None, None
 
 
 def load_adjudications(path=ADJUDICATION_LEDGER):
@@ -89,14 +118,47 @@ def load_adjudications(path=ADJUDICATION_LEDGER):
     return rows
 
 
-def candidate_forms(lemma):
-    forms = attested_forms(lemma)
-    forms.add(lemma)
-    forms.add(lemma.capitalize())
+def candidate_forms(lemma, doc):
+    """Return locally attested forms without consulting rendered HTML.
+
+    The audit must not bootstrap its lexical candidates from the REL markup
+    it is auditing. Forms therefore come only from the lemma/plural inventory
+    and from already validated JSON/cache anchors in the source document.
+    """
+    forms = {lemma, lemma.capitalize()}
     for p in pluralize(lemma):
         forms.add(p)
         forms.add(p.capitalize())
+    for sense in doc["senses"]:
+        for ex in sense["examples"]:
+            pred, _source = get_effective_predicate(ex, lemma, ex.get("text") or "")
+            if pred:
+                forms.add(pred["form"])
     return forms
+
+
+def _boundary_pattern(form):
+    return re.compile(rf"(?<![#\w])({re.escape(form)})(?!\w)", re.IGNORECASE)
+
+
+def find_matches(text, forms):
+    """Return left-to-right, non-overlapping literal candidate spans."""
+    spans = []
+    for form in forms:
+        if not form:
+            continue
+        for match in _boundary_pattern(form).finditer(text):
+            spans.append((match.start(1), match.end(1), match.group(1)))
+    spans.sort(key=lambda span: (span[0], -(span[1] - span[0])))
+    chosen = []
+    occupied = [False] * len(text)
+    for start, end, form in spans:
+        if any(occupied[start:end]):
+            continue
+        chosen.append((start, end, form))
+        for index in range(start, end):
+            occupied[index] = True
+    return chosen
 
 
 def arg_positions(text, value):
@@ -192,7 +254,7 @@ def audit(docs, do_fix):
         for sid, exs in groups.items():
             text = exs[0]["text"]
             if forms is None:
-                forms = candidate_forms(lemma)
+                forms = candidate_forms(lemma, doc)
             candidates = find_matches(text, forms)  # left-to-right, non-overlapping
 
             n = len(exs)
@@ -200,13 +262,14 @@ def audit(docs, do_fix):
             # ---- singleton groups ----
             if n == 1:
                 ex = exs[0]
-                pred = ex.get("predicate")
+                pred, src = get_effective_predicate(ex, lemma, text)
                 if not pred:
-                    status = "TRUNCATED_REL" if not candidates else "MISSING_REL"
+                    status = "PREDICATE_ANCHOR_UNRESOLVED"
                     counts[status] += 1
                     rows.append(_row(lemma, sid, ex, 1, len(candidates), None, status,
-                                      "no predicate anchor stored"))
+                                      "no predicate anchor stored (JSON or validated fallback)"))
                     continue
+                counts[src] += 1
                 span = (pred["char_start"], pred["char_end"])
                 ok = text[span[0]:span[1]] == pred["form"]
                 if not ok:
@@ -216,33 +279,33 @@ def audit(docs, do_fix):
                     continue
                 status = "PASS_SAME_REL_JUSTIFIED"
                 counts[status] += 1
-                rows.append(_row(lemma, sid, ex, 1, len(candidates), span, status, ""))
+                rows.append(_row(lemma, sid, ex, 1, len(candidates), span, status, f"anchor_source={src}"))
                 continue
 
             # ---- multi-instance groups ----
             spans = []
             missing_any = False
+            sources = []
             for ex in exs:
-                pred = ex.get("predicate")
+                pred, src = get_effective_predicate(ex, lemma, text)
                 if not pred:
                     spans.append(None)
+                    sources.append(None)
                     missing_any = True
                 else:
+                    sources.append(src)
                     s = (pred["char_start"], pred["char_end"])
                     if text[s[0]:s[1]] != pred["form"]:
                         spans.append("BADOFFSET")
                     else:
                         spans.append(s)
+                        counts[src] += 1
 
             if missing_any or "BADOFFSET" in spans:
                 for ex, sp in zip(exs, spans):
                     if sp is None:
-                        # Fewer literal candidates than instances is the same
-                        # "not recoverable from stored text" situation as the
-                        # singleton TRUNCATED_REL case (usually an ellipsis-
-                        # truncated tweet) - not a new structural anomaly.
-                        status = "TRUNCATED_REL" if len(candidates) < n else "MISSING_REL"
-                        note = f"group of {n}, {len(candidates)} textual candidates found; no anchor stored"
+                        status = "PREDICATE_ANCHOR_UNRESOLVED"
+                        note = f"group of {n}, {len(candidates)} textual candidates found; no anchor stored (JSON or validated fallback)"
                     elif sp == "BADOFFSET":
                         status = "WRONG_REL"
                         note = "stored offset does not match stored form"
@@ -438,10 +501,23 @@ def main():
     print(f"MULTI_INSTANCE_GROUPS = {len(multi_groups)}")
     print(f"MULTI_INSTANCE_INSTANCES = {multi_instances}")
     print()
-    for status in ["PASS_DISTINCT_REL", "PASS_SAME_REL_JUSTIFIED", "TRUNCATED_REL",
-                    "AMBIGUOUS_REL", "WRONG_REL", "WRONG_REL_FIXED", "MISSING_REL"]:
+    print(f"JSON_PREDICATE_ANCHORED = {counts.get('JSON_PREDICATE_ANCHORED', 0)}")
+    print(f"FALLBACK_PREDICATE_ANCHORED = {counts.get('FALLBACK_PREDICATE_ANCHORED', 0)}")
+    print(f"PREDICATE_ANCHOR_UNRESOLVED = {counts.get('PREDICATE_ANCHOR_UNRESOLVED', 0)}")
+    print()
+    for status in ["PASS_DISTINCT_REL", "PASS_SAME_REL_JUSTIFIED",
+                    "AMBIGUOUS_REL", "WRONG_REL", "WRONG_REL_FIXED"]:
         print(f"{status} = {counts.get(status, 0)}")
+
+    audit_pass = (
+        counts.get("PREDICATE_ANCHOR_UNRESOLVED", 0) == 0
+        and counts.get("AMBIGUOUS_REL", 0) == 0
+        and counts.get("WRONG_REL", 0) == 0
+    )
+    print()
+    print("REL_INSTANCE_AUDIT =", "PASS" if audit_pass else "FAIL")
+    return 0 if audit_pass else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

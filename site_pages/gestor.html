@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">gestor</i></h1>
   <p><strong>Roleset id:</strong> gestor.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/manager.xml">manager.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/manage.html">verb-manage.01</a></p>
   <h2>Roles:</h2>
@@ -106,14 +102,14 @@ body{margin:0;}
 <li class="arg2">Arg 2: beneficiary</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3 data-instance-id="dante_01_468921386799747072l::gestor::1">1: A gente estamos em a contra-mão de o @ferrisss ! ! Amanhã , <span class="arg2">nossa</span> <span class="arg0">gestora</span> vai vender JBSS3 ! ! Call de venda , vai cair muito ! !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
+  <h3 data-instance-id="dante_01_468921386799747072l::gestor::1">1: A gente estamos em a contra-mão de o @ferrisss ! ! Amanhã , <span class="arg2">nossa</span> <span class="arg0"><span class="rel">gestora</span></span> vai vender JBSS3 ! ! Call de venda , vai cair muito ! !</h3>
 <ul>
 <li class="rel">rel: gestor</li>
 <li class="arg0">Arg 0: gestora</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: nossa</li>
 </ul>
-<h3 data-instance-id="dante_01_469123255383916545l::gestor::1">2: A gente estamos vendendo JBSS3 aqui em a <span class="arg0">gestora</span> , como eu disse ontem ! ! Vamos derrubar ! ! O @ferrisss que me desculpe ! !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
+<h3 data-instance-id="dante_01_469123255383916545l::gestor::1">2: A gente estamos vendendo JBSS3 aqui em a <span class="arg0"><span class="rel">gestora</span></span> , como eu disse ontem ! ! Vamos derrubar ! ! O @ferrisss que me desculpe ! !</h3>
 <ul>
 <li class="rel">rel: gestor</li>
 <li class="arg0">Arg 0: gestora</li>
@@ -123,14 +119,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_468921386799747072l::gestor::1" data-rel="missing"><td>1</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">nossa</td><td class='texto'>A gente estamos em a contra-mão de o @ferrisss ! ! Amanhã , <span class="arg2">nossa</span><sub class="deprel">det</sub> <span class="arg0">gestora</span><sub class="deprel">nsubj</sub> vai vender JBSS3 ! ! Call de venda , vai cair muito ! !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_469123255383916545l::gestor::1" data-rel="missing"><td>2</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A gente estamos vendendo JBSS3 aqui em a <span class="arg0">gestora</span><sub class="deprel">obl</sub> , como eu disse ontem ! ! Vamos derrubar ! ! O @ferrisss que me desculpe ! !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_463667443161133056l::gestor::1"><td>3</td><td class="arg0">gestores</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Em a Bovespa , <span class="arg0"><span class="rel">gestores</span></span><sub class="deprel">nsubj</sub> definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , RENT3 , UGPA3 , e outras</td></tr><tr data-instance-id="dante_01_463670775506272257l::gestor::1"><td>4</td><td class="arg0">gestores</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>RT @garimpodeacoes : Em a Bovespa , <span class="arg0"><span class="rel">gestores</span></span><sub class="deprel">nsubj</sub> definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , REN …</td></tr><tr data-instance-id="dante_01_469214626081947648l::gestor::1" data-rel="missing"><td>5</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@InutiliumX Foram vocês de a <span class="arg0">gestora</span><sub class="deprel">nmod</sub> que derrubaram BBAS3 hoje ? ? ?<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_471628526152454144l::gestor::1"><td>6</td><td class="arg0">gestor</td><td class="arg1">de fundo</td><td class="arg2">-</td><td class='texto'>' Vale vai trazer muitos frutos para quem investir ' , diz <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nsubj</sub> <span class="arg1">de fundo</span><sub class="deprel">nmod</sub> : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_471708570082639873l::gestor::1"><td>7</td><td class="arg0">gestor</td><td class="arg1">de fundo</td><td class="arg2">-</td><td class='texto'>Vale vai trazer muitos frutos para quem investir ' , diz <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nsubj</sub> <span class="arg1">de fundo</span><sub class="deprel">nmod</sub> http://t.co/s9IQkrTxMV #VALE4 #VALE5</td></tr><tr data-instance-id="dante_01_446682863627300864l::gestor::1"><td>8</td><td class="arg0">gestor</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Bancos , varejo , petróleo e siderurgia , as opiniões de um <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nmod</sub> sobre 4 setores : O destaque ... http://t.co/HfazYF2uc0 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_469210740575203329l::gestor::1" data-rel="missing"><td>9</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>RT @InutiliumX : Olha lá , @ferris ! ! A gente aqui de a <span class="arg0">gestora</span><sub class="deprel">nmod</sub> jogamos a JBSS3 lá em a mínima ! ! Eu cantei a pedra ontem ! ! Vamos recomprar lá n …<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr><tr data-instance-id="dante_01_472167110316023808l::gestor::1"><td>10</td><td class="arg0">gestor</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Vice de o Bradesco entra para o conselho de a Vale , mais 3 empresas agitam a noite : Maior <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">parataxis:strunc</sub> ... http://t.co/8UfJ7jaUiO #infomoney #vale5</td></tr><tr data-instance-id="dante_01_468930214962429954l::gestor::1" data-rel="missing"><td>11</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A gente estamos falando sério ! ! Amanhã , a <span class="arg0">gestora</span><sub class="deprel">nsubj</sub> vai vender JBSS3 ! ! Vamos comandar a derrubada , assim como fizemos com PETR4 ! !<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_468921386799747072l::gestor::1"><td>1</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">nossa</td><td class='texto'>A gente estamos em a contra-mão de o @ferrisss ! ! Amanhã , <span class="arg2">nossa</span><sub class="deprel">det</sub> <span class="arg0"><span class="rel">gestora</span></span><sub class="deprel">nsubj</sub> vai vender JBSS3 ! ! Call de venda , vai cair muito ! !</td></tr><tr data-instance-id="dante_01_469123255383916545l::gestor::1"><td>2</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A gente estamos vendendo JBSS3 aqui em a <span class="arg0"><span class="rel">gestora</span></span><sub class="deprel">obl</sub> , como eu disse ontem ! ! Vamos derrubar ! ! O @ferrisss que me desculpe ! !</td></tr><tr data-instance-id="dante_01_463667443161133056l::gestor::1"><td>3</td><td class="arg0">gestores</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Em a Bovespa , <span class="arg0"><span class="rel">gestores</span></span><sub class="deprel">nsubj</sub> definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , RENT3 , UGPA3 , e outras</td></tr><tr data-instance-id="dante_01_463670775506272257l::gestor::1"><td>4</td><td class="arg0">gestores</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>RT @garimpodeacoes : Em a Bovespa , <span class="arg0"><span class="rel">gestores</span></span><sub class="deprel">nsubj</sub> definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , REN …</td></tr><tr data-instance-id="dante_01_469214626081947648l::gestor::1"><td>5</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@InutiliumX Foram vocês de a <span class="arg0"><span class="rel">gestora</span></span><sub class="deprel">nmod</sub> que derrubaram BBAS3 hoje ? ? ?</td></tr><tr data-instance-id="dante_01_471628526152454144l::gestor::1"><td>6</td><td class="arg0">gestor</td><td class="arg1">de fundo</td><td class="arg2">-</td><td class='texto'>' Vale vai trazer muitos frutos para quem investir ' , diz <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nsubj</sub> <span class="arg1">de fundo</span><sub class="deprel">nmod</sub> : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_471708570082639873l::gestor::1"><td>7</td><td class="arg0">gestor</td><td class="arg1">de fundo</td><td class="arg2">-</td><td class='texto'>Vale vai trazer muitos frutos para quem investir ' , diz <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nsubj</sub> <span class="arg1">de fundo</span><sub class="deprel">nmod</sub> http://t.co/s9IQkrTxMV #VALE4 #VALE5</td></tr><tr data-instance-id="dante_01_446682863627300864l::gestor::1"><td>8</td><td class="arg0">gestor</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Bancos , varejo , petróleo e siderurgia , as opiniões de um <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">nmod</sub> sobre 4 setores : O destaque ... http://t.co/HfazYF2uc0 #infomoney #vale5</td></tr><tr data-instance-id="dante_01_469210740575203329l::gestor::1"><td>9</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>RT @InutiliumX : Olha lá , @ferris ! ! A gente aqui de a <span class="arg0"><span class="rel">gestora</span></span><sub class="deprel">nmod</sub> jogamos a JBSS3 lá em a mínima ! ! Eu cantei a pedra ontem ! ! Vamos recomprar lá n …</td></tr><tr data-instance-id="dante_01_472167110316023808l::gestor::1"><td>10</td><td class="arg0">gestor</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>Vice de o Bradesco entra para o conselho de a Vale , mais 3 empresas agitam a noite : Maior <span class="arg0"><span class="rel">gestor</span></span><sub class="deprel">parataxis:strunc</sub> ... http://t.co/8UfJ7jaUiO #infomoney #vale5</td></tr><tr data-instance-id="dante_01_468930214962429954l::gestor::1"><td>11</td><td class="arg0">gestora</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>A gente estamos falando sério ! ! Amanhã , a <span class="arg0"><span class="rel">gestora</span></span><sub class="deprel">nsubj</sub> vai vender JBSS3 ! ! Vamos comandar a derrubada , assim como fizemos com PETR4 ! !</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -138,7 +134,7 @@ body{margin:0;}
         <tbody><tr><td>det</td><td>0</td><td>0</td><td>1</td></tr><tr><td>nmod</td><td>3</td><td>2</td><td>0</td></tr><tr><td>nsubj</td><td>6</td><td>0</td><td>0</td></tr><tr><td>obl</td><td>1</td><td>0</td><td>0</td></tr><tr><td>parataxis:strunc</td><td>1</td><td>0</td><td>0</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=g" title="Voltar para letra G">← Voltar para G</a>

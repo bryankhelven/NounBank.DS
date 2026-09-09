@@ -70,10 +70,6 @@ body{margin:0;}
 #relations-table tbody tr:last-child td{ border-bottom:none; }
 #relations-table tbody td:first-child{ text-align:center; }
 
-/* ===== Instância com REL fora do trecho truncado ===== */
-.rel-missing{
-  color:#ffb74d; font-size:.75em; font-style:italic; margin-left:.35em;
-}
 </style>
 </head>
 <body>
@@ -96,7 +92,7 @@ body{margin:0;}
 </script>
 
 <div class="content">
-  
+
   <h1>Nome predicador: <i style="color: red;">resolução</i></h1>
   <p><strong>Roleset id:</strong> resolução.01, Mapeamento para o inglês: <a href="https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/resolution.xml">resolution.01</a>, source = <a href="https://verbs.colorado.edu/propbank/framesets-english-aliases/resolve.html">verb-resolve.02</a></p>
   <h2>Roles:</h2>
@@ -106,7 +102,7 @@ body{margin:0;}
 <li class="arg2">Arg 2: beneficiary</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3 data-instance-id="dante_01_454587433800458240l::resolução::1">1: $SBSP3 - <span class="arg0">Sabesp ( sbsp-nm )</span> - Negociacao Com A Emae Para Resolucao <span class="arg1">De Acoes</span> http://t.co/D192xgQFKV<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></h3>
+  <h3 data-instance-id="dante_01_454587433800458240l::resolução::1">1: $SBSP3 - <span class="arg0">Sabesp ( sbsp-nm )</span> - Negociacao Com A Emae Para <span class="rel">Resolucao</span> <span class="arg1">De Acoes</span> http://t.co/D192xgQFKV</h3>
 <ul>
 <li class="rel">rel: resolução</li>
 <li class="arg0">Arg 0: Sabesp ( sbsp-nm )</li>
@@ -116,14 +112,14 @@ body{margin:0;}
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
-  
+
     <table id="relations-table">
       <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
       <thead><tr><th>#</th><th class="arg0">Arg 0</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_454587433800458240l::resolução::1" data-rel="missing"><td>1</td><td class="arg0">Sabesp ( sbsp-nm )</td><td class="arg1">De Acoes</td><td class="arg2">-</td><td class='texto'>$SBSP3 - <span class="arg0">Sabesp ( sbsp-nm )</span><sub class="deprel">nmod</sub> - Negociacao Com A Emae Para Resolucao <span class="arg1">De Acoes</span><sub class="deprel">nmod</sub> http://t.co/D192xgQFKV<span class="rel-missing" title="Predicador fora do trecho de texto armazenado (tweet truncado)">[REL truncado]</span></td></tr></tbody>
+      <tbody><tr data-instance-id="dante_01_454587433800458240l::resolução::1"><td>1</td><td class="arg0">Sabesp ( sbsp-nm )</td><td class="arg1">De Acoes</td><td class="arg2">-</td><td class='texto'>$SBSP3 - <span class="arg0">Sabesp ( sbsp-nm )</span><sub class="deprel">nmod</sub> - Negociacao Com A Emae Para <span class="rel">Resolucao</span> <span class="arg1">De Acoes</span><sub class="deprel">nmod</sub> http://t.co/D192xgQFKV</td></tr></tbody>
     </table>
-    
-  
+
+
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
@@ -131,7 +127,7 @@ body{margin:0;}
         <tbody><tr><td>nmod</td><td>1</td><td>1</td><td>0</td></tr></tbody>
       </table>
     </div>
-    
+
 </div>
 
 <a class="back-link back-floating" href="../index.html?letter=r" title="Voltar para letra R">← Voltar para R</a>
