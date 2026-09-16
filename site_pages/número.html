@@ -98,34 +98,37 @@ body{margin:0;}
   <h2>Roles:</h2>
   <ul>
 <li class="arg1">Arg 1: quantified</li>
+<li class="arg3">Arg 3: secondary theme</li>
 </ul>
   <h2>Exemplos:</h2>
   <h3 data-instance-id="dante_01_443356969936510977l::número::1">1: Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span> de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5</h3>
 <ul>
 <li class="rel">rel: número</li>
 <li class="arg1">Arg 1: de ativos</li>
+<li class="arg3">Arg 3: -</li>
 </ul>
 <h3 data-instance-id="dante_01_443391474357776384l::número::1">2: BBSE3 - Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span> de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5</h3>
 <ul>
 <li class="rel">rel: número</li>
 <li class="arg1">Arg 1: de ativos</li>
+<li class="arg3">Arg 3: -</li>
 </ul>
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
 
     <table id="relations-table">
-      <colgroup><col class="numcol"><col class="argcol"><col class="textcol"></colgroup>
-      <thead><tr><th>#</th><th class="arg1">Arg 1</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_443356969936510977l::número::1"><td>1</td><td class="arg1">de ativos</td><td class='texto'>Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5</td></tr><tr data-instance-id="dante_01_443391474357776384l::número::1"><td>2</td><td class="arg1">de ativos</td><td class='texto'>BBSE3 - Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5</td></tr><tr data-instance-id="dante_01_448924122459160577l::número::1"><td>3</td><td class="arg1">de pessoas acima de 60 anos</td><td class='texto'>" @itau : E aí , preparado para 2050 ? Até lá , o <span class="rel">número</span> <span class="arg1">de pessoas acima de 60 anos</span><sub class="deprel">obl</sub> deve triplicar : http://t.co/FxDpaVp4dr ” $QUAL3 ?</td></tr><tr data-instance-id="dante_01_442016957525921792l::número::1"><td>4</td><td class="arg1">de papéis tomados de BBAS3</td><td class='texto'><span class="rel">Nº</span> <span class="arg1">de papéis tomados de BBAS3</span><sub class="deprel">obl</sub> subiu 45 % em os últimos 4 pregões .</td></tr><tr data-instance-id="dante_01_460225661630947328l::número::1"><td>5</td><td class="arg1">de Negócios</td><td class='texto'>#PETROBRAS ON PETR3 Preço R$ 15,12 #Oscilação - 1,11 % <span class="rel">Nº</span> <span class="arg1">de Negócios</span><sub class="deprel">nmod</sub> 16.661</td></tr><tr data-instance-id="dante_01_461178854116429824l::número::1"><td>6</td><td class="arg1">de investidores</td><td class='texto'>O mercado acionário brasileiro é desanimador , um <span class="rel">número</span> pífio <span class="arg1">de investidores</span><sub class="deprel">nmod</sub> cada vez menos empresas listadas , hoje SANB11 entra para a lista .</td></tr></tbody>
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg1">Arg 1</th><th class="arg3">Arg 3</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_443356969936510977l::número::1"><td>1</td><td class="arg1">de ativos</td><td class="arg3">-</td><td class='texto'>Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5</td></tr><tr data-instance-id="dante_01_443391474357776384l::número::1"><td>2</td><td class="arg1">de ativos</td><td class="arg3">-</td><td class='texto'>BBSE3 - Safra decide diminuir <span class="rel">número</span> <span class="arg1">de ativos</span><sub class="deprel">nmod</sub> de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5</td></tr><tr data-instance-id="dante_01_448924122459160577l::número::1"><td>3</td><td class="arg1">de pessoas acima de 60 anos</td><td class="arg3">deve triplicar</td><td class='texto'>" @itau : E aí , preparado para 2050 ? Até lá , o <span class="rel">número</span> <span class="arg1">de pessoas acima de 60 anos</span><sub class="deprel">obl</sub> <span class="arg3">deve triplicar</span><sub class="deprel">xcomp</sub> : http://t.co/FxDpaVp4dr ” $QUAL3 ?</td></tr><tr data-instance-id="dante_01_442016957525921792l::número::1"><td>4</td><td class="arg1">de papéis tomados de BBAS3</td><td class="arg3">subiu 45 % em os últimos 4 pregões</td><td class='texto'><span class="rel">Nº</span> <span class="arg1">de papéis tomados de BBAS3</span><sub class="deprel">obl</sub> <span class="arg3">subiu 45 % em os últimos 4 pregões</span><sub class="deprel">obl</sub> .</td></tr><tr data-instance-id="dante_01_460225661630947328l::número::1"><td>5</td><td class="arg1">de Negócios</td><td class="arg3">-</td><td class='texto'>#PETROBRAS ON PETR3 Preço R$ 15,12 #Oscilação - 1,11 % <span class="rel">Nº</span> <span class="arg1">de Negócios</span><sub class="deprel">nmod</sub> 16.661</td></tr><tr data-instance-id="dante_01_461178854116429824l::número::1"><td>6</td><td class="arg1">de investidores</td><td class="arg3">-</td><td class='texto'>O mercado acionário brasileiro é desanimador , um <span class="rel">número</span> pífio <span class="arg1">de investidores</span><sub class="deprel">nmod</sub> cada vez menos empresas listadas , hoje SANB11 entra para a lista .</td></tr></tbody>
     </table>
 
 
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
-        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg1">Arg 1</th></tr></thead>
-        <tbody><tr><td>nmod</td><td>4</td></tr><tr><td>obl</td><td>2</td></tr></tbody>
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg1">Arg 1</th><th class="arg3">Arg 3</th></tr></thead>
+        <tbody><tr><td>nmod</td><td>4</td><td class="arg3">0</td></tr><tr><td>obl</td><td>2</td><td class="arg3">1</td></tr><tr><td>xcomp</td><td>0</td><td class="arg3">1</td></tr></tbody>
       </table>
     </div>
 

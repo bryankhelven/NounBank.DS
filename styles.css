@@ -189,28 +189,53 @@ table {
   text-align: center; /* Centraliza o título da tabela */
 }
 
-#statistics-table {
+:is(#statistics-table, [id|="statistics-table"]) {
   margin: 20px auto; /* Centraliza a tabela na div e adiciona espaço acima/abaixo */
   border-collapse: collapse; /* Remove o espaço entre as bordas das células */
   width: 80%; /* Ajuste a largura conforme necessário */
 }
 
-#statistics-table, #statistics-table th, #statistics-table td {
+:is(#statistics-table, [id|="statistics-table"]), :is(#statistics-table, [id|="statistics-table"]) th, :is(#statistics-table, [id|="statistics-table"]) td {
   border: 1px solid #ddd; /* Adiciona bordas à tabela e às células */
 }
 
-#statistics-table th, #statistics-table td {
+:is(#statistics-table, [id|="statistics-table"]) th, :is(#statistics-table, [id|="statistics-table"]) td {
   padding: 8px; /* Espaçamento interno nas células */
   text-align: center; /* Centraliza o texto nas células */
 }
 
-#statistics-table th {
+:is(#statistics-table, [id|="statistics-table"]) th {
   background-color: #f2f2f2; /* Cor de fundo para cabeçalhos da tabela */
   color: black; /* Cor do texto para cabeçalhos da tabela */
 }
 
 /* Aplicando cores específicas para Arg 0, Arg 1 e Arg 2 como na tabela anterior */
-#statistics-table .arg0 { color: #FF6347; }
-#statistics-table .arg1 { color: #4682B4; }
-#statistics-table .arg2 { color: #32CD32; }
+:is(#statistics-table, [id|="statistics-table"]) .arg0 { color: #FF6347; }
+:is(#statistics-table, [id|="statistics-table"]) .arg1 { color: #4682B4; }
+:is(#statistics-table, [id|="statistics-table"]) .arg2 { color: #32CD32; }
 
+
+/* Additional roles; existing role colors and compact tables stay unchanged. */
+.arg3, :is(#statistics-table, [id|="statistics-table"]) .arg3 { color: #B57EDC; }
+.arg4, :is(#statistics-table, [id|="statistics-table"]) .arg4 { color: #CD7F32; }
+.argument-table-scroll {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments {
+  table-layout: fixed;
+  min-width: calc(3.5rem + var(--arg-count) * 7rem + 28rem);
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments col.argcol { width: 7rem; }
+:is(#relations-table, [id|="relations-table"]).expanded-arguments col.textcol { width: auto; }
+:is(#relations-table, [id|="relations-table"]).expanded-arguments td {
+  white-space: normal;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+}
+:is(#relations-table, [id|="relations-table"]).expanded-arguments td[class^="arg"] { text-align: center; }
+
+.content:has(.expanded-arguments) { overflow-wrap: anywhere; }
+.content:has(.expanded-arguments) .statistics-table-container { overflow-x: auto; }

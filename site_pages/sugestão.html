@@ -99,36 +99,39 @@ body{margin:0;}
   <ul>
 <li class="arg1">Arg 1: sayer</li>
 <li class="arg2">Arg 2: utterance (suggestion)</li>
+<li class="arg3">Arg 3: hearer</li>
 </ul>
   <h2>Exemplos:</h2>
-  <h3 data-instance-id="dante_01_453888972205600768l::sugestão::1">1: @Live_Trade oibr4 , alguma <span class="rel">sugestão</span> ?</h3>
+  <h3 data-instance-id="dante_01_453888972205600768l::sugestão::1">1: <span class="arg3">@Live_Trade</span> oibr4 , alguma <span class="rel">sugestão</span> ?</h3>
 <ul>
 <li class="rel">rel: sugestão</li>
 <li class="arg1">Arg 1: -</li>
 <li class="arg2">Arg 2: -</li>
+<li class="arg3">Arg 3: @Live_Trade</li>
 </ul>
-<h3 data-instance-id="dante_01_453546592155738113l::sugestão::1">2: RT <span class="arg1">@reminiscences</span> : <span class="rel">Sugestao</span> para Graça Foster melhorar Petrobras #Petr4 : <span class="arg2">fazer campanha contra Dilma</span> … melhor que anunciar descobertas de re …</h3>
+<h3 data-instance-id="dante_01_453546592155738113l::sugestão::1">2: RT <span class="arg1">@reminiscences</span> : <span class="rel">Sugestao</span> para <span class="arg3">Graça Foster</span> melhorar Petrobras #Petr4 : <span class="arg2">fazer campanha contra Dilma</span> … melhor que anunciar descobertas de re …</h3>
 <ul>
 <li class="rel">rel: sugestão</li>
 <li class="arg1">Arg 1: @reminiscences</li>
 <li class="arg2">Arg 2: fazer campanha contra Dilma</li>
+<li class="arg3">Arg 3: Graça Foster</li>
 </ul>
   <br><br>
 
   <h2>Realização sintática da estrutura de argumentos</h2>
 
     <table id="relations-table">
-      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
-      <thead><tr><th>#</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th>Texto</th></tr></thead>
-      <tbody><tr data-instance-id="dante_01_453888972205600768l::sugestão::1"><td>1</td><td class="arg1">-</td><td class="arg2">-</td><td class='texto'>@Live_Trade oibr4 , alguma <span class="rel">sugestão</span> ?</td></tr><tr data-instance-id="dante_01_453546592155738113l::sugestão::1"><td>2</td><td class="arg1">@reminiscences</td><td class="arg2">fazer campanha contra Dilma</td><td class='texto'>RT <span class="arg1">@reminiscences</span><sub class="deprel">nmod</sub> : <span class="rel">Sugestao</span> para Graça Foster melhorar Petrobras #Petr4 : <span class="arg2">fazer campanha contra Dilma</span><sub class="deprel">nmod</sub> … melhor que anunciar descobertas de re …</td></tr></tbody>
+      <colgroup><col class="numcol"><col class="argcol"><col class="argcol"><col class="argcol"><col class="textcol"></colgroup>
+      <thead><tr><th>#</th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th><th>Texto</th></tr></thead>
+      <tbody><tr data-instance-id="dante_01_453888972205600768l::sugestão::1"><td>1</td><td class="arg1">-</td><td class="arg2">-</td><td class="arg3">@Live_Trade</td><td class='texto'><span class="arg3">@Live_Trade</span><sub class="deprel">vocative</sub> oibr4 , alguma <span class="rel">sugestão</span> ?</td></tr><tr data-instance-id="dante_01_453546592155738113l::sugestão::1"><td>2</td><td class="arg1">@reminiscences</td><td class="arg2">fazer campanha contra Dilma</td><td class="arg3">Graça Foster</td><td class='texto'>RT <span class="arg1">@reminiscences</span><sub class="deprel">nmod</sub> : <span class="rel">Sugestao</span> para <span class="arg3">Graça Foster</span><sub class="deprel">flat:name</sub> melhorar Petrobras #Petr4 : <span class="arg2">fazer campanha contra Dilma</span><sub class="deprel">nmod</sub> … melhor que anunciar descobertas de re …</td></tr></tbody>
     </table>
 
 
     <div class="statistics-table-container">
       <h2>Frequência das realizações sintáticas</h2>
       <table id="statistics-table">
-        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th></tr></thead>
-        <tbody><tr><td>nmod</td><td>1</td><td>1</td></tr></tbody>
+        <thead><tr><th>Relações de dependência - <i><a href="https://universaldependencies.org/u/dep/"> Universal Dependencies</a></i></th><th class="arg1">Arg 1</th><th class="arg2">Arg 2</th><th class="arg3">Arg 3</th></tr></thead>
+        <tbody><tr><td>flat:name</td><td>0</td><td>0</td><td class="arg3">1</td></tr><tr><td>nmod</td><td>1</td><td>1</td><td class="arg3">0</td></tr><tr><td>vocative</td><td>0</td><td>0</td><td class="arg3">1</td></tr></tbody>
       </table>
     </div>
 

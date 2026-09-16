@@ -245,15 +245,31 @@ def build_colored(text, real, syn, rel_predicate, order, instance_id="", sent_id
     return colored, rel_found
 
 
-def build_roles_list(roles):
-    shown, items = [], []
-    for k in range(3):
-        arg_id = f"Arg{k}"
+def active_args(sense):
+    """Arguments supported by this sense, including evidence without a role label."""
+    active = {r.get("id") for r in sense.get("roles", [])
+              if r.get("desc") is not None and str(r["desc"]).strip()}
+    active.update(sense.get("syntactic_profile") or {})
+    for ex in sense.get("examples") or []:
+        for field in ("realization", "syntax"):
+            active.update(arg for arg, value in (ex.get(field) or {}).items()
+                          if value is not None)
+    return sorted((a for a in active if re.fullmatch(r"Arg[0-4]", a or "")),
+                  key=lambda a: int(a[3:]))
+
+
+def highlight_order(shown_args):
+    # Preserve Arg1/Arg2 before Arg0; wrap higher roles before nested Arg0 spans.
+    return sorted(shown_args, key=lambda a: (a == "Arg0", int(a[3:])))
+
+
+def build_roles_list(roles, shown_args):
+    items = []
+    for arg_id in shown_args:
+        k = int(arg_id[3:])
         desc = next((r.get("desc") for r in roles if r.get("id") == arg_id), None)
-        if desc is not None:
-            shown.append(arg_id)
-            items.append(f'<li class="arg{k}">Arg {k}: {escape(str(desc))}</li>')
-    return "<ul>\n" + "\n".join(items) + "\n</ul>", shown
+        items.append(f'<li class="arg{k}">Arg {k}: {escape(str(desc)) if desc else "-"}</li>')
+    return "<ul>\n" + "\n".join(items) + "\n</ul>"
 
 
 def extract_counts_for(shown_args, syntactic_profile):
@@ -271,7 +287,7 @@ def extract_counts_for(shown_args, syntactic_profile):
 def build_examples_section(lemma, shown_args, examples, max_examples: int):
     parts = []
     subset = examples[:max_examples]
-    order = [a for a in ["Arg1", "Arg2", "Arg0"] if a in shown_args]
+    order = highlight_order(shown_args)
     for i, ex in enumerate(subset, start=1):
         text = ex.get("text") or ""
         real = ex.get("realization") or {}
@@ -292,7 +308,7 @@ def build_realization_table(lemma, shown_args, examples):
     colgroup = ['<col class="numcol">'] + ['<col class="argcol">' for _ in shown_args] + ['<col class="textcol">']
     ths = ['<th>#</th>'] + [f'<th class="arg{int(a[-1])}">{a.replace("Arg","Arg ")}</th>' for a in shown_args] + ['<th>Texto</th>']
     rows = []
-    order = [a for a in ["Arg1", "Arg2", "Arg0"] if a in shown_args]
+    order = highlight_order(shown_args)
     for i, ex in enumerate(examples, start=1):
         text = ex.get("text") or ""
         real = ex.get("realization") or {}
@@ -317,12 +333,16 @@ def build_realization_table(lemma, shown_args, examples):
         tds.append(f"<td class='texto'>{colored}</td>")
         attrs = f' data-instance-id="{escape(iid)}"'
         rows.append(f"<tr{attrs}>" + "".join(tds) + "</tr>")
+    wide = len(shown_args) > 3
+    opening = '<div class="argument-table-scroll" tabindex="0" aria-label="Realização sintática">' if wide else ""
+    closing = "</div>" if wide else ""
+    table_attrs = f' class="expanded-arguments" style="--arg-count:{len(shown_args)}"' if wide else ""
     return f"""
-    <table id="relations-table">
+    {opening}<table id="relations-table"{table_attrs}>
       <colgroup>{''.join(colgroup)}</colgroup>
       <thead><tr>{''.join(ths)}</tr></thead>
       <tbody>{''.join(rows)}</tbody>
-    </table>
+    </table>{closing}
     """
 
 
@@ -332,7 +352,7 @@ def build_freq_table(shown_args, syntactic_profile):
           + [f'<th class="arg{int(a[-1])}">{a.replace("Arg","Arg ")}</th>' for a in shown_args]
     body = []
     for dep, cells in rows:
-        body.append("<tr>" + "".join([f"<td>{escape(dep)}</td>"] + [f"<td>{int(v)}</td>" for v in cells]) + "</tr>")
+        body.append("<tr>" + "".join([f"<td>{escape(dep)}</td>"] + [f'<td class="{arg.lower()}">{int(v)}</td>' if arg in ("Arg3", "Arg4") else f"<td>{int(v)}</td>" for arg, v in zip(shown_args, cells)]) + "</tr>")
     if not body:
         body.append(f"<tr><td colspan='{len(shown_args)+1}'><i>Sem ocorrências</i></td></tr>")
     return f"""
@@ -349,6 +369,23 @@ def build_freq_table(shown_args, syntactic_profile):
 def render_html(doc: dict, json_filename: str) -> str:
     lemma = (doc.get("lemma") or doc.get("lemma_base") or "").strip()
     senses = doc.get("senses") or []
+
+    if len(senses) > 1:
+        # Keep each roleset's roles, examples and frequencies together.
+        pages = [render_html({**doc, "senses": [sense]}, json_filename) for sense in senses]
+        start = '<div class="content">'
+        end = '\n</div>\n\n<a class="back-link'
+        prefix = pages[0].split(start, 1)[0]
+        suffix = end + pages[0].split(end, 1)[1]
+        bodies = []
+        for index, page in enumerate(pages, start=1):
+            body = page.split(start, 1)[1].split(end, 1)[0]
+            for table_id in ("relations-table", "statistics-table"):
+                body = body.replace(f'id="{table_id}"', f'id="{table_id}-{index}"')
+            bodies.append(body)
+        for table_id in ("relations-table", "statistics-table"):
+            prefix = prefix.replace(f"#{table_id}", f'[id^="{table_id}"]')
+        return prefix + start + "\n<hr>\n".join(bodies) + suffix
 
     pt_rolesets = []
     en_links = []
@@ -416,7 +453,8 @@ def render_html(doc: dict, json_filename: str) -> str:
     else:
         source_tail = ""
 
-    roles_html, shown_args = build_roles_list(roles)
+    shown_args = active_args(senses[0]) if senses else []
+    roles_html = build_roles_list(roles, shown_args)
     examples_html = build_examples_section(lemma, shown_args, examples, max_examples=MAX_EXAMPLES_IN_SECTION)
     table_html = build_realization_table(lemma, shown_args, examples)
     freq_html = build_freq_table(shown_args, syntactic_profile)
@@ -487,9 +525,93 @@ def render_html(doc: dict, json_filename: str) -> str:
     return re.sub(r"[ \t]+$", "", out, flags=re.M)
 
 
+def check_rendering(paths):
+    """Read-only regression check (requires beautifulsoup4); never writes pages."""
+    from bs4 import BeautifulSoup
+
+    assert not re.search(r"range\(\s*3\s*\)", Path(__file__).read_text())
+    # Each activation source works independently, without filling gaps.
+    assert active_args({"roles": [{"id": "Arg1", "desc": "x"},
+                                  {"id": "Arg0", "desc": " "}],
+                        "examples": [{"realization": {"Arg2": "x"},
+                                      "syntax": {"Arg3": "nmod"}}],
+                        "syntactic_profile": {"Arg4": {}}}) == [f"Arg{k}" for k in range(1, 5)]
+    assert active_args({"roles": [{"id": "Arg1", "desc": "x"},
+                                  {"id": "Arg2", "desc": "y"}]}) == ["Arg1", "Arg2"]
+    page_counts = dict.fromkeys(("Arg3", "Arg4"), 0)
+    instance_counts = dict.fromkeys(page_counts, 0)
+    checked = 0
+    for path in paths:
+        if path.name == "_manifest.json":
+            continue
+        doc = json.loads(path.read_text(encoding="utf-8"))
+        soup = BeautifulSoup(render_html(doc, path.name), "html.parser")
+        tables = soup.select('[id^="relations-table"]')
+        freqs = soup.select('[id^="statistics-table"]')
+        assert len(tables) == len(doc["senses"]), path
+        page_args = set()
+        for sense, table, freq in zip(doc["senses"], tables, freqs):
+            # Independent oracle for the four activation rules.
+            expected = []
+            for k in range(5):
+                arg = f"Arg{k}"
+                if (any(r.get("id") == arg and r.get("desc") is not None
+                        and str(r["desc"]).strip() for r in sense.get("roles", []))
+                    or any(ex.get(field, {}).get(arg) is not None
+                           for ex in sense.get("examples", []) for field in ("realization", "syntax"))
+                    or arg in sense.get("syntactic_profile", {})):
+                    expected.append(arg)
+            roles_list = table.find_previous("h2", string="Roles:").find_next("ul")
+            assert [li.get("class", [""])[0] for li in roles_list.select("li")] == [a.lower() for a in expected], path
+            for ex in (sense.get("examples") or [])[:MAX_EXAMPLES_IN_SECTION]:
+                example = soup.find("h3", attrs={"data-instance-id": ex["instance_id"]})
+                for arg in expected:
+                    value = ex.get("realization", {}).get(arg)
+                    item = example.find_next("ul").select_one("li." + arg.lower())
+                    assert item.get_text() == arg.replace("Arg", "Arg ") + ": " + (value if value is not None else "-"), path
+            page_args.update(expected)
+            assert [th.get_text() for th in table.select("thead th")][1:-1] == [a.replace("Arg", "Arg ") for a in expected], path
+            assert [th.get_text() for th in freq.select("thead th")][1:] == [a.replace("Arg", "Arg ") for a in expected], path
+            rows = table.select("tbody tr")
+            assert len(rows) == len(sense.get("examples", [])), path
+            for ex, row in zip(sense.get("examples", []), rows):
+                assert row["data-instance-id"] == ex["instance_id"], path
+                for arg in expected:
+                    value = ex.get("realization", {}).get(arg)
+                    assert row.select_one("td." + arg.lower()).get_text() == (value if value is not None else "-"), (path, ex["instance_id"], arg)
+                    if arg in instance_counts and value is not None:
+                        instance_counts[arg] += 1
+            for arg, deps in sense.get("syntactic_profile", {}).items():
+                if arg not in expected:
+                    continue
+                for dep, count in deps.items():
+                    row = next(r for r in freq.select("tbody tr") if r.select_one("td").get_text() == dep)
+                    assert int(row.select("td")[expected.index(arg) + 1].get_text()) == count, (path, arg, dep)
+        for arg in page_counts:
+            page_counts[arg] += arg in page_args
+        if path.stem == "desova":
+            row = soup.find("tr", attrs={"data-instance-id": "dante_01_463775892947611648l::desova::1"})
+            assert row.select_one(".texto .arg3").get_text() == "médio de 104,06"
+            assert [li.get_text() for li in soup.select(".content > ul")[0].select("li")] == [
+                "Arg 0: seller", "Arg 1: thing sold", "Arg 2: buyer", "Arg 3: price paid", "Arg 4: beneficiary"]
+            assert row.select_one("td.arg4").get_text() == "-"
+            assert soup.select_one("#statistics-table tbody td.arg3").get_text() == "1"
+        checked += 1
+    print(f"Checked {checked} pages; active pages: {page_counts}; realized instances: {instance_counts}")
+
+
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("lemmas", nargs="*", help="Only regenerate these lemmas (default: all)")
+    parser.add_argument("--check", action="store_true", help="Check rendering in memory; requires beautifulsoup4")
+    args = parser.parse_args()
+    paths = [JSON_DIR / f"{lemma}.json" for lemma in args.lemmas] if args.lemmas else sorted(JSON_DIR.glob("*.json"))
+    if args.check:
+        check_rendering(paths)
+        return
     n = 0
-    for path in sorted(JSON_DIR.glob("*.json")):
+    for path in paths:
         if path.name == "_manifest.json":
             continue
         doc = json.loads(path.read_text(encoding="utf-8"))
